@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "More_More_Food",
+    "name": "追加 - More_More_Food!",
+    "authors": [ "YasuYasu" ],
+    "maintainers": [ "YasuYasu" ],
+    "description": "沢山の料理レシピを追加するmodです",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
