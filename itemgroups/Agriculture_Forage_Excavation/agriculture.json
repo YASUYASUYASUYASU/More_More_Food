@@ -3,30 +3,24 @@
     "type": "item_group",
     "id": "farming_seeds",
     "items": [
-      [ "seed_spinach", 60 ],
-      [ "seed_ginger_raw", 60 ],
-      [ "seed_sesamum", 60 ],
-      [ "seed_sweet_potato", 60 ],
-      [ "seed_okra", 60 ],
-      [ "seed_upland_rice", 60 ]
+      [ "seed_spinach", 30 ],
+      [ "seed_ginger_raw", 30 ],
+      [ "seed_sesamum", 30 ],
+      [ "seed_sweet_potato", 30 ],
+      [ "seed_okra", 30 ],
+      [ "seed_upland_rice", 30 ]
     ]
   },
   {
     "type": "item_group",
     "id": "hydro",
     "items": [
-      [ "seed_spinach", 60 ],
-      [ "seed_ginger_raw", 60 ],
-      [ "seed_sesamum", 60 ],
-      [ "seed_sweet_potato", 60 ],
-      [ "seed_okra", 60 ],
-      [ "seed_upland_rice", 60 ],
-      [ "spinach", 60 ],
-      [ "ginger", 60 ],
-      [ "sesamum", 60 ],
-      [ "sweet_potato", 60 ],
-      [ "okra", 60 ],
-      [ "upland_rice", 60 ]
+      [ "spinach", 30 ],
+      [ "ginger", 30 ],
+      [ "sesamum", 30 ],
+      [ "sweet_potato", 30 ],
+      [ "okra", 30 ],
+      [ "upland_rice", 30 ]
     ]
   }
 ]
