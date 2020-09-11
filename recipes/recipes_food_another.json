@@ -77,10 +77,13 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ],[["garlic_press",-1]] ],
     "charges": 2,
     "components": [
-      [ [ "meat_red_raw", 4, "LIST"  ] ],
-      [ [ "cooking_oil2", 2          ] ],
-      [ [ "flour", 2          ] ],
-      [ [ "garlic_soy_sauce"    , 1  ] ]
+      [ [ "meat_red_raw"     , 4, "LIST"  ] ],
+      [ 
+        [ "cooking_oil"      , 1          ],
+        [ "cooking_oil2"     , 1          ] 
+      ],
+      [ [ "flour"            , 2          ] ],
+      [ [ "garlic_soy_sauce" , 1          ] ]
     ]
 },
 {
@@ -103,10 +106,12 @@
       [ [ "potato", 1  ],[ "irradiated_potato", 1  ] ],
       [ [ "bacon" , 1  ] ],
       [ [ "onion", 1  ],[ "irradiated_onion", 1  ] ],
-      [ [ "cooking_oil2"    , 2        ] ],
       [ [ "seasoning_salt"  , 2        ],[ "salt", 2        ] ],
       [ [ "pepper"          , 2        ] ],
-      [ [ "cooking_oil2"    , 2        ] ],
+      [ 
+        [ "cooking_oil"     , 2        ],
+        [ "cooking_oil2"    , 2        ] 
+      ],
       [ [ "mustard"         , 1        ] ],
       [ [ "garlic_soy_sauce", 1        ] ]
     ]
@@ -131,11 +136,31 @@
       [ [ "potato", 1  ],[ "irradiated_potato", 1  ] ],
       [ [ "bacon" , 1  ] ],
       [ [ "onion", 1  ],[ "irradiated_onion", 1  ] ],
-      [ [ "cooking_oil2"    , 2        ] ],
       [ [ "seasoning_salt"  , 2        ],[ "salt", 2        ] ],
       [ [ "pepper"          , 2        ] ],
-      [ [ "cooking_oil2"    , 2        ] ],
+      [ 
+        [ "cooking_oil"     , 2        ],
+        [ "cooking_oil2"    , 2        ] 
+      ],
       [ [ "garlic_soy_sauce", 1        ] ]
+    ]
+  },
+  {
+  "type" : "recipe",
+  "result": "veggi_stick_1",
+  "id_suffix": "from_more_tool",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "peeler"       ,-1 ] ] ],
+    "charges": 2,
+    "components": [
+      [ [ "veggy_any_fresh_uncooked" , 1 , "LIST" ] ],
+      [ [ "mayonnaise"               , 10         ] ]
     ]
   },
   {
@@ -163,7 +188,10 @@
           [ "salt"               , 1         ] 
         ],
         [ [ "pepper"             , 1         ] ],
-        [ [ "cooking_oil2"       , 1         ] ],
+        [ 
+          [ "cooking_oil"        , 1         ],
+          [ "cooking_oil2"       , 1         ] 
+        ],
         [ [ "flour"              , 1         ] ],
         [ [ "garlic_clove"       , 1         ] ]
       ]
@@ -219,7 +247,10 @@
           [ "water"          , 1          ],
           [ "water_clean"    , 1          ] 
         ],
-        [ [ "cooking_oil2"   , 1          ] ],
+        [ 
+          [ "cooking_oil"    , 1          ],
+          [ "cooking_oil2"   , 1          ] 
+        ],
         [ 
           [ "seasoning_salt" , 1          ],
           [ "salt"           , 1 ] 
@@ -248,7 +279,10 @@
           [ "water"                    , 1         ],
           [ "water_clean"              , 1         ] 
         ],
-        [ [ "cooking_oil2"             , 1         ] ],
+        [ 
+          [ "cooking_oil"              , 1         ],
+          [ "cooking_oil2"             , 1         ] 
+        ],
         [ 
           [ "seasoning_salt"           , 1         ],
           [ "salt", 2 ] 
@@ -420,7 +454,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
-    "difficulty": 2,
+    "difficulty": 1,
     "time": "5 m",
     "charges": 1,
     "autolearn": true,
@@ -448,7 +482,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 2,
+    "difficulty": 1,
     "time": "5 m",
     "charges": 2,
     "autolearn": true,
@@ -462,7 +496,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 2,
+    "difficulty": 1,
     "time": "5 m",
     "charges": 2,
     "autolearn": true,
@@ -477,7 +511,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 3,
+    "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
     "batch_time_factors": [ 80, 4 ],
@@ -491,7 +525,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 3,
+    "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
     "batch_time_factors": [ 80, 4 ],
@@ -505,7 +539,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 3,
+    "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
     "batch_time_factors": [ 80, 4 ],
@@ -536,7 +570,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 3,
+    "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
     "batch_time_factors": [ 80, 4 ],
@@ -574,7 +608,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 3,
+    "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
     "batch_time_factors": [ 80, 4 ],
@@ -610,7 +644,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 3,
+    "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
     "batch_time_factors": [ 80, 4 ],
@@ -639,7 +673,6 @@
         [ "salt", 2 ]
       ]
     ]
-
   },
   {
     "type": "recipe",
@@ -648,7 +681,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 3,
+    "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
     "batch_time_factors": [ 80, 4 ],
@@ -675,7 +708,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 3,
+    "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
     "batch_time_factors": [ 80, 4 ],
@@ -704,7 +737,6 @@
         [ "salt", 2 ]
       ]
     ]
-
   },
   {
     "type": "recipe",
@@ -713,7 +745,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 3,
+    "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
     "batch_time_factors": [ 80, 4 ],
@@ -727,7 +759,7 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
-    "difficulty": 3,
+    "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
     "batch_time_factors": [ 80, 4 ],
@@ -747,5 +779,56 @@
         [ "honey_glassed", 1 ]
       ]
     ]
+  },
+  {
+    "type" : "recipe",
+    "result": "chinese_congee_1_making",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_VEGGI",
+      "skill_used": "cooking",
+      "difficulty": 1,
+      "time": "5 m",
+      "autolearn": true,
+      "qualities": [ { "id": "AUTO_COOK", "level": 1 } ],
+      "charges": 2,
+      "components": [
+        [ [ "rice_cooked" , 2 ] ],
+        [
+          [ "water"        ,2 ],
+          [ "water_clean" , 2 ]
+        ],
+        [ [ "salt"        , 1 ] ],
+        [ 
+          [ "broth_bone"  , 1 ],
+          [ "broth"       , 1 ]
+        ]
+      ]
+  },
+  {
+    "type" : "recipe",
+    "result": "chinese_congee_2_making",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_VEGGI",
+      "skill_used": "cooking",
+      "difficulty": 1,
+      "time": "5 m",
+      "autolearn": true,
+      "qualities": [ { "id": "AUTO_COOK", "level": 1 } ],
+      "charges": 2,
+      "components": [
+        [ [ "veggy_any_fresh_uncooked", 2 , "LIST"  ] ],
+        [ [ "meat_red_raw"            , 1,  "LIST"  ],
+          [ "dry_meat"                , 1           ]  
+        ],
+        [ [ "rice_cooked"             , 2           ] ],
+        [ [ "water"                   , 2           ],
+          [ "water_clean"             , 2           ]
+        ],
+        [ [ "salt"                    , 1           ] ],
+        [ 
+          [ "broth_bone"              , 1           ],
+          [ "broth"                   , 1           ]
+        ]
+      ]
   }
 ]

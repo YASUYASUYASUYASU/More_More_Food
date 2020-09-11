@@ -19,12 +19,31 @@
   },
   {
     "type": "GENERIC",
+    "id": "freezer_1",
+    "name": "冷凍庫_(中型)[MMF]",
+    "description": "食品を冷凍できる中型の冷凍庫です。内容物を外気から断熱します。",
+    "price": 90000,
+    "insulation": 4,
+    "copy-from": "minifridge"
+  },
+  {
+    "type": "GENERIC",
+    "id": "freezer_2",
+    "name": "冷凍庫_(大型)[MMF]",
+    "description": "食品を冷凍できる大型の冷凍庫です。内容物を外気から断熱します。",
+    "price": 120000,
+    "insulation": 4,
+    "copy-from": "minifridge"
+  },
+  {
+    "type": "GENERIC",
     "id": "water_dispenser",
     "name": "ウォーターサーバー[MMF]",
     "symbol": "&",
     "looks_like": "t_water_dispenser",
     "description": "飲料水を提供する蛇口のついた機械です",
     "price": 20000,
-    "insulation": 2
+    "insulation": 2,
+    "category": "veh_parts"
   }
 ]

@@ -33,7 +33,10 @@
     "components": [
       [ [ "seasoning_italian" , 2 ] ],
       [ [ "garlic_clove"      , 4 ] ],
-      [ [ "cooking_oil2"      , 1 ] ]
+      [ 
+        [ "cooking_oil"       , 1 ],
+        [ "cooking_oil2"      , 1 ] 
+      ]
     ]
 },
 {
@@ -53,7 +56,10 @@
       [ [ "salt"              , 1 ] ],
       [ [ "seasoning_italian" , 2 ] ],
       [ [ "garlic_clove"      , 4 ] ],
-      [ [ "cooking_oil2"      , 1 ] ]
+      [ 
+        [ "cooking_oil"       , 1 ],
+        [ "cooking_oil2"      , 1 ] 
+      ]
     ]
 },
 {
@@ -77,7 +83,10 @@
       [ [ "salt"              , 1 ] ],
       [ [ "seasoning_italian" , 2 ] ],
       [ [ "garlic_clove"      , 1 ] ],
-      [ [ "cooking_oil2"      , 1 ] ]
+        [ 
+          [ "cooking_oil"     , 1 ],
+          [ "cooking_oil2"    , 1 ] 
+        ]
     ]
 },
 {
@@ -160,7 +169,10 @@
     "charges": 2,
     "components": [
       [ [ "meat_red_raw"     , 4, "LIST" ] ],
-      [ [ "cooking_oil2"     , 2         ] ],
+      [ 
+        [ "cooking_oil"      , 1 ],
+        [ "cooking_oil2"     , 1 ] 
+      ],
       [ [ "flour"            , 2         ] ],
       [ [ "garlic_soy_sauce" , 1         ] ]
     ]
@@ -183,12 +195,14 @@
       [ [ "bacon"             , 1        ] ],
       [ [ "onion"             , 1        ],
         [ "irradiated_onion"  , 1        ] ],
-      [ [ "cooking_oil2"      , 2        ] ],
+      [ 
+        [ "cooking_oil"       , 1        ],
+        [ "cooking_oil2"      , 1        ] 
+      ],
       [ [ "seasoning_salt"    , 2        ],
         [ "salt"              , 2        ] 
       ],
       [ [ "pepper"            , 2        ] ],
-      [ [ "cooking_oil2"      , 2        ] ],
       [ [ "mustard"           , 1        ] ],
       [ [ "garlic_soy_sauce"  , 1        ] ]
     ]
@@ -212,12 +226,14 @@
       [ [ "bacon"             , 1 ] ],
       [ [ "onion"             , 1 ],
       [ "irradiated_onion"    , 1 ] ],
-      [ [ "cooking_oil2"      , 2 ] ],
+      [ 
+        [ "cooking_oil"       , 1 ],
+        [ "cooking_oil2"      , 1 ] 
+      ],
       [ [ "seasoning_salt"    , 2 ],
         [ "salt"              , 2 ] 
       ],
       [ [ "pepper"            , 2 ] ],
-      [ [ "cooking_oil2"      , 2 ] ],
       [ [ "garlic_soy_sauce"  , 1 ] ]
     ]
 },
@@ -298,7 +314,10 @@
         [ "salt"               , 1         ] 
       ],
       [ [ "pepper"             , 1         ] ],
-      [ [ "cooking_oil2"       , 1         ] ],
+      [ 
+        [ "cooking_oil"        , 1         ],
+        [ "cooking_oil2"       , 1         ] 
+      ],
       [ [ "flour"              , 1         ] ],
       [ [ "garlic_clove"       , 1         ] ]
     ]
@@ -352,7 +371,10 @@
         [ "water"          , 1          ],
         [ "water_clean"    , 1          ] 
       ],
-      [ [ "cooking_oil2"   , 1          ] ],
+      [ 
+        [ "cooking_oil"    , 1          ],
+        [ "cooking_oil2"   , 1          ] 
+      ],
       [ 
         [ "seasoning_salt" , 1          ],
         [ "salt"           , 1 ] 
@@ -380,7 +402,10 @@
         [ "water"                    , 1         ],
         [ "water_clean"              , 1         ] 
       ],
-      [ [ "cooking_oil2"             , 1         ] ],
+      [ 
+        [ "cooking_oil"              , 1         ],
+        [ "cooking_oil2"             , 1         ] 
+      ],
       [ 
         [ "seasoning_salt"           , 1         ],
         [ "salt", 2 ] 
@@ -407,7 +432,10 @@
       [ [ "cabbage"            , 1         ],
         [ "irradiated_cabbage" , 1         ] 
       ],
-      [ [ "cooking_oil2"       , 2         ] ],
+      [ 
+        [ "cooking_oil"        , 1         ],
+        [ "cooking_oil2"       , 1         ] 
+      ],
       [ [ "chili_bean_sauce"   , 1         ] ],
       [ [ "garlic_clove"       , 1         ] ],
       [ [ "soysauce"           , 1         ] ]
@@ -467,7 +495,10 @@
       [ [ "soysauce"             , 1         ] ],
       [ [ "vinegar"              , 1         ] ],
       [ [ "sugar"                , 1         ] ],
-      [ [ "cooking_oil2"         , 1         ] ],
+      [
+        [ "cooking_oil"          , 1         ],
+        [ "cooking_oil2"         , 1         ] 
+      ],
       [ [ "ketchup"              , 10        ] ]
     ]
 },
@@ -494,7 +525,10 @@
       [ [ "soysauce"          , 1         ] ],
       [ [ "vinegar"           , 1         ] ],
       [ [ "sugar"             , 1         ] ],
-      [ [ "cooking_oil2"      , 1         ] ],
+      [ 
+        [ "cooking_oil"       , 1         ],
+        [ "cooking_oil2"      , 1         ] 
+      ],
       [ [ "ketchup"           , 1         ] ]
     ]
 },
@@ -519,7 +553,10 @@
         [ "plant_sac"          , 1 ] 
       ],
       [ [ "salt"               , 1 ] ],
-      [ [ "cooking_oil2"       , 1 ] ]
+      [
+        [ "cooking_oil"        , 1 ],
+        [ "cooking_oil2"       , 1 ] 
+      ]
     ]
 },
 {
@@ -555,7 +592,10 @@
         [ "broth_bone"              , 1          ],
         [ "broth"                   , 1          ]
       ],
-      [ [ "cooking_oil2"            , 1          ] ]
+      [ 
+        [ "cooking_oil"             , 1          ],
+        [ "cooking_oil2"            , 1          ] 
+      ]
     ]
 },
 {
@@ -634,7 +674,10 @@
       ],
       [ [ "chili_bean_sauce", 1      ] ],
       [ [ "garlic_clove"    , 1      ] ],
-      [ [ "cooking_oil2"    , 1      ] ],
+      [
+        [ "cooking_oil"     , 1 ],
+        [ "cooking_oil2"    , 1 ] 
+      ],
       [ [ "chili_pepper"    , 1      ],
         [ "chilly-p"        , 10     ]
       ],
@@ -1037,7 +1080,10 @@
         [ "salt"           , 1          ]
       ],
       [ [ "pepper"         , 1          ] ],
-      [ [ "cooking_oil2"   , 1          ] ]
+      [ 
+        [ "cooking_oil"    , 1          ],
+        [ "cooking_oil2"   , 1          ] 
+      ]
     ]
     
 },{
@@ -1255,7 +1301,10 @@
         [ [ "salt"             , 2         ] ],
         [ [ "pepper"           , 2         ] ],
         [ [ "eggs_bird"        , 1, "LIST" ] ],
-        [ [ "cooking_oil2"     , 1         ] ]
+        [ 
+          [ "cooking_oil"      , 1         ],
+          [ "cooking_oil2"     , 1         ] 
+        ]
       ]
   },{
     "type" : "recipe",
@@ -1296,7 +1345,10 @@
           [ "bone_human"   , 2 ]
         ],
         [ [ "salt"         , 1 ] ],
-        [ [ "cooking_oil2" , 2 ] ]
+        [ 
+          [ "cooking_oil"  , 1 ],
+          [ "cooking_oil2" , 1 ] 
+        ]
       ]
   },{
       "type" : "recipe",
@@ -1323,7 +1375,10 @@
           [ [ "meat_red_raw"             , 1 , "LIST" ],
             [ "dry_meat"                 , 1          ]  
           ],
-          [ [ "cooking_oil2"             , 2          ] ]
+          [ 
+            [ "cooking_oil"              , 1          ],
+            [ "cooking_oil2"             , 1          ] 
+          ]
         ]
   },{
     "type" : "recipe",
@@ -1355,7 +1410,10 @@
           [ "chili_pepper"     , 1  ],
           [ "chilly-p"         , 10 ] 
         ],
-        [ [ "cooking_oil2"     , 2  ] ]
+        [ 
+          [ "cooking_oil"      , 1  ],
+          [ "cooking_oil2"     , 1  ] 
+        ]
       ]
   },{
     "type" : "recipe",
@@ -1381,7 +1439,7 @@
     "type" : "recipe",
     "result": "salada_onion",
       "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_DRINKS",
+      "subcategory": "CSC_FOOD_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "5 m",
@@ -1476,7 +1534,10 @@
           [ "salt"              , 2          ] ],
         [ [ "pepper"            , 2          ] ],
         [ [ "eggs_bird"         , 1 , "LIST" ] ],
-        [ [ "cooking_oil2"      , 1          ] ]
+        [ 
+          [ "cooking_oil"       , 1          ],
+          [ "cooking_oil2"      , 1          ] 
+        ]
 
       ]
   },{
@@ -1524,7 +1585,10 @@
           [ "salt"             , 2          ] ],
         [ [ "pepper"           , 2          ] ],
         [ [ "eggs_bird"        , 1 , "LIST" ] ],
-        [ [ "cooking_oil2"     , 1          ] ]
+        [ 
+          [ "cooking_oil"      , 1          ],
+          [ "cooking_oil2"     , 1          ] 
+        ]
 
       ]
   },{
@@ -1921,7 +1985,10 @@
           [ "water"              , 1          ],
           [ "water_clean"        , 1          ]
         ],
-        [ [ "cooking_oil2"       , 1          ] ]
+        [ 
+          [ "cooking_oil"        , 1          ],
+          [ "cooking_oil2"       , 1          ] 
+        ]
       ]
 
   },{
@@ -2083,7 +2150,10 @@
         [ [ "eggs_bird"         , 1, "LIST" ] ],
         [ [ "salt"              , 1         ] ],
         [ [ "pepper"            , 1         ] ],
-        [ [ "cooking_oil2"      , 1         ] ]
+        [ 
+          [ "cooking_oil"       , 1         ],
+          [ "cooking_oil2"      , 1         ] 
+        ]
       ]
   },{
     "type" : "recipe",
@@ -2216,7 +2286,10 @@
         [ [ "salt"             , 2         ] ],
         [ [ "pepper"           , 2         ] ],
         [ [ "eggs_bird"        , 2, "LIST" ] ],
-        [ [ "cooking_oil2"     , 1         ] ]
+        [ 
+          [ "cooking_oil"      , 1         ],
+          [ "cooking_oil2"     , 1         ] 
+        ]
       ]
   },{
     "type" : "recipe",
@@ -2418,7 +2491,10 @@
         [ [ "salt"         , 2         ] ],
         [ [ "pepper"       , 1         ] ],
         [ [ "sugar"        , 1         ] ],
-        [ [ "cooking_oil2" , 1         ] ]
+        [ 
+          [ "cooking_oil"  , 1         ],
+          [ "cooking_oil2" , 1         ] 
+        ]
        ]      
   },{
     "type" : "recipe",
@@ -2660,7 +2736,10 @@
            [ [ "butter"        , 1         ] ],
            [ [ "milk_standard" , 1, "LIST" ] ],
            [ [ "sugar"         , 1         ] ],
-           [ [ "cooking_oil2"  , 1         ] ]
+           [ 
+             [ "cooking_oil"   , 1         ],
+             [ "cooking_oil2"  , 1         ] 
+           ]
       ]
   },{
     "type" : "recipe",
@@ -2717,7 +2796,10 @@
         [ [ "sweet_potato" , 1         ] ],
         [ [ "flour"        , 10        ] ],
         [ [ "eggs_bird"    , 1, "LIST" ] ],
-        [ [ "cooking_oil2" , 1         ] ]
+        [ 
+          [ "cooking_oil"  , 1         ],
+          [ "cooking_oil2" , 1         ] 
+        ]
        ]
   },{
     "type" : "recipe",
@@ -2813,8 +2895,11 @@
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
         [ [ "veggy_any_fresh_uncooked" , 1 , "LIST" ] ],
-        [ [ "olive_oil"                , 1          ],
-          [  "cooking_oil2"            , 1          ] ],
+        [ 
+          [ "olive_oil"                , 1          ],
+          [ "cooking_oil"              , 1          ],
+          [ "cooking_oil2"             , 1          ] 
+        ],
         [ [ "sugar"                    , 1          ],
           [  "salt"                    , 1          ] 
         ]
@@ -2968,7 +3053,10 @@
         [ [ "okra"         , 1  ] ],
         [ [ "bacon"        , 1  ] ],
         [ [ "soysauce"     , 1  ] ],
-        [ [ "cooking_oil2" , 1  ] ]
+        [ 
+          [ "cooking_oil"  , 1  ],
+          [ "cooking_oil2" , 1  ] 
+        ]
       ]
       
   },{
@@ -3005,7 +3093,10 @@
       "components": [
         [ [ "veggy_wild"   , 1  ] ],
         [ [ "natto"        , 1  ] ],
-        [ [ "cooking_oil2" , 1  ] ]
+        [ 
+          [ "cooking_oil"  , 1  ],
+          [ "cooking_oil2" , 1  ] 
+        ]
       ]
   },{
     "type" : "recipe",
@@ -3147,7 +3238,10 @@
         [ [ "eggs_bird"       , 1, "LIST" ] ],
         [ [ "water"           , 1         ],
           [ "water_clean"     , 1         ] ],
-        [ [ "cooking_oil2"    , 1         ] ]
+        [ 
+          [ "cooking_oil"     , 1         ],
+          [ "cooking_oil2"    , 1         ]
+        ]
       ]
   },{
     "type" : "recipe",
@@ -3172,7 +3266,10 @@
           [ "water"           , 1         ],
           [ "water_clean"     , 1         ] 
         ],
-        [ [ "cooking_oil2"    , 1         ] ]
+        [ 
+          [ "cooking_oil"     , 1         ],
+          [ "cooking_oil2"    , 1         ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -3202,7 +3299,10 @@
           [ "can_cheese"       , 1         ],
           [ "cheese_hard"      , 1         ]
         ], 
-        [ [ "cooking_oil2"     , 1         ] ]
+        [ 
+          [ "cooking_oil"      , 1         ], 
+          [ "cooking_oil2"     , 1         ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -3226,7 +3326,10 @@
         [ [ "water"            , 1         ],
           [ "water_clean"      , 1         ] 
         ],
-        [ [ "cooking_oil2"     , 1         ] ],
+        [ 
+          [ "cooking_oil"      , 1         ],
+          [ "cooking_oil2"     , 1         ] 
+        ],
         [ [ "sweet_fruit_like" , 1 ,"LIST" ] ],
         [ 
           [ "honey_glassed"    , 1         ],
@@ -3255,7 +3358,10 @@
         [ [ "water"                    , 1           ],
           [ "water_clean"              , 1           ] 
         ],
-        [ [ "cooking_oil2"             , 1           ] ],
+        [ 
+          [ "cooking_oil"              , 1           ], 
+          [ "cooking_oil2"             , 1           ] 
+        ],
         [ [ "veggy_any_fresh_uncooked" , 2 , "LIST"  ] ],
         [ [ "olive_oil"                , 1           ] ],
         [ [ "pepper"                   , 1           ] ]
@@ -3675,7 +3781,10 @@
         [ [ "eggs_bird"    , 1, "LIST" ] ],
         [ [ "salt"         , 1         ] ],
         [ [ "pepper"       , 2         ] ],
-        [ [ "cooking_oil2" , 1         ] ]
+        [ 
+          [ "cooking_oil"  , 1         ],
+          [ "cooking_oil2" , 1         ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -3694,7 +3803,10 @@
         [ [ "eggs_bird"    , 2 , "LIST" ] ],
         [ [ "salt"         , 1          ] ],
         [ [ "ketchup"      , 1          ] ],
-        [ [ "cooking_oil2" , 1          ] ]
+        [ 
+          [ "cooking_oil"  , 1          ],
+          [ "cooking_oil2" , 1          ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -3721,8 +3833,10 @@
           [ "salt"              , 1          ]
         ],
         [ [ "ketchup"           , 1          ] ],
-        [ [ "cooking_oil2"      , 1          ] ]
-
+        [ 
+          [ "cooking_oil"       , 1          ],
+          [ "cooking_oil2"      , 1          ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -3745,7 +3859,10 @@
           [ "cheese_hard"              , 1          ]
         ],
         [ [ "salt"                     , 1          ] ],
-        [ [ "cooking_oil2"             , 1          ] ]
+        [ 
+          [ "cooking_oil"              , 1          ],
+          [ "cooking_oil2"             , 1          ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -3765,7 +3882,10 @@
         [ [ "veggy_any_fresh_uncooked" , 1 , "LIST"  ] ],
         [ [ "natto"                    , 1           ] ],
         [ [ "salt"                     , 1           ] ],
-        [ [ "cooking_oil2"             , 1           ] ]
+        [ 
+          [ "cooking_oil"              , 1           ],
+          [ "cooking_oil2"             , 1           ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -3789,7 +3909,10 @@
           [ "irradiated_onion"  , 1          ] ],
         [ [ "salt"              , 1          ] ],
         [ [ "pepper"            , 1          ] ],
-        [ [ "cooking_oil2"      , 1          ] ]
+        [ 
+          [ "cooking_oil"       , 1          ],
+          [ "cooking_oil2"      , 1          ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -3812,7 +3935,10 @@
         [ [ "salt"              , 1          ] ],
         [ [ "pepper"            , 1          ] ],
         [ [ "sesame_oil"        , 1          ] ],
-        [ [ "cooking_oil2"      , 1          ] ]
+        [ 
+          [ "cooking_oil"       , 1          ],
+          [ "cooking_oil2"      , 1          ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -3948,7 +4074,10 @@
         [ [ "broth_bone"     , 1         ],
           [ "broth"          , 1         ]
         ],
-        [ [ "cooking_oil2"   , 1         ] ]
+        [ 
+          [ "cooking_oil"    , 1         ],
+          [ "cooking_oil2"   , 1         ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -3979,7 +4108,10 @@
         [ [ "pepper"           , 2          ] ],
         [ [ "soysauce"         , 1          ] ],
         [ [ "sugar"            , 1          ] ],
-        [ [ "cooking_oil2"     , 2          ] ]
+        [ 
+          [ "cooking_oil"      , 1          ],
+          [ "cooking_oil2"     , 1          ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -4010,7 +4142,10 @@
         [ [ "pepper"                   , 2          ] ],
         [ [ "soysauce"                 , 1          ] ],
         [ [ "sugar"                    , 1          ] ],
-        [ [ "cooking_oil2"             , 2          ] ]
+        [ 
+          [ "cooking_oil"              , 1          ],
+          [ "cooking_oil2"             , 1          ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -4038,7 +4173,10 @@
           [ "salt"             , 2         ] ],
         [ [ "soysauce"         , 1         ] ],
         [ [ "sugar"            , 1         ] ],
-        [ [ "cooking_oil2"     , 2         ] ]
+        [ 
+          [ "cooking_oil"      , 1         ],
+          [ "cooking_oil2"     , 1         ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -4261,7 +4399,10 @@
         [ ["veggy_wild"      , 2         ] ],
         [ [ "flour"          , 10        ] ],
         [ [ "eggs_bird"      , 1, "LIST" ] ],
-        [ [ "cooking_oil2"   , 1         ] ]
+        [ 
+          [ "cooking_oil"    , 1         ],
+          [ "cooking_oil2"   , 1         ] 
+        ]
       ]
   },{
     "type" : "recipe",
@@ -4293,7 +4434,10 @@
         ],
         [ [ "pepper"            , 2          ] ],
         [ [ "ketchup"           , 10         ] ],
-        [ [ "cooking_oil2"      , 1          ] ]
+        [ 
+          [ "cooking_oil"       , 1          ],
+          [ "cooking_oil2"      , 1          ] 
+        ]
       ]
   },{
     "type" : "recipe",
@@ -4322,7 +4466,10 @@
         [ [ "ketchup"        , 10         ],
           [ "mustard"        , 10         ] 
         ],
-        [ [ "cooking_oil2"   , 2          ] ]
+        [ 
+          [ "cooking_oil"    , 1          ],
+          [ "cooking_oil2"   , 1          ] 
+        ]
       ]
   },{
     "type" : "recipe",
@@ -4372,7 +4519,10 @@
         [ [ "pepper"         , 2         ] ],
         [ [ "soysauce"       , 1         ] ],
         [ [ "mustard"        , 10        ] ],
-        [ [ "cooking_oil2"   , 2         ] ]
+        [ 
+          [ "cooking_oil"    , 1         ],
+          [ "cooking_oil2"   , 1         ] 
+        ]
       ]
   },{
     "type" : "recipe",
@@ -4990,7 +5140,10 @@
         [ [ "spaghetti_cooked" , 1          ] ],
         [ ["veggy_wild"        , 1          ] ],
         [ [ "sesamum"          , 10         ] ],
-        [ [ "cooking_oil2"     , 2          ] ]
+        [ 
+          [ "cooking_oil"      , 1          ],
+          [ "cooking_oil2"     , 1          ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -5020,7 +5173,10 @@
         [ [ "cucumber"            , 1          ],
           [ "irradiated_cucumber" , 1          ] 
         ],
-        [ [ "cooking_oil2"        , 3          ] ]
+        [ 
+          [ "cooking_oil"         , 1          ],
+          [ "cooking_oil2"        , 1          ] 
+        ]
       ]
   },{
     "type" : "recipe",
@@ -5046,7 +5202,10 @@
           [ "chilly-p"     , 10         ] 
         ],
         [ [ "tofu"         , 1          ] ],
-        [ [ "cooking_oil2" , 3          ] ]
+        [ 
+          [ "cooking_oil"  , 1          ],
+          [ "cooking_oil2" , 1          ] 
+        ]
       ]      
   },{
     "type" : "recipe",
@@ -5217,7 +5376,10 @@
         [ [ "salt"             , 2          ] ],
         [ [ "pepper"           , 2          ] ],
         [ [ "eggs_bird"        , 1 , "LIST" ] ],
-        [ [ "cooking_oil2"     , 1          ] ]
+        [ 
+          [ "cooking_oil"      , 1          ],
+          [ "cooking_oil2"     , 1          ] 
+        ]
       ]
   },{
     "type" : "recipe",
@@ -5606,7 +5768,10 @@
       [ [ "salt"           , 2          ] ],
       [ [ "pepper"         , 2          ] ],
       [ [ "eggs_bird"      , 1 , "LIST" ] ],
-      [ [ "cooking_oil2"   , 1          ] ],
+      [ 
+        [ "cooking_oil"    , 1          ],
+        [ "cooking_oil2"   , 1          ] 
+      ],
       [ [ "sauce_cocktail" , 10         ] ]
 
     ]
@@ -5627,7 +5792,10 @@
       [ [ "potato"            , 1  ],
         [ "irradiated_potato" , 1  ] 
       ],
-      [ [ "cooking_oil2"      , 1  ] ],
+      [
+        [ "cooking_oil"       , 1  ],
+        [ "cooking_oil2"      , 1  ] 
+      ],
       [ [ "ketchup"           , 10 ] ]
     ]
   }   

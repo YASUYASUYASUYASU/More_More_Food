@@ -447,5 +447,65 @@
             "EATEN_HOT"
         ],
         "fun": 2
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "chinese_congee_1_making",
+        "name": "中華粥_調理中[MMF]",
+        "weight": "150 g" ,
+        "volume": "250 ml",
+        "comestible_type": "FOOD",
+        "color": "red",
+        "spoils_in": "2 days",
+        "symbol": "%",
+        "quench": -1,
+        "healthy": 2,
+        "description": "電気調理鍋によって調理中の中華粥です。調理が完了すれば食べられます",
+        "price": 200,
+        "material": [ "veggy" ],
+        "charges": 1,
+        "use_action": {
+            "target": "chinese_congee_1",
+            "msg": "調理が完了しました!もう食べてもOKです",
+            "moves": 50,
+            "type": "delayed_transform",
+            "transform_age": 900,
+            "not_ready_msg": "まだ調理が完成していません"
+        },
+            "flags": [
+            "EATEN_HOT",
+            "FREEZERBURN"
+        ],
+        "fun": 2
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "chinese_congee_2_making",
+        "name": "中華粥(DX)_調理中[MMF]",
+        "weight": "150 g" ,
+        "volume": "250 ml",
+        "comestible_type": "FOOD",
+        "color": "red",
+        "spoils_in": "2 days",
+        "symbol": "%",
+        "quench": -1,
+        "healthy": 2,
+        "description": "電気調理鍋によって調理中の中華粥DXです。調理が完了すれば食べられます",
+        "price": 200,
+        "material": [ "flesh", "veggy" ],
+        "charges": 1,
+        "use_action": {
+            "target": "chinese_congee_2",
+            "msg": "調理が完了しました!もう食べてもOKです",
+            "moves": 50,
+            "type": "delayed_transform",
+            "transform_age": 900,
+            "not_ready_msg": "まだ調理が完成していません"
+        },
+            "flags": [
+            "EATEN_HOT",
+            "FREEZERBURN"
+        ],
+        "fun": 2
     }
 ]
