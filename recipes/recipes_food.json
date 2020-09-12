@@ -4570,6 +4570,7 @@
   },{
     "type" : "recipe",
     "result": "miso_ferment",
+    "byproducts": [ [ "soysauce", 5 ] ],
       "category": "CC_FOOD",
       "subcategory": "CSC_FOOD_OTHER",
       "skill_used": "cooking",

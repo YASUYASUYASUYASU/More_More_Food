@@ -785,7 +785,7 @@
     {
         "type": "COMESTIBLE",
         "id": "udon_nekase",
-        "name": "うどん(麺)_寝かせ中[MMF]",
+        "name": "うどん(麺)(寝かせ中)[MMF]",
         "weight": "350 g" ,
         "volume": "500 ml",
         "comestible_type": "FOOD",
@@ -3846,7 +3846,7 @@
     {
         "type": "COMESTIBLE",
         "id": "miso_soup_2_dry",
-        "name": "味噌汁_野菜(粉末)[MMF]",
+        "name": "味噌汁(野菜)(粉末)[MMF]",
         "weight": "10 g" ,
         "volume": "50 ml",
         "comestible_type": "FOOD",
@@ -3864,7 +3864,7 @@
     {
         "type": "COMESTIBLE",
         "id": "miso_soup_3_dry",
-        "name": "味噌汁_あら汁(粉末)[MMF]",
+        "name": "味噌汁(あら汁)(粉末)[MMF]",
         "weight": "10 g" ,
         "volume": "50 ml",
         "comestible_type": "FOOD",
@@ -3882,7 +3882,7 @@
     {
         "type": "COMESTIBLE",
         "id": "miso_soup_4_dry",
-        "name": "味噌汁_はまぐり(粉末)[MMF]",
+        "name": "味噌汁(はまぐり)(粉末)[MMF]",
         "weight": "10 g" ,
         "volume": "50 ml",
         "comestible_type": "FOOD",
@@ -3900,7 +3900,7 @@
     {
         "type": "COMESTIBLE",
         "id": "miso_soup_5_dry",
-        "name": "味噌汁_納豆(粉末)[MMF]",
+        "name": "味噌汁(納豆)(粉末)[MMF]",
         "weight": "10 g" ,
         "volume": "50 ml",
         "comestible_type": "FOOD",

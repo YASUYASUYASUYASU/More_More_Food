@@ -2,7 +2,7 @@
     {
         "type": "COMESTIBLE",
         "id": "tomato_simmered_fish_making",
-        "name": "トマト煮(魚)_調理中[MMF]",
+        "name": "トマト煮(魚)(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -30,7 +30,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "tomato_simmered_meat_making",
-        "name": "トマト煮(肉)_調理中[MMF]",
+        "name": "トマト煮(肉)(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -58,7 +58,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "soup_mushroom_making",
-        "name": "キノコスープ_調理中[MMF]",
+        "name": "キノコスープ(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -86,7 +86,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "soup_veggy_making",
-        "name": "野菜スープ_調理中[MMF]",
+        "name": "野菜スープ(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -114,7 +114,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "soup_meat_making",
-        "name": "肉煮込みスープ_調理中[MMF]",
+        "name": "肉煮込みスープ(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -142,7 +142,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "soup_fish_making",
-        "name": "魚煮込みスープ_調理中[MMF]",
+        "name": "魚煮込みスープ(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -170,7 +170,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "soup_woods_making",
-        "name": "森のスープ_調理中[MMF]",
+        "name": "森のスープ(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -198,7 +198,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "syrup_making",
-        "name": "メープルシロップ_調理中_追加分[MMF]",
+        "name": "メープルシロップ(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -226,7 +226,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "chili_making",
-        "name": "チリコンカルネ_調理中_追加分[MMF]",
+        "name": "チリコンカルネ(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -254,7 +254,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "curry_veggy_making",
-        "name": "カレー_調理中_追加分[MMF]",
+        "name": "カレー(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -282,7 +282,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "curry_meat_making",
-        "name": "ミートカレー_調理中_追加分[MMF]",
+        "name": "ミートカレー(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -310,7 +310,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "stewed_tripe_making",
-        "name": "トライプシチュー_調理中_追加分[MMF]",
+        "name": "トライプシチュー(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -338,7 +338,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "sausagegravy_making",
-        "name": "ソーセージグレイビー_調理中_追加分[MMF]",
+        "name": "ソーセージグレイビー(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -366,7 +366,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "haggis_making",
-        "name": "ハギス_調理中_追加分[MMF]",
+        "name": "ハギス(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -394,7 +394,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "sauce_red_making",
-        "name": "トマトソース_調理中_追加分[MMF]",
+        "name": "トマトソース(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -422,7 +422,7 @@
     },{
         "type": "COMESTIBLE",
         "id": "cloutie_dumpling_making",
-        "name": "クルーティーダンプリング_調理中_追加分[MMF]",
+        "name": "クルーティーダンプリング(調理中)[MMF]",
         "weight": 12,
         "volume": 1,
         "calories": 17,
@@ -451,7 +451,7 @@
     {
         "type": "COMESTIBLE",
         "id": "chinese_congee_1_making",
-        "name": "中華粥_調理中[MMF]",
+        "name": "中華粥(調理中)[MMF]",
         "weight": "150 g" ,
         "volume": "250 ml",
         "comestible_type": "FOOD",
@@ -481,7 +481,7 @@
     {
         "type": "COMESTIBLE",
         "id": "chinese_congee_2_making",
-        "name": "中華粥(DX)_調理中[MMF]",
+        "name": "中華粥(DX)(調理中)[MMF]",
         "weight": "150 g" ,
         "volume": "250 ml",
         "comestible_type": "FOOD",

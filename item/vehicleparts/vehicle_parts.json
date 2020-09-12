@@ -126,7 +126,7 @@
   {
     "type": "vehicle_part",
     "id": "water_dispenser",
-    "name": "ウォーターサーバー_追加分[MMF]",
+    "name": "ウォーターサーバー[MMF]",
     "symbol": "&",
     "looks_like": "water_faucet",
     "color": "light_cyan",
@@ -155,9 +155,9 @@
   {
     "type": "vehicle_part",
     "id": "v_microwave",
-    "name": "電子レンジ_追加分[MMF]",
+    "name": "電子レンジ[MMF]",
     "symbol": "&",
-    "looks_like": "microwave",
+    "looks_like": "kitchen_unit",
     "color": "light_cyan",
     "broken_symbol": "x",
     "broken_color": "light_cyan",

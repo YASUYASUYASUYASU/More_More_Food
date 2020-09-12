@@ -2,8 +2,12 @@
   {
     "result": "fridge_1",
     "type": "recipe",
-    "copy-from": "minifreezer",
+    "symbol": "&",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "mechanics",
     "skills_required": [ "fabrication", 4 ],
+    "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
@@ -23,8 +27,12 @@
   },{
     "result": "fridge_2",
     "type": "recipe",
-    "copy-from": "minifreezer",
+    "symbol": "&",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "mechanics",
     "skills_required": [ "fabrication", 4 ],
+    "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
@@ -44,8 +52,12 @@
   },  {
     "result": "freezer_1",
     "type": "recipe",
-    "copy-from": "minifreezer",
+    "symbol": "&",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "mechanics",
     "skills_required": [ "fabrication", 4 ],
+    "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
@@ -65,8 +77,12 @@
   },{
     "result": "freezer_2",
     "type": "recipe",
-    "copy-from": "minifreezer",
+    "symbol": "&",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "mechanics",
     "skills_required": [ "fabrication", 4 ],
+    "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
@@ -87,8 +103,12 @@
     "result": "water_dispenser",
     "type": "recipe",
     "symbol": "&",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "mechanics",
+    "skills_required": [ "fabrication", 2 ],
     "looks_like": "f_sink",
-    "skills_required": [ "fabrication", 4 ],
+    "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
