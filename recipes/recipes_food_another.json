@@ -17,7 +17,7 @@
        [ [ "wire_mesh", -1 ] ]
       ],
     "components": [
-       [ [ "meat_red_raw", 1, "LIST" ] ],
+       [ [ "meat_red", 1, "LIST" ] ],
        [ [ "splinter", 2 ] ]
       ]
   },
@@ -180,7 +180,9 @@
         [ [ "cabbage"            , 1         ],
           [ "irradiated_cabbage" , 1         ] 
         ],
-        [ [ "meat_red_raw"       , 1, "LIST" ] ],
+        [ [ "meat_red"           , 1 , "LIST" ],
+          [ "dry_meat"           , 1          ]
+        ],
         [ [ "water"              , 1         ],
           [ "water_clean"        , 1         ] 
         ],
@@ -214,7 +216,9 @@
           [ "cabbage"            , 1         ],
           [ "irradiated_cabbage" , 1         ] 
         ],
-        [ [ "meat_red_raw"       , 1, "LIST" ] ],
+        [ [ "meat_red"           , 1 , "LIST" ],
+          [ "dry_meat"           , 1          ]
+        ],
         [ 
           [ "water"              , 1         ],
           [ "water_clean"        , 1         ] 
@@ -242,7 +246,9 @@
       "tools": [ [ [ "food_processor", 20 ] ] ],
       "charges": 2,
       "components": [
-        [ [ "meat_red_raw"   , 1 , "LIST" ] ],
+        [ [ "meat_red"           , 1 , "LIST" ],
+          [ "dry_meat"           , 1          ]
+        ],
         [ 
           [ "water"          , 1          ],
           [ "water_clean"    , 1          ] 
@@ -274,7 +280,9 @@
       "tools": [ [ [ "food_processor", 20 ] ] ],
       "charges": 2,
       "components": [
-        [ [ "veggy_any_fresh_uncooked" , 1, "LIST" ] ],
+        [ [ "veggy_any"                , 1 , "LIST" ],
+          [ "dry_veggy"                , 1          ]
+        ],
         [ 
           [ "water"                    , 1         ],
           [ "water_clean"              , 1         ] 
@@ -412,7 +420,9 @@
       "qualities": [ { "id": "AUTO_COOK", "level": 1 },{ "id": "CUT", "level": 1 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
-          [ [ "fish", 1  ] ],
+          [ [ "fish"             , 1 ],
+            [ "dry_fish"         , 1 ]
+          ],
           [ [ "olive_oil", 1 ] ],
           [ [ "seasoning_salt"  , 2        ],[ "salt", 2        ] ],
           [ [ "tomato", 1  ],
@@ -437,7 +447,9 @@
       "qualities": [ { "id": "AUTO_COOK", "level": 1 },{ "id": "CUT", "level": 1 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
-          [ [ "meat_red_raw", 1, "LIST"  ] ],
+          [ [ "meat_red"         , 1 , "LIST" ],
+            [ "dry_meat"         , 1          ]  
+          ],
           [ [ "olive_oil", 1 ] ],
           [ [ "seasoning_salt"  , 2        ],[ "salt", 2        ] ],
           [ [ "tomato", 1  ],
@@ -817,7 +829,7 @@
       "charges": 2,
       "components": [
         [ [ "veggy_any_fresh_uncooked", 2 , "LIST"  ] ],
-        [ [ "meat_red_raw"            , 1,  "LIST"  ],
+        [ [ "meat_red"                , 1,  "LIST"  ],
           [ "dry_meat"                , 1           ]  
         ],
         [ [ "rice_cooked"             , 2           ] ],
