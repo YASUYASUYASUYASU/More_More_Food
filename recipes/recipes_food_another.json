@@ -842,5 +842,70 @@
           [ "broth"                   , 1           ]
         ]
       ]
+  },
+  {
+    "type" : "recipe",
+    "result": "lemonade_powder",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_VEGGI",
+      "skill_used": "cooking",
+      "difficulty": 1,
+      "time": "5 m",
+      "autolearn": true,
+      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "tools": 
+      [ 
+        [ [ "dehydrator", 10 ] ],
+        [ [ "surface_heat", 5, "LIST" ] ],
+        [ [ "food_processor", 10 ] ]
+      ],
+      "charges": 2,
+      "components": [
+        [ [ "lemon"            , 1          ],
+          [ "irradiated_lemon" , 1          ] 
+        ],
+        [ [ "sugar"            , 1           ] ],
+        [ [ "water"       , 1 ],
+          [ "water_clean" , 1 ] 
+        ]
+      ]
+  },
+  {
+    "type" : "recipe",
+    "result": "marshmallow",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_SNACK",
+      "skill_used": "cooking",
+      "difficulty": 1,
+      "time": "20 m",
+      "autolearn": true,
+      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+      "charges": 10,
+      "components": [
+        [ [ "sugar"       , 10         ] ],
+        [ [ "eggs_bird"   , 1 , "LIST" ] ],
+        [ [ "water"       , 1 ],
+          [ "water_clean" , 1 ] 
+        ],
+        [ [ "chem_agar"   , 1          ] ]
+      ]
+  },
+  {
+    "type" : "recipe",
+    "result": "bacon",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_MEAT",
+      "skill_used": "cooking",
+      "difficulty": 1,
+      "time": "20 m",
+      "autolearn": true,
+      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "tools": [ [ [ "char_smoker", 15 ] ] ],
+      "charges": 10,
+      "components": [
+        [ [ "meat_red"    , 1 , "LIST" ] ],
+        [ [ "salt"        , 10         ] ]
+      ]
   }
 ]
