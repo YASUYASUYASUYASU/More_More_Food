@@ -5971,5 +5971,173 @@
         [ [ "flour"        , 5 ]  ],
         [ [ "milk_standard" , 1,"LIST" ] ]
       ]
+  },
+  {
+    "type" : "recipe",
+    "result": "moti",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_VEGGI",
+      "skill_used": "cooking",
+      "difficulty": 3,
+      "time": "20 m",
+      "autolearn": true,
+      "qualities": [ { "id": "COOK", "level": 2 } ],
+      "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+      "charges": 4,
+      "components": [
+        [ [ "dry_rice"          , 2 ] ],
+        [ [ "water"             , 2 ],
+          [ "water_clean"       , 2  ] 
+        ]
+      ]
+  },
+  {
+    "type" : "recipe",
+    "result": "moti_pack",
+    "container": "plastic_bag_vac",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_VEGGI",
+      "skill_used": "cooking",
+      "difficulty": 3,
+      "time": "30 m",
+      "autolearn": true,
+      "qualities": [ { "id": "COOK", "level": 2 } ],
+      "tools": [
+         [ [ "surface_heat"     , 15, "LIST" ] ],
+         [ 
+          [ "vac_sealer"       , 10         ],
+          [ "makeshift_sealer" , 20         ] 
+        ] 
+      ],
+      "charges": 4,
+      "components": [
+        [ [ "bag_plastic", 1 ] ],
+        [ [ "dry_rice"          , 2 ] ],
+        [ [ "water"             , 2 ],
+          [ "water_clean"       , 2  ] 
+        ]
+      ]
+  },{
+    "type" : "recipe",
+    "result": "moti_suger",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_VEGGI",
+      "skill_used": "cooking",
+      "difficulty": 3,
+      "time": "10 m",
+      "autolearn": true,
+      "qualities": [ { "id": "COOK", "level": 2 } ],
+      "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+      "charges": 1,
+      "components": [
+        [ 
+          [ "moti"          , 1 ],
+          [ "moti_pack"     , 1 ] 
+        ],
+        [ [ "sugar"         , 1 ] ],
+        [ [ "soysauce"      , 1 ] ]
+      ]
+  },{
+    "type" : "recipe",
+    "result": "moti_soy",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_VEGGI",
+      "skill_used": "cooking",
+      "difficulty": 3,
+      "time": "30 m",
+      "autolearn": true,
+      "qualities": [ { "id": "COOK", "level": 2 } ],
+      "tools": [ 
+              [ [ "surface_heat"   , 15, "LIST" ] ],
+              [ [ "rock_quern", -1 ], [ "clay_quern", -1 ] ]
+      ],
+      "charges": 1,
+      "components": [
+        [ 
+          [ "moti"          , 1 ],
+          [ "moti_pack"     , 1 ] 
+        ],
+        [ [ "soybean"       , 1 ] ],
+        [ [ "sugar"         , 1 ] ]
+      ]
+  },{
+    "type" : "recipe",
+    "result": "moti_soy",
+    "id_suffix": "food_processor",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_VEGGI",
+      "skill_used": "cooking",
+      "difficulty": 3,
+      "time": "20 m",
+      "autolearn": true,
+      "qualities": [ { "id": "COOK", "level": 2 } ],
+      "tools": [ 
+              [ [ "surface_heat"   , 15, "LIST" ] ],
+              [ [ "food_processor" , 20         ] ]
+      ],
+      "charges": 1,
+      "components": [
+        [ 
+          [ "moti"          , 1 ],
+          [ "moti_pack"     , 1 ] 
+        ],
+        [ [ "soybean"      , 1 ] ],
+        [ [ "sugar"         , 5 ] ]
+      ]
+  },{
+    "type" : "recipe",
+    "result": "zenzai",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_VEGGI",
+      "skill_used": "cooking",
+      "difficulty": 3,
+      "time": "20 m",
+      "autolearn": true,
+      "qualities": [ { "id": "COOK", "level": 2 } ],
+      "tools": [ 
+              [ [ "surface_heat"   , 15, "LIST" ] ]
+      ],
+      "charges": 1,
+      "components": [
+        [ 
+          [ "moti"          , 1 ],
+          [ "moti_pack"     , 1 ] 
+        ],
+        [ [ "can_beans", 1 ],
+          [ "dry_beans", 1 ],
+          [ "raw_beans", 1 ] 
+        ],
+        [ [ "sugar"         , 10 ] ],
+        [ 
+          [ "water"          , 1 ],
+          [ "water_clean"    , 1 ]
+        ]
+      ]
+  },{
+    "type" : "recipe",
+    "result": "zoni",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_VEGGI",
+      "skill_used": "cooking",
+      "difficulty": 3,
+      "time": "20 m",
+      "autolearn": true,
+      "qualities": [ { "id": "COOK", "level": 2 } ],
+      "tools": [ 
+              [ [ "surface_heat"   , 15, "LIST" ] ]
+      ],
+      "charges": 1,
+      "components": [
+        [ 
+          [ "moti"          , 1 ],
+          [ "moti_pack"     , 1 ] 
+        ],
+        [ [ "veggy_any"     , 1 , "LIST" ] ],
+        [ [ "fish_powder"   , 10 ] ],
+        [ 
+          [ "water"          , 1 ],
+          [ "water_clean"    , 1 ]
+        ]
+      ]
   }
 ]

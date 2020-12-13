@@ -7,6 +7,7 @@
     "subcategory": "CSC_OTHER_VEHICLE",
     "skill_used": "mechanics",
     "skills_required": [ "fabrication", 4 ],
+    "time": "180 m",
     "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 2 },
@@ -31,6 +32,7 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_VEHICLE",
     "skill_used": "mechanics",
+    "time": "180 m",
     "skills_required": [ "fabrication", 4 ],
     "autolearn": true,
     "qualities": [
@@ -57,6 +59,7 @@
     "subcategory": "CSC_OTHER_VEHICLE",
     "skill_used": "mechanics",
     "skills_required": [ "fabrication", 4 ],
+    "time": "180 m",
     "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 2 },
@@ -82,6 +85,7 @@
     "subcategory": "CSC_OTHER_VEHICLE",
     "skill_used": "mechanics",
     "skills_required": [ "fabrication", 4 ],
+    "time": "180 m",
     "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 2 },
