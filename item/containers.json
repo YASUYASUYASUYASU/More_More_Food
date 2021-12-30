@@ -1,39 +1,128 @@
 [
   {
     "id": "tiger",
-    "type": "CONTAINER",
-    "category": "container",
-    "name": "魔法瓶(1.5L)[MMF]",
-    "looks_like": "thermos",
-    "description": "液体を保温できるタイガー社の魔法瓶です。1,5Lの容量があります。",
-    "weight": "730 g",
-    "price": 1895,
-    "price_postapoc": 100,
-    "volume": "1750 ml",
-    "contains": "1500 ml",
-    "material": "steel",
-    "symbol": "I",
-    "color": "green",
-    "seals": true,
-    "watertight": true,
-    "insulation": 10
-  },{
-    "id": "zouzirushi",
-    "type": "CONTAINER",
+    "type": "GENERIC",
     "category": "container",
     "name": "魔法瓶(2L)[MMF]",
     "looks_like": "thermos",
-    "description": "液体を保温できる象印社の魔法瓶です。2Lの容量があります。",
-    "weight": "830 g",
-    "price": 2095,
+    "description": "液体を保温できるタイガー社の魔法瓶です。2Lの容量があります。",
+    "weight": "730 g",
+    "price": 1895,
     "price_postapoc": 100,
     "volume": "2250 ml",
-    "contains": "2000 ml",
     "material": "steel",
     "symbol": "I",
     "color": "green",
-    "seals": true,
-    "watertight": true,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "2 L",
+        "max_contains_weight": "4 kg"
+      }
+    ],
     "insulation": 10
+  },{
+    "id": "zouzirushi",
+    "type": "GENERIC",
+    "category": "container",
+    "name": "魔法瓶(3L)[MMF]",
+    "looks_like": "thermos",
+    "description": "液体を保温できる象印社の魔法瓶です。3Lの容量があります。",
+    "weight": "830 g",
+    "price": 2095,
+    "price_postapoc": 100,
+    "volume": "3250 ml",
+    "material": "steel",
+    "symbol": "I",
+    "color": "green",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "4 kg"
+      }
+    ],
+    "insulation": 10
+  },
+  {
+    "id": "lunch_box_h_i",
+    "type": "GENERIC",
+    "category": "container",
+    "name": "保温弁当箱[MMF]",
+    "looks_like": "thermos",
+    "description": "ごはんを保温できる保温弁当箱です。これにお弁当を入れてピクニックしましょう！",
+    "weight": "730 g",
+    "price": "15 USD",
+    "price_postapoc": "15 USD",
+    "volume": "2250 ml",
+    "material": "steel",
+    "symbol": "I",
+    "color": "green",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": false,
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "600 g"
+      }
+    ],
+    "insulation": 10
+  },
+  {
+    "id": "lunch_box_h_i_dx",
+    "type": "GENERIC",
+    "category": "container",
+    "name": "保温弁当箱DX[MMF]",
+    "looks_like": "thermos",
+    "description": "ごはんを保温できる大型保温弁当箱です。これにお弁当を入れてピクニックしましょう！",
+    "weight": "830 g",
+    "price": "20 USD",
+    "price_postapoc": "20 USD",
+    "volume": "3250 ml",
+    "material": "steel",
+    "symbol": "I",
+    "color": "green",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": false,
+        "max_contains_volume": "800 ml",
+        "max_contains_weight": "900 g"
+      }
+    ],
+    "insulation": 10
+  },
+  {
+    "id": "lunch_box_h_i_dx_atomic",
+    "type": "GENERIC",
+    "category": "container",
+    "name": "アトミック保温弁当箱[MMF]",
+    "looks_like": "thermos",
+    "description": "ごはんを保温できる大型保温弁当箱です。これには原子力電池を使った温め・調理機能もついています!原子力って素敵！",
+    "weight": "830 g",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "volume": "3250 ml",
+    "material": "steel",
+    "symbol": "I",
+    "color": "green",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": false,
+        "max_contains_volume": "600 ml",
+        "max_contains_weight": "900 g"
+      }
+    ],
+    "insulation": 10,
+    "use_action": [ "HOTPLATE" ],
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   }
 ]

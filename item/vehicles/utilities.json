@@ -34,16 +34,5 @@
     "price": 120000,
     "insulation": 4,
     "copy-from": "minifridge"
-  },
-  {
-    "type": "GENERIC",
-    "id": "water_dispenser",
-    "name": "ウォーターサーバー[MMF]",
-    "symbol": "&",
-    "looks_like": "t_water_dispenser",
-    "description": "飲料水を提供する蛇口のついた機械です",
-    "price": 20000,
-    "insulation": 2,
-    "category": "veh_parts"
   }
 ]

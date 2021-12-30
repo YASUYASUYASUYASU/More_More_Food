@@ -3,8 +3,8 @@
   {
     "type": "effect_type",
     "id": "senzu",
-    "name": [ "�哤" ],
-    "desc": [ "�哤�ł��B" ],
+    "name": [ "仙豆" ],
+    "desc": [ "仙豆です。" ],
     "main_parts_only": false,
     "rating": "good",
     "int_dur_factor": "6 h",

@@ -67,11 +67,10 @@
       { "item": "okra", "prob": 30 ,"count-min": 1, "count-max": 2 }
     ]
   },{
-    "id": "SUS_fridge",
     "type": "item_group",
-    "subtype": "collection",
-    "entries": [
-      { "item": "meat", "prob": 50 ,"count-min": 1, "count-max": 2},
+    "id": "fridge",
+    "items": [
+      { "item": "meat", "count": [ 1, 2 ], "prob": 50},
       { "item": "fish", "prob": 50 ,"count-min": 1, "count-max": 2},
       { "item": "dry_meat", "prob": 50 ,"count-min": 1, "count-max": 2 },
       { "item": "dry_fish", "prob": 50,"count-min": 1, "count-max": 2 },

@@ -5,7 +5,7 @@
     "name": { "str": "bird egg" },
     "weight": "57 g",
     "color": "brown",
-    "spoils_in": "7 days",
+    "spoils_in": "14 days",
     "comestible_type": "FOOD",
     "symbol": "o",
     "quench": 4,

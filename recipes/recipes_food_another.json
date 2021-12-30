@@ -339,7 +339,9 @@
       "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
       "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
       "components": [
-        [ [ "eggs_bird", 2, "LIST"  ] ],
+        [ [ "eggs_any_shape", 2, "LIST"  ],
+          ["eggs_insect", 2, "LIST" ] 
+        ],
         [ [ "milk_standard", 1,"LIST"          ] ],
         [ [ "sugar", 25        ] ],
         [ [ "sugar_fried", 1        ] ]
@@ -359,7 +361,9 @@
       "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
-        [ [ "eggs_bird", 2, "LIST"  ] ],
+        [ [ "eggs_any_shape", 2, "LIST"  ],
+          ["eggs_insect", 2, "LIST" ] 
+        ],
         [ [ "milk_standard", 1,"LIST"          ] ],
         [ [ "flour", 20 ] ],
         [ [ "water",4  ],[ "water_clean",4  ] ],
@@ -382,7 +386,10 @@
       "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
-        [ [ "eggs_bird", 2, "LIST"  ] ],
+        [ 
+          [ "eggs_any_shape", 2, "LIST"  ],
+          [ "eggs_insect", 2, "LIST"] 
+        ],
         [ [ "milk_standard", 1,"LIST"          ] ],
         [ [ "flour", 20 ] ],
         [ [ "water",4  ],[ "water_clean",4  ] ],
@@ -667,7 +674,8 @@
       [
         [ "veggy_any", 2, "LIST" ],
         [ "powder_eggs", 2 ],
-        [ "eggs_bird", 2, "LIST" ],
+        [ "eggs_any_shape", 2, "LIST" ],
+        ["eggs_insect", 2, "LIST" ],
         [ "egg_reptile", 2 ],
         [ "mushroom_cooked", 2 ],
         [ "morel_cooked", 2 ],
@@ -731,7 +739,8 @@
       [
         [ "veggy_any", 2, "LIST" ],
         [ "powder_eggs", 2 ],
-        [ "eggs_bird", 2, "LIST" ],
+        [ "eggs_any_shape", 2, "LIST" ],
+        ["eggs_insect", 2, "LIST" ],
         [ "egg_reptile", 2 ],
         [ "mushroom_cooked", 2 ],
         [ "morel_cooked", 2 ],
@@ -884,7 +893,9 @@
       "charges": 10,
       "components": [
         [ [ "sugar"       , 10         ] ],
-        [ [ "eggs_bird"   , 1 , "LIST" ] ],
+        [ [ "eggs_any_shape"   , 1 , "LIST" ],
+          ["eggs_insect", 2, "LIST" ] 
+        ],
         [ [ "water"       , 1 ],
           [ "water_clean" , 1 ] 
         ],

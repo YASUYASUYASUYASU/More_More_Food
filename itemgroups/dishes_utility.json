@@ -1,0 +1,14 @@
+[
+
+  {
+    "type": "item_group",
+    "id": "dishes_utility",
+    "items": [
+      [ "tiger", 20 ],
+      [ "zouzirushi", 10 ],
+      [ "lunch_box_h_i", 10 ],
+      [ "lunch_box_h_i_dx", 10 ],
+      [ "lunch_box_h_i_dx_atomic", 5 ]
+    ]
+  }
+]
