@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mon_triffid_sprig",
+    "type": "MONSTER",
+    "name": { "str": "triffid sprig" },
+    "copy-from": "mon_triffid_sprig",
+    "harvest": "triffid_small_mmf"
+  },
+  {
+    "id": "mon_triffid_young",
+    "type": "MONSTER",
+    "name": { "str": "triffid sprout" },
+    "copy-from": "mon_triffid_young",
+    "harvest": "triffid_paralytic_mmf"
+  },
+  {
+    "id": "mon_triffid",
+    "type": "MONSTER",
+    "name": { "str": "triffid" },
+    "copy-from": "mon_triffid",
+    "harvest": "triffid_paralytic_mmf"
+  },
+  {
+    "id": "mon_triffid_queen",
+    "type": "MONSTER",
+    "name": { "str": "triffid queen" },
+    "copy-from": "mon_triffid",
+    "harvest": "triffid_queen_mmf"
+  },
+  {
+    "id": "mon_fungal_fighter",
+    "type": "MONSTER",
+    "name": { "str": "fungal fighter" },
+    "copy-from": "mon_fungal_fighter",
+    "harvest": "triffid_fungal_fighter_mmf"
+  },
+  {
+    "id": "mon_triffid_flower",
+    "type": "MONSTER",
+    "name": { "str": "triffid flower" },
+    "copy-from": "mon_triffid_flower",
+    "harvest": "triffid_paralytic_mmf"
+  },
+  {
+    "id": "mon_triffid_heart",
+    "type": "MONSTER",
+    "name": { "str": "triffid heart" },
+    "copy-from": "mon_triffid_heart",
+    "harvest": "triffid_small_mmf"
+  }
+]

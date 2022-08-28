@@ -1,0 +1,42 @@
+[
+  {
+    "result": "tiger",
+    "type": "uncraft",
+    "activity_level": "MODERATE_EXERCISE",
+    "time": "2 m",
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "sheet_metal_small", 4 ] ] ]
+  },
+  {
+    "result": "zouzirushi",
+    "type": "uncraft",
+    "activity_level": "MODERATE_EXERCISE",
+    "time": "2 m",
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "sheet_metal_small", 6 ] ] ]
+  },
+  {
+    "result": "lunch_box_h_i",
+    "type": "uncraft",
+    "activity_level": "MODERATE_EXERCISE",
+    "time": "2 m",
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "sheet_metal_small", 4 ] ] ]
+  },
+  {
+    "result": "lunch_box_h_i_dx",
+    "type": "uncraft",
+    "activity_level": "MODERATE_EXERCISE",
+    "time": "2 m",
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "sheet_metal_small", 6 ] ] ]
+  },
+  {
+    "result": "lunch_box_h_i_dx_atomic",
+    "type": "uncraft",
+    "activity_level": "MODERATE_EXERCISE",
+    "time": "2 m",
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "sheet_metal_small", 4 ] ],[ [ "element", 1 ]] ]
+  }
+]

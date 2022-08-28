@@ -17,25 +17,52 @@
     ]
   },
   {
-    "id": "eggs_insect",
+    "id": "seta_main",
     "type": "requirement",
-    "//": "All of the different insect eggs",
+    "//": "定食用のメイン一覧(みそ汁セット)",
     "components": [
       [
-        [ "ant_egg", 1 ],
-        [ "spider_egg", 4 ],
-        [ "egg_roach", 4 ],
-        [ "egg_locust", 4 ],
-        [ "egg_dragonfly", 4 ],
-        [ "egg_firefly", 4 ],
-        [ "egg_centipede", 2 ]
+        [ "karaage", 1 ],
+        [ "gyoza_1", 1 ],
+        [ "gyoza_3", 1 ],
+        [ "gyoza_4", 1 ],
+        [ "hamburg_steak", 1],
+        [ "minced", 1],
+        [ "okonomiyaki", 1],
+        [ "motuni", 1],
+        [ "kakuni", 1],
+        [ "yakitori_meat_tare", 1],
+        [ "yakitori_meat_salt", 1],
+        [ "shogayaki", 1],
+        [ "yakitori_meat_tare", 1],
+        [ "steak_horseradish", 1],
+        [ "steak_soysauce", 1],
+        [ "miso_saute_meat", 1]
       ]
     ]
   },
   {
-    "id": "eggs_any_shape",
+    "id": "setb_main",
     "type": "requirement",
-    "//": "When we only need the nutrition of eggs and don't care about their shape. About 0.05L ",
-    "components": [ [ [ "eggs_bird", 1, "LIST" ], [ "egg_reptile", 1 ] ] ]
+    "//": "定食用のメイン一覧(中華スープセット)",
+    "components": [
+      [
+        [ "gyoza_1", 1 ],
+        [ "gyoza_3", 1 ],
+        [ "gyoza_4", 1 ],
+        [ "twice_cooked_pork", 1 ],
+        [ "chinese_style_fried_chicken", 1 ],
+        [ "vinegar_pork_1", 1 ],
+        [ "vinegar_pork_2", 1],
+        [ "mabu_tofu", 1],
+        [ "shredded_green_pepper_meat", 1]
+      ]
+    ]
+  },
+  {
+    "id": "meat_raw_steak",
+    "type": "requirement",
+    "//": "An unbroken slab of raw meat.  For when scraps just aren't good enough.",
+    "extend": { "components": [ [ [ "meat_horse", 1 ] ] ] }
   }
 ]

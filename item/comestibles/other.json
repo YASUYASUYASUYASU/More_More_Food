@@ -1,0 +1,22 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "meal_chitin_piece",
+    "name": { "str_sp": "chitin powder" },
+    "weight": "112 g",
+    "color": "brown",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "quench": -5,
+    "calories": 17,
+    "description": "This chitin powder can be used to craft fertilizer and some other things.",
+    "milling": { "into": "meal_chitin_piece", "conversion_rate": 4 },
+    "price": 25,
+    "price_postapoc": 10,
+    "material": [ "powder" ],
+    "volume": "250 ml",
+    "flags": [ "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
+    "charges": 4,
+    "fun": -10
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "//1": "各種醸造レシピの醸造時間を半分ほどに調整",
+    
+    "type": "COMESTIBLE",
+    "id": "brew_mycus_wine",
+    "looks_like": "wine_mycus",
+    "name": { "str": "Mycus wine must" },
+    "copy-from": "brew_mycus_wine",
+    "brewable": { "time": "3 days", "results": [ "wine_mycus", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_marloss_wine",
+    "looks_like": "wine_marloss",
+    "name": { "str": "Marloss wine must" },
+    "copy-from": "brew_marloss_wine",
+    "brewable": { "time": "3 days", "results": [ "wine_marloss", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_whiskey",
+    "looks_like": "wash_whiskey",
+    "name": { "str": "whiskey wort" },
+    "copy-from": "brew_whiskey",
+    "brewable": { "time": "3 days", "results": [ "wash_whiskey", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_gin",
+    "looks_like": "gin_mash",
+    "name": { "str": "gin mash", "str_pl": "gin mashes" },
+    "copy-from": "brew_gin",
+    "brewable": { "time": "3 days", "results": [ "gin_mash" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_sake",
+    "looks_like": "brew_vodka",
+    "name": { "str_sp": "sake mash" },
+    "copy-from": "brew_vodka",
+    "brewable": { "time": "3 days", "results": [ "sake_unfiltered", "koji", "yeast" ] }
+  },
+  {
+    "//2": "醤油の醸造時間は21日と長い、実プレイを考えるなら6日ぐらいにしておく(要調整)",
+    "type": "COMESTIBLE",
+    "id": "brew_soy_sauce",
+    "name": { "str_sp": "unfermented soy sauce" },
+    "copy-from": "brew_soy_sauce",
+    "brewable": { "time": "6 days", "results": [ "soy_sauce_unstrained" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_vodka",
+    "looks_like": "vodka",
+    "name": { "str": "vodka wort" },
+    "copy-from": "brew_vodka",
+    "brewable": { "time": "3 days", "results": [ "wash_vodka", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_rum",
+    "looks_like": "rum",
+    "name": { "str": "rum wort" },
+    "copy-from": "brew_rum",
+    "brewable": { "time": "3 days", "results": [ "wash_rum", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_fruit_wine",
+    "looks_like": "fruit_wine",
+    "name": { "str": "fruit wine must" },
+    "copy-from": "brew_fruit_wine",
+    "brewable": { "time": "3 days", "results": [ "fruit_wine", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_mead",
+    "looks_like": "mead",
+    "name": { "str": "plain mead must" },
+    "copy-from": "brew_mead",
+    "brewable": { "time": "4 days", "results": [ "plain_mead", "yeast" ] }
+  },
+  {
+    "id": "brew_hopped_mead",
+    "copy-from": "brew_hopped_mead",
+    "name": { "str": "hopped mead must" },
+    "type": "COMESTIBLE",
+    "brewable": { "time": "4 days", "results": [ "hopped_mead", "yeast" ] }
+  },
+  {
+    "id": "brew_spiced_mead",
+    "copy-from": "brew_spiced_mead",
+    "name": { "str": "spiced mead must" },
+    "type": "COMESTIBLE",
+    "brewable": { "time": "4 days", "results": [ "spiced_mead", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_dandelion_wine",
+    "looks_like": "dandelion_wine",
+    "name": { "str": "dandelion wine must" },
+    "copy-from": "brew_spiced_mead",
+    "brewable": { "time": "3 days", "results": [ "dandelion_wine", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_burdock_wine",
+    "looks_like": "burdock_wine",
+    "name": { "str": "burdock wine must" },
+    "copy-from": "brew_burdock_wine",
+    "brewable": { "time": "3 days", "results": [ "burdock_wine", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_pine_wine",
+    "looks_like": "pine_wine",
+    "name": { "str": "pine wine must" },
+    "copy-from": "brew_pine_wine",
+    "brewable": { "time": "3 days", "results": [ "pine_wine", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_hb_beer",
+    "looks_like": "beer",
+    "name": { "str": "beer wort" },
+    "copy-from": "brew_hb_beer",
+    "comestible_type": "DRINK",
+    "brewable": { "time": "3 days", "results": [ "hb_beer", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_hb_seltzer",
+    "looks_like": "hb_seltzer",
+    "name": { "str": "seltzer wort" },
+    "description": "Unfermented seltzer.  A boiled and chilled mash of refined sugar and fruit.",
+    "copy-from": "brew_hb_beer",
+    "comestible_type": "DRINK",
+    "brewable": { "time": "3 days", "results": [ "hb_seltzer", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_moonshine",
+    "looks_like": "moonshine",
+    "name": { "str": "moonshine mash", "str_pl": "moonshine mashes" },
+    "copy-from": "brew_moonshine",
+    "comestible_type": "DRINK",
+    "brewable": { "time": "2 days", "results": [ "wash_moonshine", "yeast" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_milk_curdled",
+    "looks_like": "milk",
+    "name": { "str": "curdling milk" },
+    "copy-from": "brew_milk_curdled",
+    "comestible_type": "DRINK",
+    "brewable": { "time": "2 hours", "results": [ "milk_curdled" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_vinegar",
+    "looks_like": "vinegar",
+    "name": { "str": "unfermented vinegar" },
+    "copy-from": "brew_vinegar",
+    "brewable": { "time": "4 days", "results": [ "vinegar" ] }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "young_yeast",
+    "looks_like": "yeast",
+    "name": { "str": "growing wild yeast" },
+    "copy-from": "brew_vinegar",
+    "comestible_type": "DRINK",
+    "brewable": { "time": "1 days", "results": [ "yeast" ] }
+  }
+]

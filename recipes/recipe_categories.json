@@ -1,0 +1,21 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_MMF",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_MMF_DRINKS",
+      "CSC_MMF_DRY",
+      "CSC_MMF_MEAT",
+      "CSC_MMF_VEGGI",
+      "CSC_MMF_SNACK",
+      "CSC_MMF_BREAD",
+      "CSC_MMF_PASTA",
+      "CSC_MMF_BREW",
+      "CSC_MMF_SEEDS",
+      "CSC_MMF_OTHER",
+      "CSC_MMF_セットメニュー",
+      "CSC_MMF_特殊"
+    ]
+  }
+]

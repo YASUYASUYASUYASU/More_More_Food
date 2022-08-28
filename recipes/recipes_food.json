@@ -2,8 +2,8 @@
 {
   "type" : "recipe",
   "result": "garlic_toast",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_BREAD",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_BREAD",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -21,8 +21,8 @@
 {
   "type" : "recipe",
   "result": "garlic_chips",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -33,44 +33,17 @@
     "components": [
       [ [ "seasoning_italian" , 2 ] ],
       [ [ "garlic_clove"      , 4 ] ],
-      [ 
-        [ "cooking_oil"       , 1 ],
-        [ "cooking_oil2"      , 1 ] 
-      ]
+      [ [ "any_butter_or_oil", 1, "LIST" ] ]
     ]
 },
 {
   "type" : "recipe",
   "result": "garlic_rice",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 2,
-    "components": [
-      [ [ "rice_cooked"       , 2 ] ],
-      [ [ "salt_preservation", 1, "LIST" ]],
-      [ [ "seasoning_italian" , 2 ] ],
-      [ [ "garlic_clove"      , 4 ] ],
-      [ 
-        [ "cooking_oil"       , 1 ],
-        [ "cooking_oil2"      , 1 ] 
-      ]
-    ]
-},
-{
-  "type" : "recipe",
-  "result": "garlic_rice",
-  "id_suffix": "from_dry_rice",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "30 m",
     "autolearn": true,
     "qualities": [ { "id": "COOK", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
@@ -83,17 +56,14 @@
       [ [ "salt_preservation", 1, "LIST" ] ],
       [ [ "seasoning_italian" , 2 ] ],
       [ [ "garlic_clove"      , 1 ] ],
-        [ 
-          [ "cooking_oil"     , 1 ],
-          [ "cooking_oil2"    , 1 ] 
-        ]
+      [ [ "any_butter_or_oil", 1, "LIST" ] ]
     ]
 },
 {
   "type" : "recipe",
   "result": "garlic_soy_sauce",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -107,8 +77,8 @@
 {
   "type" : "recipe",
   "result": "garlic_soy_sauce_coocked_1",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -124,8 +94,8 @@
 {
   "type" : "recipe",
   "result": "garlic_soy_sauce_coocked_2",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -144,8 +114,8 @@
 {
   "type" : "recipe",
   "result": "garlic_soy_sauce_coocked_3",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -164,21 +134,18 @@
 {
   "type" : "recipe",
   "result": "karaage",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
     "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 2,
     "components": [
       [ [ "meat_red_raw"     , 4, "LIST" ] ],
-      [ 
-        [ "cooking_oil"      , 1 ],
-        [ "cooking_oil2"     , 1 ] 
-      ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [ [ "flour"            , 2         ] ],
       [ [ "garlic_soy_sauce" , 1         ] ]
     ]
@@ -186,8 +153,8 @@
 {
   "type" : "recipe",
   "result": "german_fries_1",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -201,11 +168,8 @@
       [ [ "bacon"             , 1        ] ],
       [ [ "onion"             , 1        ],
         [ "irradiated_onion"  , 1        ] ],
-      [ 
-        [ "cooking_oil"       , 1        ],
-        [ "cooking_oil2"      , 1        ] 
-      ],
-      [[ "salt_preservation"  , 2, "LIST"] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
+       [[ "salt_preservation"  , 2, "LIST"] ],
       [ [ "pepper"            , 2        ] ],
       [ [ "mustard"           , 1        ] ],
       [ [ "garlic_soy_sauce"  , 1        ] ]
@@ -214,8 +178,8 @@
 {
   "type" : "recipe",
   "result": "german_fries_2",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -230,10 +194,7 @@
       [ [ "bacon"             , 1 ] ],
       [ [ "onion"             , 1 ],
       [ "irradiated_onion"    , 1 ] ],
-      [ 
-        [ "cooking_oil"       , 1 ],
-        [ "cooking_oil2"      , 1 ] 
-      ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [ [ "salt_preservation" , 1, "LIST" ] ],
       [ [ "pepper"            , 2 ] ],
       [ [ "garlic_soy_sauce"  , 1 ] ]
@@ -242,8 +203,8 @@
 {
   "type" : "recipe",
   "result": "veggi_stick_1",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "10 m",
@@ -258,8 +219,8 @@
 {
   "type" : "recipe",
   "result": "japanese_pickles",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "10 m",
@@ -295,8 +256,8 @@
 {
   "type" : "recipe",
   "result": "gyoza_1",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -316,10 +277,7 @@
       ],
       [[ "salt_preservation"   , 1 , "LIST" ] ],
       [ [ "pepper"             , 1         ] ],
-      [ 
-        [ "cooking_oil"        , 1         ],
-        [ "cooking_oil2"       , 1         ] 
-      ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [ [ "flour"              , 1         ] ],
       [ [ "garlic_clove"       , 1         ] ]
     ]
@@ -327,8 +285,8 @@
 {
   "type" : "recipe",
   "result": "gyoza_2",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -358,8 +316,8 @@
 {
   "type" : "recipe",
   "result": "gyoza_3",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -375,10 +333,7 @@
         [ "water"          , 1          ],
         [ "water_clean"    , 1          ] 
       ],
-      [ 
-        [ "cooking_oil"    , 1          ],
-        [ "cooking_oil2"   , 1          ] 
-      ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [ [ "salt_preservation", 1, "LIST" ] ],
       [ [ "pepper"         , 1          ] ],
       [ [ "flour"          , 1          ] ],
@@ -388,8 +343,8 @@
 {
   "type" : "recipe",
   "result": "gyoza_4",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -405,10 +360,7 @@
         [ "water"                    , 1          ],
         [ "water_clean"              , 1          ] 
       ],
-      [ 
-        [ "cooking_oil"              , 1          ],
-        [ "cooking_oil2"             , 1          ] 
-      ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [ [ "salt_preservation"        , 1, "LIST"  ] ],
       [ [ "pepper"                   , 1          ] ],
       [ [ "flour"                    , 1          ] ],
@@ -418,8 +370,8 @@
 {
   "type" : "recipe",
   "result": "twice_cooked_pork",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -432,10 +384,7 @@
       [ [ "cabbage"            , 1         ],
         [ "irradiated_cabbage" , 1         ] 
       ],
-      [ 
-        [ "cooking_oil"        , 1         ],
-        [ "cooking_oil2"       , 1         ] 
-      ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [ [ "chili_bean_sauce"   , 1         ] ],
       [ [ "garlic_clove"       , 1         ] ],
       [ [ "soysauce"           , 1         ] ]
@@ -444,8 +393,8 @@
 {
   "type" : "recipe",
   "result": "chinese_style_fried_chicken",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "20 m",
@@ -470,8 +419,8 @@
 {
   "type" : "recipe",
   "result": "vinegar_pork_1",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -493,18 +442,15 @@
       [ [ "soysauce"             , 1         ] ],
       [ [ "vinegar"              , 1         ] ],
       [ [ "sugar"                , 1         ] ],
-      [
-        [ "cooking_oil"          , 1         ],
-        [ "cooking_oil2"         , 1         ] 
-      ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [ [ "ketchup"              , 10        ] ]
     ]
 },
 {
   "type" : "recipe",
   "result": "vinegar_pork_2",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -523,18 +469,15 @@
       [ [ "soysauce"          , 1         ] ],
       [ [ "vinegar"           , 1         ] ],
       [ [ "sugar"             , 1         ] ],
-      [ 
-        [ "cooking_oil"       , 1         ],
-        [ "cooking_oil2"      , 1         ] 
-      ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [ [ "ketchup"           , 1         ] ]
     ]
 },
 {
   "type" : "recipe",
   "result": "stir_fried_greens",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -551,17 +494,14 @@
         [ "plant_sac"          , 1 ] 
       ],
       [ [ "salt_preservation", 1, "LIST" ] ],
-      [
-        [ "cooking_oil"        , 1 ],
-        [ "cooking_oil2"       , 1 ] 
-      ]
+      [ [ "any_butter_or_oil", 1, "LIST" ] ]
     ]
 },
 {
   "type" : "recipe",
   "result": "shanghai_style_yakisoba",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PASTA",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_PASTA",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "20 m",
@@ -592,17 +532,14 @@
         [ "broth_bone"              , 1          ],
         [ "broth"                   , 1          ]
       ],
-      [ 
-        [ "cooking_oil"             , 1          ],
-        [ "cooking_oil2"            , 1          ] 
-      ]
+      [ [ "any_butter_or_oil", 1, "LIST" ] ]
     ]
 },
 {
   "type" : "recipe",
   "result": "chinese_congee_1",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "15 m",
@@ -626,8 +563,8 @@
 {
   "type" : "recipe",
   "result": "chinese_congee_2",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -656,8 +593,8 @@
 {
   "type" : "recipe",
   "result": "mabu_tofu",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -676,10 +613,7 @@
       ],
       [ [ "chili_bean_sauce", 1      ] ],
       [ [ "garlic_clove"    , 1      ] ],
-      [
-        [ "cooking_oil"     , 1 ],
-        [ "cooking_oil2"    , 1 ] 
-      ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [ [ "chili_pepper"    , 1      ],
         [ "chilly-p"        , 10     ]
       ],
@@ -692,8 +626,8 @@
 {
   "type" : "recipe",
   "result": "bruschetta",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_BREAD",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_BREAD",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "10 m",
@@ -717,8 +651,8 @@
 {
   "type" : "recipe",
   "result": "hiyayako",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -736,8 +670,8 @@
 {
   "type" : "recipe",
   "result": "agedasi_tofu",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "15 m",
@@ -768,8 +702,8 @@
 },{
   "type" : "recipe",
   "result": "flaked_tuna_mixed",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -786,8 +720,8 @@
 },{
   "type" : "recipe",
   "result": "onigiri_1",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -801,8 +735,8 @@
   "type" : "recipe",
   "result": "onigiri_1",
   "id_suffix": "from_dry_rice",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -821,8 +755,8 @@
 },{
   "type" : "recipe",
   "result": "onigiri_2",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -837,8 +771,8 @@
   "type" : "recipe",
   "result": "onigiri_2",
   "id_suffix": "from_dry_rice",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -858,8 +792,8 @@
 },{
   "type" : "recipe",
   "result": "onigiri_3",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -873,8 +807,8 @@
   "type" : "recipe",
   "result": "onigiri_3",
   "id_suffix": "from_dry_rice",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -893,8 +827,8 @@
 },{
   "type" : "recipe",
   "result": "onigiri_4",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -908,8 +842,8 @@
   "type" : "recipe",
   "result": "onigiri_4",
   "id_suffix": "from_dry_rice",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -928,8 +862,8 @@
 },{
   "type" : "recipe",
   "result": "onigiri_5",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -943,8 +877,8 @@
   "type" : "recipe",
   "result": "onigiri_5",
   "id_suffix": "from_dry_rice",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -963,8 +897,8 @@
 },{
   "type" : "recipe",
   "result": "potato_butter",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -986,13 +920,13 @@
 },{
   "type" : "recipe",
   "result": "sandwich_tuna",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_BREAD",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_BREAD",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "10 m",
     "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+    "qualities": [{ "id": "CUT", "level": 1 } ],
     "charges": 2,
     "components": [
       [ [ "bread_sandwich", 1, "LIST" ] ],
@@ -1001,14 +935,14 @@
 },{
   "type" : "recipe",
   "result": "sandwich_smoke",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_BREAD",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_BREAD",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "10 m",
     "autolearn": true,
     "batch_time_factors": [ 83, 3 ],
-    "qualities": [ { "id": "COOK", "level": 1 } ],
+    "qualities": [{ "id": "CUT", "level": 1 } ],
     "components": [
      [ [ "batter"                   , 1 , "LIST" ] ],
      [ [ "veggy_any"                , 1 , "LIST" ] ],
@@ -1028,8 +962,8 @@
 },{
   "type" : "recipe",
   "result": "potato_salad",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "20 m",
@@ -1058,34 +992,31 @@
 },{
   "type" : "recipe",
   "result": "egg_roasted",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_OTHER",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_OTHER",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "10 m",
     "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "COOK", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 2,
     "components": [
       [ 
-        [ "powder_eggs", 10 ],
-        [ "eggs_any_shape", 2, "LIST" ],
-        ["eggs_insect", 2, "LIST" ]
+        [ "powder_eggs"       , 10        ],
+        [ "eggs_any_shape"    , 2, "LIST" ],
+        [ "eggs_insect"       , 2, "LIST" ]
       ],
-      [ [ "salt_preservation", 1, "LIST" ] ],
-      [ [ "pepper"         , 1          ] ],
-      [ 
-        [ "cooking_oil"    , 1          ],
-        [ "cooking_oil2"   , 1          ] 
-      ]
+      [ [ "salt_preservation" , 1, "LIST" ] ],
+      [ [ "pepper"            , 1         ] ],
+      [ [ "any_butter_or_oil" , 1, "LIST" ] ]
     ]
     
 },{
   "type" : "recipe",
   "result": "udon_nekase",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PASTA",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_PASTA",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "30 m",
@@ -1104,13 +1035,13 @@
   {
   "type" : "recipe",
   "result": "udon_1",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_PASTA",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_PASTA",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "10 m",
     "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "COOK", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 2,
     "components": [
@@ -1124,13 +1055,13 @@
   },{
     "type" : "recipe",
     "result": "udon_2",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
       "autolearn": true,
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "qualities": [ { "id": "COOK", "level": 2 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "charges": 2,
       "components": [
@@ -1148,8 +1079,8 @@
   },{
     "type" : "recipe",
     "result": "ramen_1",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1161,13 +1092,14 @@
         [ [ "spaghetti_cooked"        , 1          ] ],
         [ [ "veggy_any"               , 1 , "LIST" ] ],
         [ [ "salt_preservation"       , 2,  "LIST" ] ],
-        [ [ "meat_red"                , 1 , "LIST" ],
+        [ 
+          [ "meat_red"                , 1 , "LIST" ],
           [ "dry_meat"                , 1          ]  
         ],
         [ 
-          [ "powder_eggs", 10 ],
-          [ "eggs_any_shape", 2, "LIST" ],
-          ["eggs_insect", 2, "LIST" ]
+          [ "powder_eggs"             , 10         ],
+          [ "eggs_any_shape"          , 1 , "LIST" ],
+          [ "eggs_insect"             , 1 , "LIST" ]
         ],
         [ 
           [ "water"                   , 1          ],
@@ -1181,8 +1113,8 @@
   },{
     "type" : "recipe",
     "result": "ramen_2",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1198,9 +1130,9 @@
           [ "dry_meat"                , 1          ]  
         ],
         [ 
-          [ "powder_eggs", 10 ],
-          [ "eggs_any_shape", 2, "LIST" ],
-          ["eggs_insect", 2, "LIST" ]
+          [ "powder_eggs"             , 10         ],
+          [ "eggs_any_shape"          , 1 , "LIST" ],
+          [ "eggs_insect"             , 1 , "LIST" ]
         ],
         [ [ "soysauce"                , 1          ] ],
         [ 
@@ -1215,8 +1147,8 @@
   },{
     "type" : "recipe",
     "result": "ramen_3",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1232,9 +1164,9 @@
           [ "dry_meat"                , 1          ]  
         ],
         [ 
-          [ "powder_eggs", 10 ],
-          [ "eggs_any_shape", 2, "LIST" ],
-          ["eggs_insect", 2, "LIST" ]
+          [ "powder_eggs"             , 10         ],
+          [ "eggs_any_shape"          , 1 , "LIST" ],
+          [ "eggs_insect"             , 1 , "LIST" ]
         ],
         [ [ "soysauce"                , 1          ] ],
         [ 
@@ -1254,8 +1186,8 @@
   },{
     "type" : "recipe",
     "result": "pho",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1293,8 +1225,8 @@
   },{
     "type" : "recipe",
     "result": "hamburg_steak",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -1316,21 +1248,18 @@
           [ "eggs_any_shape", 2, "LIST" ],
           ["eggs_insect", 2, "LIST" ]
         ],
-        [ 
-          [ "cooking_oil"      , 1         ],
-          [ "cooking_oil2"     , 1         ] 
-        ]
+      [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "sandwich_hamburg_steak",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_BREAD",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_BREAD",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "5 m",
       "autolearn": true,
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "qualities": [{ "id": "CUT", "level": 1 } ],
       "charges": 2,
       "components": [
       [ [ "bread_sandwich", 1, "LIST" ] ],
@@ -1339,8 +1268,8 @@
   },{
     "type" : "recipe",
     "result": "bone_crackers",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_SNACK",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_SNACK",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1353,16 +1282,13 @@
           [ "bone_human"   , 2 ]
         ],
         [ [ "salt_preservation", 1, "LIST" ] ],
-        [ 
-          [ "cooking_oil"  , 1 ],
-          [ "cooking_oil2" , 1 ] 
-        ]
+      [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
       "type" : "recipe",
       "result": "curry_bread",
-        "category": "CC_FOOD",
-        "subcategory": "CSC_FOOD_BREAD",
+        "category": "CC_MMF",
+        "subcategory": "CSC_MMF_BREAD",
         "skill_used": "cooking",
         "difficulty": 4,
         "time": "20 m",
@@ -1383,16 +1309,13 @@
           [ [ "meat_red"                 , 1 , "LIST" ],
             [ "dry_meat"                 , 1          ]  
           ],
-          [ 
-            [ "cooking_oil"              , 1          ],
-            [ "cooking_oil2"             , 1          ] 
-          ]
+          [ [ "any_butter_or_oil", 1, "LIST" ] ]
         ]
   },{
     "type" : "recipe",
     "result": "nanbanzuke",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1418,16 +1341,13 @@
           [ "chili_pepper"     , 1  ],
           [ "chilly-p"         , 10 ] 
         ],
-        [ 
-          [ "cooking_oil"      , 1  ],
-          [ "cooking_oil2"     , 1  ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "Lassi",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_DRINKS",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRINKS",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "5 m",
@@ -1446,8 +1366,8 @@
   },{
     "type" : "recipe",
     "result": "salada_onion",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "5 m",
@@ -1465,8 +1385,8 @@
   },{
     "type" : "recipe",
     "result": "tomato_simmered_fish",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "20 m",
@@ -1491,8 +1411,8 @@
   },{
     "type" : "recipe",
     "result": "tomato_simmered_meat",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "20 m",
@@ -1517,8 +1437,8 @@
   },{
     "type" : "recipe",
     "result": "croquettes",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1544,22 +1464,19 @@
           [ "eggs_any_shape", 2, "LIST" ],
           ["eggs_insect", 2, "LIST" ]
         ],
-        [ 
-          [ "cooking_oil"       , 1          ],
-          [ "cooking_oil2"      , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
 
       ]
   },{
     "type" : "recipe",
     "result": "sandwich_croquettes",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_BREAD",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_BREAD",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "5 m",
       "autolearn": true,
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "qualities": [{ "id": "CUT", "level": 1 } ],
       "charges": 2,
       "components": [
         [ [ "croquettes"      , 1 ] ],
@@ -1568,8 +1485,8 @@
   },{
     "type" : "recipe",
     "result": "minced",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1591,22 +1508,18 @@
           [ "eggs_any_shape", 2, "LIST" ],
           ["eggs_insect", 2, "LIST" ]
         ],
-        [ 
-          [ "cooking_oil"      , 1          ],
-          [ "cooking_oil2"     , 1          ] 
-        ]
-
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "sandwich_minced",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "5 m",
       "autolearn": true,
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "qualities": [{ "id": "CUT", "level": 1 } ],
       "charges": 2,
       "components": [
         [ [ "minced"          , 1 ] ],
@@ -1615,8 +1528,8 @@
   },{
     "type" : "recipe",
     "result": "yamatoni_meat",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -1634,8 +1547,8 @@
   },{
     "type" : "recipe",
     "result": "yamatoni_fish",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -1653,8 +1566,8 @@
   },{
     "type" : "recipe",
     "result": "Marmite",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 4,
       "time": "30 m",
@@ -1677,13 +1590,13 @@
   },{
     "type" : "recipe",
     "result": "sandwich_Marmite",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_BREAD",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_BREAD",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "5 m",
       "autolearn": true,
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "qualities": [{ "id": "CUT", "level": 1 } ],
       "charges": 2,
       "components": [
         [ [ "Marmite"         , 1 ] ],
@@ -1692,8 +1605,8 @@
   },{
     "type" : "recipe",
     "result": "gratin",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -1723,8 +1636,8 @@
   },{
     "type" : "recipe",
     "result": "gratin_fish",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -1754,8 +1667,8 @@
   },{
     "type" : "recipe",
     "result": "mushroom_Saute",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "10 m",
@@ -1773,8 +1686,8 @@
   },{
     "type" : "recipe",
     "result": "mushroom_marinated",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "10 m",
@@ -1802,8 +1715,8 @@
   },{
     "type" : "recipe",
     "result": "fricassee",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1835,8 +1748,8 @@
   },{
     "type" : "recipe",
     "result": "japanese_mushroom_pasta",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "20 m",
@@ -1864,8 +1777,8 @@
   },{
     "type" : "recipe",
     "result": "osuimono",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "10 m",
@@ -1889,8 +1802,8 @@
   },{
     "type" : "recipe",
     "result": "kabayaki",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1907,8 +1820,8 @@
   },{
     "type" : "recipe",
     "result": "glace_carrot",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1931,8 +1844,8 @@
   },{
     "type" : "recipe",
     "result": "glace_marron",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1955,8 +1868,8 @@
   },{
     "type" : "recipe",
     "result": "okonomiyaki",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -1982,17 +1895,14 @@
           [ "water"              , 1          ],
           [ "water_clean"        , 1          ]
         ],
-        [ 
-          [ "cooking_oil"        , 1          ],
-          [ "cooking_oil2"       , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
 
   },{
     "type" : "recipe",
     "result": "motuni",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "20 m",
@@ -2016,8 +1926,8 @@
   },{
     "type" : "recipe",
     "result": "baked_corn",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -2037,8 +1947,8 @@
   },{
     "type" : "recipe",
     "result": "kakuni",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2063,8 +1973,8 @@
   },{
     "type" : "recipe",
     "result": "Quiche",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2093,8 +2003,8 @@
   },{
     "type" : "recipe",
     "result": "meatloaf",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2124,8 +2034,8 @@
   },{
     "type" : "recipe",
     "result": "fish_and_chips",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "20 m",
@@ -2146,8 +2056,8 @@
   },{
     "type" : "recipe",
     "result": "stir_fried_carrot",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "20 m",
@@ -2167,16 +2077,13 @@
         ],
         [ [ "salt_preservation" , 1, "LIST" ] ],
         [ [ "pepper"            , 1         ] ],
-        [ 
-          [ "cooking_oil"       , 1         ],
-          [ "cooking_oil2"      , 1         ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "butter_toast",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_BREAD",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_BREAD",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -2191,8 +2098,8 @@
   },{
     "type" : "recipe",
     "result": "green_smoothie",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -2213,8 +2120,8 @@
   },{
     "type" : "recipe",
     "result": "gnocchi",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2237,8 +2144,8 @@
   },{
     "type" : "recipe",
     "result": "gnocchi_pesto",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "5 m",
@@ -2252,8 +2159,8 @@
   },{
     "type" : "recipe",
     "result": "gnocchi_red",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "5 m",
@@ -2267,8 +2174,8 @@
   },{
     "type" : "recipe",
     "result": "ikura",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2287,8 +2194,8 @@
   },{
     "type" : "recipe",
     "result": "scotch_egg",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2306,16 +2213,13 @@
         [ [ "eggs_any_shape"   , 2, "LIST" ] ,
           ["eggs_insect", 2, "LIST" ]
         ],
-        [ 
-          [ "cooking_oil"      , 1         ],
-          [ "cooking_oil2"     , 1         ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "yakitori_meat_tare",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "15 m",
@@ -2332,8 +2236,8 @@
   },{
     "type" : "recipe",
     "result": "yakitori_meat_salt",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "15 m",
@@ -2350,8 +2254,8 @@
   },{
     "type" : "recipe",
     "result": "spinach_saute",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "10 m",
@@ -2371,8 +2275,8 @@
   },{
     "type" : "recipe",
     "result": "ohitasi",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "10 m",
@@ -2391,8 +2295,8 @@
   },{
     "type" : "recipe",
     "result": "hotsand_spam_spinach",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_BREAD",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_BREAD",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2415,14 +2319,13 @@
   },{
     "type" : "recipe",
     "result": "egg_smoked",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_OTHER",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_OTHER",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
       "autolearn": true,
       "batch_time_factors": [ 83, 3 ],
-      "qualities": [ { "id": "COOK", "level": 1 } ],
       "tools": [ [ [ "char_smoker", 15 ] ] ],
       "components": [
          [ [ "eggs_any_shape", 1, "LIST" ] ,
@@ -2433,14 +2336,13 @@
   },{
     "type" : "recipe",
     "result": "cheese_smoked",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_OTHER",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_OTHER",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
       "autolearn": true,
       "batch_time_factors": [ 83, 3 ],
-      "qualities": [ { "id": "COOK", "level": 1 } ],
       "tools": [ [ [ "char_smoker", 15 ] ] ],
       "components": [
          [ 
@@ -2451,37 +2353,37 @@
   },{
     "type" : "recipe",
     "result": "soup_spinach",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
-      "difficulty": 3,
+      "difficulty": 2,
       "time": "20 m",
       "autolearn": true,
       "batch_time_factors": [ 83, 3 ],
       "qualities": [ { "id": "COOK", "level": 1 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-      "charges": 2,
+      "charges": 4,
       "components": [
-        [ [ "spinach"    , 1         ] ],
+        [ [ "spinach"           , 1         ] ],
         [ 
-          [ "powder_eggs", 10 ],
-          [ "eggs_any_shape", 2, "LIST" ],
-          ["eggs_insect", 2, "LIST" ]
+          [ "powder_eggs"       , 10        ],
+          [ "eggs_any_shape"    , 2, "LIST" ],
+          [ "eggs_insect"       , 2, "LIST" ]
         ],
-        [ [ "broth_bone" , 1         ],
-          [ "broth"      , 1         ]
+        [ [ "broth_bone"        , 1         ],
+          [ "broth"             , 1         ]
         ],
-        [ [ "salt_preservation", 2, "LIST" ] ],
-        [ [ "pepper"     , 2         ] ],
-        [ [ "water"      , 2         ],
-          [ "water_clean", 2         ]
+        [ [ "salt_preservation" , 2, "LIST" ] ],
+        [ [ "pepper"            , 2         ] ],
+        [ [ "water"             , 2         ],
+          [ "water_clean"       , 2         ]
         ]
       ]
   },{
     "type" : "recipe",
     "result": "ginger_flavored_pickled",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -2500,8 +2402,8 @@
   },{
     "type" : "recipe",
     "result": "shogayaki",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "15 m",
@@ -2515,16 +2417,13 @@
         [ [ "salt_preservation", 2, "LIST" ] ],
         [ [ "pepper"       , 1         ] ],
         [ [ "sugar"        , 1         ] ],
-        [ 
-          [ "cooking_oil"  , 1         ],
-          [ "cooking_oil2" , 1         ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
        ]      
   },{
     "type" : "recipe",
     "result": "shogatou",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_SNACK",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_SNACK",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "20 m",
@@ -2544,8 +2443,8 @@
   },{
     "type" : "recipe",
     "result": "shogayu",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_DRINKS",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRINKS",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "10 m",
@@ -2564,8 +2463,8 @@
   },{
     "type" : "recipe",
     "result": "honny_shogayu",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_DRINKS",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRINKS",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "10 m",
@@ -2588,8 +2487,8 @@
   },{
     "type" : "recipe",
     "result": "smoke_salmon",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2604,8 +2503,8 @@
   },{
     "type" : "recipe",
     "result": "smoke_salmon_carpaccio",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -2626,8 +2525,8 @@
   },{
     "type" : "recipe",
     "result": "smoke_nuts",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2654,8 +2553,8 @@
   },{
     "type" : "recipe",
     "result": "smoke_bacon",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2669,8 +2568,8 @@
   },{
     "type" : "recipe",
     "result": "peperoncino",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2690,8 +2589,8 @@
   },{
     "type" : "recipe",
     "result": "ginger_ale_syrup",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_DRINKS",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRINKS",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -2710,8 +2609,8 @@
   },{
     "type" : "recipe",
     "result": "ginger_ale",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 0,
       "time": "5 m",
@@ -2727,24 +2626,40 @@
   },{
     "type" : "recipe",
     "result": "yakiimo",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "20 m",
       "autolearn": true,
       "batch_time_factors": [ 83, 3 ],
       "charges": 2,
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
       "tools": [ [ [ "fire", -1 ] ] ],
       "components": [
            [ [ "sweet_potato", 1 ] ]
       ]
-  },{
+  },
+  {
+    "type" : "recipe",
+    "result": "yakimarshmallow",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_SNACK",
+      "skill_used": "cooking",
+      "difficulty": 1,
+      "time": "20 m",
+      "autolearn": true,
+      "batch_time_factors": [ 83, 3 ],
+      "charges": 2,
+      "tools": [ [ [ "fire", -1 ] ] ],
+      "components": [
+           [ [ "marshmallow", 1 ] ]
+      ]
+  },
+  {
     "type" : "recipe",
     "result": "sweet_potato_pie",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2764,16 +2679,13 @@
            [ [ "butter"        , 1         ] ],
            [ [ "milk_standard" , 1, "LIST" ] ],
            [ [ "sugar"         , 1         ] ],
-           [ 
-             [ "cooking_oil"   , 1         ],
-             [ "cooking_oil2"  , 1         ] 
-           ]
+           [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "sweet_potato_saute",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "15 m",
@@ -2789,8 +2701,8 @@
   },{
     "type" : "recipe",
     "result": "daigakuimo",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "15 m",
@@ -2811,8 +2723,8 @@
   },{
     "type" : "recipe",
     "result": "tempura_sweet_potato",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2828,32 +2740,29 @@
           [ "eggs_any_shape", 2, "LIST" ],
           ["eggs_insect", 2, "LIST" ]
         ],
-        [ 
-          [ "cooking_oil"  , 1         ],
-          [ "cooking_oil2" , 1         ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
        ]
   },{
     "type" : "recipe",
     "result": "sesame_oil",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_OTHER",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_OTHER",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
       "autolearn": true,
       "batch_time_factors": [ 83, 3 ],
       "charges": 40,
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "qualities": [ { "id": "COOK", "level": 2 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ],[ "mortar_pestle", -1 ] ] ],
       "components": [
-          [ [ "sesamum", 40 ] ]
+          [ [ "sesamum", 20 ] ]
        ]
   },{
     "type" : "recipe",
     "result": "kinpira",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -2862,8 +2771,10 @@
       "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
-        [ [ "carrot"            , 1 ],
-          [ "irradiated_carrot" , 1 ]
+        [ 
+          [ "carrot"            , 1 ],
+          [ "irradiated_carrot" , 1 ],
+          [ "raw_burdock"       , 1 ]
         ],
         [ [ "sugar"             , 1 ] ],
         [ [ "soysauce"          , 1 ] ],
@@ -2873,8 +2784,8 @@
   },{
     "type" : "recipe",
     "result": "gold_leaf",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 0,
       "time": "15 m",
@@ -2887,8 +2798,8 @@
   },{
     "type" : "recipe",
     "result": "gold_dust",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 0,
       "time": "15 m",
@@ -2901,8 +2812,8 @@
   },{
     "type" : "recipe",
     "result": "gold_dust_chocolate",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_SNACK",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_SNACK",
       "skill_used": "cooking",
       "difficulty": 0,
       "time": "1 m",
@@ -2915,8 +2826,8 @@
   },{
     "type" : "recipe",
     "result": "veggi_chips",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2929,8 +2840,7 @@
         [ [ "veggy_any"                , 4 , "LIST" ] ],
         [ 
           [ "olive_oil"                , 1          ],
-          [ "cooking_oil"              , 1          ],
-          [ "cooking_oil2"             , 1          ] 
+          [ "any_butter_or_oil", 1, "LIST" ]
         ],
         [ [ "sugar"                    , 1          ],
           [ "salt_preservation"        , 1, "LIST"  ] 
@@ -2939,8 +2849,8 @@
   },{
     "type" : "recipe",
     "result": "cajun_spice",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_OTHER",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_OTHER",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -2961,8 +2871,8 @@
   },{
     "type" : "recipe",
     "result": "gumbo_fish",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -2990,8 +2900,8 @@
   },{
     "type" : "recipe",
     "result": "gumbo_meat",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3022,8 +2932,8 @@
   },{
     "type" : "recipe",
     "result": "jambalaya",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3054,8 +2964,8 @@
   },{
     "type" : "recipe",
     "result": "ohitasi_okra",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -3071,8 +2981,8 @@
   },{
     "type" : "recipe",
     "result": "okra_saute",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "10 m",
@@ -3084,17 +2994,14 @@
         [ [ "okra"         , 1  ] ],
         [ [ "bacon"        , 1  ] ],
         [ [ "soysauce"     , 1  ] ],
-        [ 
-          [ "cooking_oil"  , 1  ],
-          [ "cooking_oil2" , 1  ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
       
   },{
     "type" : "recipe",
     "result": "natto_ferment",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 4,
       "time": "20 m",
@@ -3112,8 +3019,8 @@
   },{
     "type" : "recipe",
     "result": "natto_tamagoyaki",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -3124,16 +3031,13 @@
       "components": [
         [ [ "veggy_wild"   , 1  ] ],
         [ [ "natto"        , 1  ] ],
-        [ 
-          [ "cooking_oil"  , 1  ],
-          [ "cooking_oil2" , 1  ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "seed_upland_rice",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_SEEDS",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_SEEDS",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "30 m",
@@ -3148,8 +3052,8 @@
   },{
     "type" : "recipe",
     "result": "brown_rice",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "30 m",
@@ -3164,8 +3068,8 @@
   },{
     "type" : "recipe",
     "result": "brown_rice_cooked",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "20 m",
@@ -3183,8 +3087,8 @@
   },{
     "type" : "recipe",
     "result": "dry_rice",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "30 m",
@@ -3198,8 +3102,8 @@
   },{
     "type" : "recipe",
     "result": "buckwheat_flour",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -3214,8 +3118,8 @@
     "type" : "recipe",
     "result": "buckwheat_flour",
     "id_suffix": "from_mortar",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "30 m",
@@ -3231,8 +3135,8 @@
   },{
     "type" : "recipe",
     "result": "sobagaki",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "15 m",
@@ -3251,8 +3155,8 @@
   },{
     "type" : "recipe",
     "result": "buckwheat_cookie",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_SNACK",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_SNACK",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "20 m",
@@ -3273,16 +3177,13 @@
         ],
         [ [ "water"           , 1         ],
           [ "water_clean"     , 1         ] ],
-        [ 
-          [ "cooking_oil"     , 1         ],
-          [ "cooking_oil2"    , 1         ]
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "buckwheat_galette",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3305,16 +3206,13 @@
           [ "water"           , 1         ],
           [ "water_clean"     , 1         ] 
         ],
-        [ 
-          [ "cooking_oil"     , 1         ],
-          [ "cooking_oil2"    , 1         ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "galette_bacon_cheese_egg",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3342,16 +3240,13 @@
           [ "can_cheese"       , 1         ],
           [ "cheese_hard"      , 1         ]
         ], 
-        [ 
-          [ "cooking_oil"      , 1         ], 
-          [ "cooking_oil2"     , 1         ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "galette_honey_fruits",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3373,10 +3268,7 @@
         [ [ "water"            , 1         ],
           [ "water_clean"      , 1         ] 
         ],
-        [ 
-          [ "cooking_oil"      , 1         ],
-          [ "cooking_oil2"     , 1         ] 
-        ],
+        [ [ "any_butter_or_oil", 1, "LIST" ] ],
         [ [ "sweet_fruit_like" , 1 ,"LIST" ] ],
         [ 
           [ "honey_glassed"    , 1         ],
@@ -3386,8 +3278,8 @@
   },{
     "type" : "recipe",
     "result": "galette_salad",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3409,10 +3301,7 @@
         [ [ "water"                    , 1           ],
           [ "water_clean"              , 1           ] 
         ],
-        [ 
-          [ "cooking_oil"              , 1           ], 
-          [ "cooking_oil2"             , 1           ] 
-        ],
+        [ [ "any_butter_or_oil", 1, "LIST" ] ],
         [ [ "veggy_any"                , 2 , "LIST"  ] ],
         [ [ "olive_oil"                , 1           ] ],
         [ [ "pepper"                   , 1           ] ]
@@ -3420,8 +3309,8 @@
   },{
     "type" : "recipe",
     "result": "mentuyu",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_OTHER",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_OTHER",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "30 m",
@@ -3444,8 +3333,8 @@
   },{
     "type" : "recipe",
     "result": "teuti_soba",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 4,
       "time": "30 m",
@@ -3463,8 +3352,8 @@
   },{
     "type" : "recipe",
     "result": "zaru_soba",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -3484,8 +3373,8 @@
   },{
     "type" : "recipe",
     "result": "tukimi_soba",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "15 m",
@@ -3508,8 +3397,8 @@
   },{
     "type" : "recipe",
     "result": "sansai_soba",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "20 m",
@@ -3530,8 +3419,8 @@
   },{
     "type" : "recipe",
     "result": "croquettes_soba",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "20 m",
@@ -3552,8 +3441,8 @@
   },{
     "type" : "recipe",
     "result": "homemade_calorie_mate",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_SNACK",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_SNACK",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3572,8 +3461,8 @@
   },{
     "type" : "recipe",
     "result": "homemade_calorie_mate_honny",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_SNACK",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_SNACK",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3596,8 +3485,8 @@
   },{
     "type" : "recipe",
     "result": "homemade_calorie_mate_chocolate",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_SNACK",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_SNACK",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3620,8 +3509,8 @@
   },{
     "type" : "recipe",
     "result": "homemade_calorie_mate_fruits",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_SNACK",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_SNACK",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3641,8 +3530,8 @@
   },{
     "type" : "recipe",
     "result": "homemade_calorie_mate_maple",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_SNACK",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_SNACK",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3665,8 +3554,8 @@
   },{
     "type" : "recipe",
     "result": "homemade_calorie_mate_cheese",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_SNACK",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_SNACK",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3690,8 +3579,8 @@
   },{
     "type" : "recipe",
     "result": "can_pine",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "10 m",
@@ -3720,8 +3609,8 @@
   },{
     "type" : "recipe",
     "result": "can_orange",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "30 m",
@@ -3751,8 +3640,8 @@
   },{
     "type" : "recipe",
     "result": "clams_saute",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "15 m",
@@ -3769,8 +3658,8 @@
   },{
     "type" : "recipe",
     "result": "clams_wine_steamed",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "20 m",
@@ -3791,8 +3680,8 @@
   },{
     "type" : "recipe",
     "result": "clams_soup",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -3816,8 +3705,8 @@
   },{
     "type" : "recipe",
     "result": "omelet_plain",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -3834,16 +3723,13 @@
         ],
         [ [ "salt_preservation", 1, "LIST" ] ],
         [ [ "ketchup"      , 1          ] ],
-        [ 
-          [ "cooking_oil"  , 1          ],
-          [ "cooking_oil2" , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "omelet_meat_potato",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -3866,16 +3752,13 @@
           [ "irradiated_potato" , 1          ] ],
         [ [ "salt_preservation", 1, "LIST" ] ],
         [ [ "ketchup"           , 1          ] ],
-        [ 
-          [ "cooking_oil"       , 1          ],
-          [ "cooking_oil2"      , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "omelet_meat_cheese",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -3896,16 +3779,13 @@
           [ "cheese_hard"              , 1          ]
         ],
         [ [ "salt_preservation"        , 1 , "LIST" ] ],
-        [ 
-          [ "cooking_oil"              , 1          ],
-          [ "cooking_oil2"             , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "omelet_meat_natto",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -3923,16 +3803,13 @@
         [ [ "veggy_any"                , 1 , "LIST"  ] ],
         [ [ "natto"                    , 1           ] ],
         [ [ "salt_preservation"        , 1,  "LIST"  ] ],
-        [ 
-          [ "cooking_oil"              , 1           ],
-          [ "cooking_oil2"             , 1           ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "tortilla",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -3954,16 +3831,13 @@
           [ "irradiated_onion"  , 1          ] ],
         [ [ "salt_preservation" , 1, "LIST"  ] ],
         [ [ "pepper"            , 1          ] ],
-        [ 
-          [ "cooking_oil"       , 1          ],
-          [ "cooking_oil2"      , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "tomato_egg_saute",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "10 m",
@@ -3984,16 +3858,13 @@
         [ [ "salt_preservation" , 1 , "LIST" ] ],
         [ [ "pepper"            , 1          ] ],
         [ [ "sesame_oil"        , 1          ] ],
-        [ 
-          [ "cooking_oil"       , 1          ],
-          [ "cooking_oil2"      , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "chinese_corn_soup",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -4017,8 +3888,8 @@
   },{
     "type" : "recipe",
     "result": "oeuf_mayonnaise",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "10 m",
@@ -4040,8 +3911,8 @@
   },{
     "type" : "recipe",
     "result": "menemen",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "15 m",
@@ -4069,8 +3940,8 @@
   },{
     "type" : "recipe",
     "result": "Shakshka",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "10 m",
@@ -4099,15 +3970,15 @@
   },{
     "type" : "recipe",
     "result": "dashi_firewood_egg",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
       "autolearn": true,
       "charges": 4,
       "batch_time_factors": [ 83, 3 ],
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "qualities": [ { "id": "COOK", "level": 2 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
         [ 
@@ -4120,16 +3991,13 @@
         [ [ "broth_bone"     , 1         ],
           [ "broth"          , 1         ]
         ],
-        [ 
-          [ "cooking_oil"    , 1         ],
-          [ "cooking_oil2"   , 1         ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "Katsudon",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -4157,16 +4025,13 @@
         [ [ "pepper"           , 2          ] ],
         [ [ "soysauce"         , 1          ] ],
         [ [ "sugar"            , 1          ] ],
-        [ 
-          [ "cooking_oil"      , 1          ],
-          [ "cooking_oil2"     , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "tendon",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3 ,
       "time": "30 m",
@@ -4192,16 +4057,13 @@
         [ [ "pepper"                   , 2          ] ],
         [ [ "soysauce"                 , 1          ] ],
         [ [ "sugar"                    , 1          ] ],
-        [ 
-          [ "cooking_oil"              , 1          ],
-          [ "cooking_oil2"             , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "oyakodon",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -4226,16 +4088,13 @@
         [ [ "salt_preservation", 2, "LIST" ] ],
         [ [ "soysauce"         , 1         ] ],
         [ [ "sugar"            , 1         ] ],
-        [ 
-          [ "cooking_oil"      , 1         ],
-          [ "cooking_oil2"     , 1         ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "chawanmusi",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_OTHER",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_OTHER",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -4265,8 +4124,8 @@
   },{
     "type" : "recipe",
     "result": "instant_soup_dry_1",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_OTHER",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_OTHER",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -4295,8 +4154,8 @@
   },{
     "type" : "recipe",
     "result": "instant_soup_1",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "5 m",
@@ -4314,8 +4173,8 @@
   },{
     "type" : "recipe",
     "result": "instant_soup_dry_2",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_OTHER",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_OTHER",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -4343,8 +4202,8 @@
   },{
     "type" : "recipe",
     "result": "instant_soup_2",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -4362,8 +4221,8 @@
   },{
     "type" : "recipe",
     "result": "instant_soup_dry_3",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_OTHER",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_OTHER",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -4396,8 +4255,8 @@
   },{
     "type" : "recipe",
     "result": "instant_soup_3",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "5 m",
@@ -4415,8 +4274,8 @@
   },{
     "type" : "recipe",
     "result": "fiddlehead_soup",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "20 m",
@@ -4445,8 +4304,8 @@
   },{
     "type" : "recipe",
     "result": "fiddlehead_tenpura",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -4464,16 +4323,13 @@
           [ "eggs_any_shape", 2, "LIST" ],
           ["eggs_insect", 2, "LIST" ]
         ],
-        [ 
-          [ "cooking_oil"    , 1         ],
-          [ "cooking_oil2"   , 1         ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "chicken_rice",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -4497,16 +4353,13 @@
         [ [ "salt_preservation", 2, "LIST" ] ],
         [ [ "pepper"            , 2          ] ],
         [ [ "ketchup"           , 10         ] ],
-        [ 
-          [ "cooking_oil"       , 1          ],
-          [ "cooking_oil2"      , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "meat_nuggets",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "30 m",
@@ -4531,16 +4384,13 @@
         [ [ "ketchup"        , 10         ],
           [ "mustard"        , 10         ] 
         ],
-        [ 
-          [ "cooking_oil"    , 1          ],
-          [ "cooking_oil2"   , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "spaghetti_naporitan",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "15 m",
@@ -4564,8 +4414,8 @@
   },{
     "type" : "recipe",
     "result": "mustard_grill",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -4583,16 +4433,13 @@
         [ [ "pepper"         , 2         ] ],
         [ [ "soysauce"       , 1         ] ],
         [ [ "mustard"        , 10        ] ],
-        [ 
-          [ "cooking_oil"    , 1         ],
-          [ "cooking_oil2"   , 1         ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "steak_horseradish",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -4611,8 +4458,8 @@
   },{
     "type" : "recipe",
     "result": "steak_soysauce",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -4632,29 +4479,29 @@
   },{
     "type" : "recipe",
     "result": "miso_ferment",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_OTHER",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_OTHER",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
       "autolearn": true,
       "charges": 100,
       "batch_time_factors": [ 83, 3 ],
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "qualities": [ { "id": "COOK", "level": 2 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
-        [ [ "soybean"     , 10 ] ],
-        [ [ "salt_preservation", 10, "LIST" ] ],
-        [ [ "water"       , 3  ],
-          [ "water_clean" , 3  ] 
+        [ [ "soybean"           , 10         ] ],
+        [ [ "salt_preservation" , 10 , "LIST"] ],
+        [ [ "water"             , 3          ],
+          [ "water_clean"       , 3          ] 
         ]
       ]
       
   },{
     "type" : "recipe",
     "result": "fish_powder",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -4678,8 +4525,8 @@
   },{
     "type" : "recipe",
     "result": "miso_soup_1",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -4690,7 +4537,7 @@
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
         [ [ "fish_powder"  , 10 ] ],
-        [ [ "miso"         , 10 ] ],
+        [ [ "miso"         , 1 ] ],
         [ [ "water"        , 1  ],
           [ "water_clean"  , 1  ] 
         ]
@@ -4699,8 +4546,8 @@
   },{
     "type" : "recipe",
     "result": "miso_soup_2",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -4711,7 +4558,7 @@
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
         [ [ "fish_powder"              , 10         ] ],
-        [ [ "miso"                     , 10         ] ],
+        [ [ "miso"                     , 1         ] ],
         [ [ "veggy_any"                , 2 , "LIST" ] ],
         [ [ "water"                    , 1          ],
           [ "water_clean"              , 1          ] 
@@ -4721,8 +4568,8 @@
   },{
     "type" : "recipe",
     "result": "miso_soup_3",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -4733,7 +4580,7 @@
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
         [ [ "fish_powder"  , 10 ] ],
-        [ [ "miso",          10 ] ],
+        [ [ "miso",          1 ] ],
         [ [ "fish"         , 1  ],
           [ "dry_fish"     , 1  ] 
         ],
@@ -4744,8 +4591,8 @@
   },{
     "type" : "recipe",
     "result": "miso_soup_4",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -4756,7 +4603,7 @@
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
         [ [ "fish_powder"  , 10 ] ],
-        [ [ "miso"         , 10 ] ],
+        [ [ "miso"         , 1 ] ],
         [ [ "can_clams"    , 1  ] ],
         [ [ "water"        , 1  ],
           [ "water_clean"  , 1  ] 
@@ -4765,8 +4612,8 @@
   },{
     "type" : "recipe",
     "result": "miso_soup_5",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -4777,7 +4624,7 @@
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
         [ [ "fish_powder"              , 10         ] ],
-        [ [ "miso"                     , 10         ] ],
+        [ [ "miso"                     , 1          ] ],
         [ [ "natto"                    , 1          ] ],
         [ [ "veggy_any"                , 1 , "LIST" ] ],
         [ [ "water"                    , 1          ],
@@ -4788,8 +4635,8 @@
   },{
     "type" : "recipe",
     "result": "miso_soup_6",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -4800,7 +4647,7 @@
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
         [ [ "fish_powder"               , 10         ] ],
-        [ [ "miso"                      , 10         ] ],
+        [ [ "miso"                      , 1          ] ],
         [ 
           [ "meat_red_raw"              , 1 , "LIST" ],
           [ "dry_meat"                  , 1          ]  
@@ -4813,15 +4660,15 @@
   },{
     "type" : "recipe",
     "result": "yaki_onigiri_1",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "15 m",
       "autolearn": true,
       "batch_time_factors": [ 83, 3 ],
       "charges": 2,
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "qualities": [ { "id": "COOK", "level": 1 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
         [ [ "rice_cooked" , 2 ] ],
@@ -4832,15 +4679,15 @@
   },{
     "type" : "recipe",
     "result": "yaki_onigiri_2",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "15 m",
       "autolearn": true,
       "batch_time_factors": [ 83, 3 ],
       "charges": 2,
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "qualities": [ { "id": "COOK", "level": 1 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
         [ [ "rice_cooked" , 2 ] ],
@@ -4851,8 +4698,8 @@
   },{
     "type" : "recipe",
     "result": "miso_soup_1_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_DRY",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRY",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -4876,8 +4723,8 @@
   },{
     "type" : "recipe",
     "result": "miso_soup_2_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_DRY",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRY",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -4902,8 +4749,8 @@
   },{
     "type" : "recipe",
     "result": "miso_soup_3_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_DRY",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRY",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -4927,8 +4774,8 @@
   },{
     "type" : "recipe",
     "result": "miso_soup_4_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_DRY",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRY",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -4952,8 +4799,8 @@
   },{
     "type" : "recipe",
     "result": "miso_soup_5_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_DRY",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRY",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -4978,8 +4825,8 @@
   },{
     "type" : "recipe",
     "result": "miso_soup_6_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_DRY",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRY",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "30 m",
@@ -5006,8 +4853,8 @@
     "type" : "recipe",
     "result": "miso_soup_1",
     "id_suffix": "from_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 0,
       "time": "5 m",
@@ -5027,8 +4874,8 @@
     "type" : "recipe",
     "result": "miso_soup_2",
     "id_suffix": "from_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 0,
       "time": "5 m",
@@ -5048,8 +4895,8 @@
     "type" : "recipe",
     "result": "miso_soup_3",
     "id_suffix": "from_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 0,
       "time": "5 m",
@@ -5069,8 +4916,8 @@
     "type" : "recipe",
     "result": "miso_soup_4",
     "id_suffix": "from_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 0,
       "time": "5 m",
@@ -5090,8 +4937,8 @@
     "type" : "recipe",
     "result": "miso_soup_5",
     "id_suffix": "from_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 0,
       "time": "5 m",
@@ -5111,8 +4958,8 @@
     "type" : "recipe",
     "result": "miso_soup_6",
     "id_suffix": "from_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 0,
       "time": "5 m",
@@ -5132,8 +4979,8 @@
     "type" : "recipe",
     "result": "cucumber_miso",
     "id_suffix": "from_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 0,
       "time": "5 m",
@@ -5149,8 +4996,8 @@
   },{
     "type" : "recipe",
     "result": "miso_saute_fish",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -5166,8 +5013,8 @@
   },{
     "type" : "recipe",
     "result": "miso_saute_meat",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -5183,8 +5030,8 @@
   },{
     "type" : "recipe",
     "result": "tantanmen",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -5208,16 +5055,13 @@
         [ [ "spaghetti_cooked" , 1          ] ],
         [ ["veggy_wild"        , 1          ] ],
         [ [ "sesamum"          , 10         ] ],
-        [ 
-          [ "cooking_oil"      , 1          ],
-          [ "cooking_oil2"     , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "zhajiangmian",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_PASTA",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_PASTA",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -5241,16 +5085,13 @@
         [ [ "cucumber"            , 1          ],
           [ "irradiated_cucumber" , 1          ] 
         ],
-        [ 
-          [ "cooking_oil"         , 1          ],
-          [ "cooking_oil2"        , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "tofu_nikumiso",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "15 m",
@@ -5270,16 +5111,13 @@
           [ "chilly-p"     , 10         ] 
         ],
         [ [ "tofu"         , 1          ] ],
-        [ 
-          [ "cooking_oil"  , 1          ],
-          [ "cooking_oil2" , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]      
   },{
     "type" : "recipe",
     "result": "gaspacho",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -5304,8 +5142,8 @@
   },{
     "type" : "recipe",
     "result": "potage_1",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -5314,25 +5152,28 @@
       "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
       "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
       "components": [
-        [ [ "potato"            , 1         ],
-          [ "irradiated_potato" , 1         ] 
+        [ 
+          [ "potato"            , 1          ],
+          [ "irradiated_potato" , 1          ] 
         ],
-        [ [ "onion"             , 1         ],
-          [ "irradiated_onion"  , 1         ]
+        [ 
+          [ "onion"             , 1          ],
+          [ "irradiated_onion"  , 1          ]
         ],
-        [ [ "butter"            , 1         ] ],
-        [ [ "water"             , 3         ],
-          [ "water_clean"       , 3         ]
+        [ [ "butter"            , 1          ] ],
+        [ 
+          [ "water"             , 1          ],
+          [ "water_clean"       , 1          ]
         ],
         [ [ "milk_standard"     , 1 , "LIST" ] ],
-        [ [ "pepper"            , 1         ] ],
+        [ [ "pepper"            , 1          ] ],
         [ [ "salt_preservation" , 1 , "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "potage_2",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -5346,8 +5187,8 @@
           [ "irradiated_onion"  , 1         ]
         ],
         [ [ "butter"            , 1         ] ],
-        [ [ "water"             , 3         ],
-          [ "water_clean"       , 3         ]
+        [ [ "water"             , 1         ],
+          [ "water_clean"       , 1         ]
         ],
         [ [ "milk_standard"     , 1 ,"LIST" ] ],
         [ [ "pepper"            , 1         ] ],
@@ -5357,8 +5198,8 @@
   },{
     "type" : "recipe",
     "result": "potage_3",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -5374,8 +5215,8 @@
           [ "irradiated_onion"   , 1         ]
         ],
         [ [ "butter"             , 1         ] ],
-        [ [ "water"              , 3         ],
-          [ "water_clean"        , 3         ]
+        [ [ "water"              , 1         ],
+          [ "water_clean"        , 1         ]
         ],
         [ [ "milk_standard"      , 1 ,"LIST" ] ],
         [ [ "pepper"             , 1         ] ],
@@ -5385,8 +5226,8 @@
   },{
     "type" : "recipe",
     "result": "muffin_1",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_BREAD",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_BREAD",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -5427,8 +5268,8 @@
   },{
     "type" : "recipe",
     "result": "tofu_hamburg_steak",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -5450,16 +5291,13 @@
           [ "eggs_any_shape", 2, "LIST" ],
           ["eggs_insect", 2, "LIST" ]
         ],
-        [ 
-          [ "cooking_oil"      , 1          ],
-          [ "cooking_oil2"     , 1          ] 
-        ]
+        [ [ "any_butter_or_oil", 1, "LIST" ] ]
       ]
   },{
     "type" : "recipe",
     "result": "curry_dry",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -5505,8 +5343,8 @@
     "result": "curry_dry",
     "id_suffix": "from_meat",
     "charges": 2,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "20 m",
@@ -5549,8 +5387,8 @@
     "type": "recipe",
     "result": "gapa_rice",
     "charges": 1,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "20 m",
@@ -5585,8 +5423,8 @@
     "type": "recipe",
     "result": "tomkakai",
     "charges": 1,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "20 m",
@@ -5612,8 +5450,8 @@
     "type": "recipe",
     "result": "lyon_style_salad",
     "charges": 2,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "20 m",
@@ -5642,8 +5480,8 @@
     "type": "recipe",
     "result": "caprese",
     "charges": 2,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "20 m",
@@ -5666,8 +5504,8 @@
     "type": "recipe",
     "result": "macedonia",
     "charges": 2,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "10 m",
@@ -5687,8 +5525,8 @@
     "result": "macedonia",
     "id_suffix": "from_veggi",
     "charges": 2,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "10 m",
@@ -5708,8 +5546,8 @@
     "type": "recipe",
     "result": "pai_huanggua",
     "charges": 2,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "10 m",
@@ -5733,13 +5571,13 @@
     "type": "recipe",
     "result": "olivier_salad",
     "charges": 2,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "10 m",
     "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
     "components": [
       [ [ "veggy_any"                , 3 , "LIST" ] ],
@@ -5763,8 +5601,8 @@
     "type": "recipe",
     "result": "kasza",
     "charges": 1,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
     "time": "20 m",
@@ -5783,8 +5621,8 @@
     "type": "recipe",
     "result": "otyaduke_1",
     "charges": 1,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_VEGGI",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "10 m",
@@ -5805,13 +5643,12 @@
     "type": "recipe",
     "result": "sauce_cocktail",
     "charges": 20,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 2,
-    "time": "20 m",
+    "time": "10 m",
     "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
     "components": [
       [ [ "ketchup"     ,10 ] ],
       [ [ "horseradish" ,10  ] ]
@@ -5821,8 +5658,8 @@
     "type": "recipe",
     "result": "seafood_cocktail",
     "charges": 1,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "10 m",
@@ -5838,8 +5675,8 @@
     "type": "recipe",
     "result": "fish_fly",
     "charges": 2,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "20 m",
@@ -5856,10 +5693,7 @@
         [ "eggs_any_shape", 2, "LIST" ],
         ["eggs_insect", 2, "LIST" ]
       ],
-      [ 
-        [ "cooking_oil"    , 1          ],
-        [ "cooking_oil2"   , 1          ] 
-      ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [ [ "sauce_cocktail" , 10         ] ]
 
     ]
@@ -5868,8 +5702,8 @@
     "type": "recipe",
     "result": "ketchup_chips",
     "charges": 1,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "20 m",
@@ -5880,10 +5714,7 @@
       [ [ "potato"            , 1  ],
         [ "irradiated_potato" , 1  ] 
       ],
-      [
-        [ "cooking_oil"       , 1  ],
-        [ "cooking_oil2"      , 1  ] 
-      ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [ [ "ketchup"           , 10 ] ]
     ]
   },
@@ -5891,8 +5722,8 @@
     "type": "recipe",
     "result": "fried_butter",
     "charges": 4,
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -5902,10 +5733,7 @@
     "components": [
       [ [ "butter"            , 4  ] ],
       [ [ "flour"             , 1  ] ],
-      [
-        [ "cooking_oil"       , 6  ],
-        [ "cooking_oil2"      , 6  ] 
-      ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [ 
         [ "sugar"                    , 2          ],
         [ "jam_fruit"                , 2          ],
@@ -5916,8 +5744,8 @@
   },{
     "type" : "recipe",
     "result": "sweet_potato_cooked",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "10 m",
@@ -5932,8 +5760,8 @@
   },{
     "type" : "recipe",
     "result": "ajillo",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "15 m",
@@ -5955,37 +5783,12 @@
         [ [ "salt_preservation"        , 1,  "LIST" ] ],
         [ [ "garlic_clove"             , 1          ] ]
       ]
-  },{
-    "type" : "recipe",
-    "result": "confit",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
-      "skill_used": "cooking",
-      "difficulty": 1,
-      "time": "15 m",
-      "autolearn": true,
-      "batch_time_factors": [ 83, 3 ],
-      "charges": 2,
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
-      "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-      "components": [
-        [ [ "fish"                     , 1          ],
-          [ "dry_fish"                 , 1          ],
-          [ "meat_red"                 , 1 , "LIST" ],
-          [ "dry_meat"                 , 1          ],
-          [ "meat_offal"               , 1,  "LIST" ] 
-        ],
-        [ [ "olive_oil"                , 1          ] ],
-        [ [ "salt_preservation"        , 1, "LIST"  ] ],
-        [ [ "garlic_clove"             , 1          ] ],
-        [ [ "thyme"                    , 1          ] ]
-      ]
   },
   {
     "type" : "recipe",
     "result": "miso_butter_gohan",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 2,
       "time": "15 m",
@@ -6013,8 +5816,8 @@
   {
     "type" : "recipe",
     "result": "pumpkin_stew",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -6041,8 +5844,8 @@
   {
     "type" : "recipe",
     "result": "moti",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -6061,11 +5864,11 @@
     "type" : "recipe",
     "result": "moti_pack",
     "container": "plastic_bag_vac",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
-      "time": "30 m",
+      "time": "20 m",
       "autolearn": true,
       "qualities": [ { "id": "COOK", "level": 2 } ],
       "tools": [
@@ -6086,8 +5889,8 @@
   },{
     "type" : "recipe",
     "result": "moti_suger",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "10 m",
@@ -6106,11 +5909,11 @@
   },{
     "type" : "recipe",
     "result": "moti_soy",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
-      "time": "30 m",
+      "time": "10 m",
       "autolearn": true,
       "qualities": [ { "id": "COOK", "level": 2 } ],
       "tools": [ 
@@ -6130,11 +5933,11 @@
     "type" : "recipe",
     "result": "moti_soy",
     "id_suffix": "food_processor",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
-      "time": "20 m",
+      "time": "10 m",
       "autolearn": true,
       "qualities": [ { "id": "COOK", "level": 2 } ],
       "tools": [ 
@@ -6153,8 +5956,8 @@
   },{
     "type" : "recipe",
     "result": "zenzai",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -6182,8 +5985,8 @@
   },{
     "type" : "recipe",
     "result": "zoni",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_VEGGI",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_VEGGI",
       "skill_used": "cooking",
       "difficulty": 3,
       "time": "20 m",
@@ -6208,8 +6011,8 @@
   },{
     "type" : "recipe",
     "result": "basasi",
-      "category": "CC_FOOD",
-      "subcategory": "CSC_FOOD_MEAT",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
       "skill_used": "cooking",
       "difficulty": 1,
       "time": "5 m",
@@ -6229,8 +6032,8 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "pizza_mayo_corn",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "20 m",
@@ -6238,13 +6041,15 @@
     "qualities": [ { "id": "COOK", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
     "components": [
-      [ [ "flour", 30 ] ],
+      [ [ "flour", 30 ], [ "flour_wheat_free", 30 ] ],
       [ [ "mayonnaise", 20         ] ],
       [ [ "sauce_red", 1 ], [ "seasoning_italian", 5 ], [ "wild_herbs", 10 ] ],
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "corn", 1 ], 
         ["irradiated_corn", 1],
-        ["can_corn",1 ]
+        ["can_corn",1 ], 
+        ["corn_kernels" , 1],
+        ["dry_corn", 5] 
       ]
     ]
   },
@@ -6252,8 +6057,8 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "pizza_mayo",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "20 m",
@@ -6261,7 +6066,8 @@
     "qualities": [ { "id": "COOK", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
     "components": [
-      [ [ "flour", 30 ] ],
+      [ [ "flour", 30 ], [ "flour_wheat_free", 30 ] ],
+      [ [ "mayonnaise", 20         ] ],
       [
         [ "meat_red", 2, "LIST" ],
         [ "can_chicken", 2 ],
@@ -6282,8 +6088,8 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "hamburg_steak_bellpepper",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "20 m",
@@ -6312,13 +6118,13 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "bellpepper_miso_coocked",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
     "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
     "components": [
       [
@@ -6344,8 +6150,8 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "protein_bar_milk",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_OTHER",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_OTHER",
     "skill_used": "cooking",
     "difficulty": 0,
     "time": "5 m",
@@ -6381,8 +6187,7 @@
         [ "candy3", 1 ],
         [ "maple_candy", 1 ],
         [ "syrup", 1 ],
-        [ "strawberries", 1 ],
-        [ "strawberries_cooked", 1 ],
+        [ "strawberries", 1 ],        [ "strawberries_cooked", 1 ],
         [ "irradiated_strawberries", 1 ],
         [ "blueberries", 1 ],
         [ "blueberries_cooked", 1 ],
@@ -6392,5 +6197,679 @@
       ],
       [ [ "sugar", 20 ], [ "artificial_sweetener", 20 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "zunda",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "1 h",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
+    "components": [
+      [
+        [ "raw_edamame", 2 ]
+      ],
+      [ 
+        [ "sugar_standard" , 1  , "LIST" ]
+      ],
+      [ [ "salt_preservation", 1, "LIST"  ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "zundamoti",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": "5 m",
+    "autolearn": true,
+    "components": [
+      [
+        [ "zunda", 1 ]
+      ],
+      [ 
+        [ "moti"          , 1 ],
+        [ "moti_pack"     , 1 ] 
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "kiritanpo",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
+    "components": [
+      [
+        [ "dry_rice", 2 ]
+      ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "splinter"    , 1          ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "kiritanpo_miso",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
+    "components": [
+      [
+        [ "kiritanpo", 1 ]
+      ],
+      [ [ "miso", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "milk_jam_drink",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_DRINKS",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": "5 m",
+    "batch_time_factors": [ 99, 2 ],
+    "autolearn": true,
+    "components": [
+      [ [ "milk", 1 ] ],
+      [ [ "jam_fruit", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "jam_drink",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_DRINKS",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": "5 m",
+    "batch_time_factors": [ 99, 2 ],
+    "autolearn": true,
+    "components": [
+      [ [ "jam_fruit", 1 ] ],
+      [ [ "water_clean", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "cafeaulait",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_DRINKS",
+    "skill_used": "cooking",
+    "time": "10 m",
+    "autolearn": true,
+    "batch_time_factors": [ 80, 4 ],
+    "qualities": [ { "id": "BOIL", "level": 1 } ],
+    "tools": [ [ [ "water_boiling_heat", 3, "LIST" ] ] ],
+    "components": [ 
+      [ 
+        [ "coffee_raw", 1 ],
+        [ "coffee_syrup", 1 ] 
+      ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "milk_standard", 1, "LIST" ], ["milk_powder", 1] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "cafeaulait_sweet",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_DRINKS",
+    "skill_used": "cooking",
+    "time": "10 m",
+    "autolearn": true,
+    "batch_time_factors": [ 80, 4 ],
+    "qualities": [ { "id": "BOIL", "level": 1 } ],
+    "tools": [ [ [ "water_boiling_heat", 3, "LIST" ] ] ],
+    "components": [ 
+      [ 
+        [ "coffee_raw", 1 ],
+        [ "coffee_syrup", 1 ] 
+      ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "milk_standard", 1, "LIST" ], ["milk_powder", 1] ],
+      [ [ "sugar_standard" , 1  , "LIST" ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "vienna_coffee",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_DRINKS",
+    "skill_used": "cooking",
+    "time": "10 m",
+    "autolearn": true,
+    "batch_time_factors": [ 80, 4 ],
+    "qualities": [ { "id": "BOIL", "level": 1 } ],
+    "tools": [ [ [ "water_boiling_heat", 3, "LIST" ] ] ],
+    "components": [ 
+      [ 
+        [ "coffee_raw", 1 ],
+        [ "coffee_syrup", 1 ] 
+      ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "milk_cream_whipped", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "vienna_coffee2",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_DRINKS",
+    "skill_used": "cooking",
+    "time": "10 m",
+    "autolearn": true,
+    "batch_time_factors": [ 80, 4 ],
+    "qualities": [ { "id": "BOIL", "level": 1 } ],
+    "tools": [ [ [ "water_boiling_heat", 3, "LIST" ] ] ],
+    "components": [ 
+      [ 
+        [ "coffee_raw", 1 ],
+        [ "coffee_syrup", 1 ] 
+      ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ 
+        [ "sweet_sausage", 1 ],
+        [ "sausage", 1 ],
+        [ "sausage_cooked", 1 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "butter_coffee",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_DRINKS",
+    "skill_used": "cooking",
+    "time": "10 m",
+    "autolearn": true,
+    "batch_time_factors": [ 80, 4 ],
+    "qualities": [ { "id": "BOIL", "level": 1 } ],
+    "tools": [ [ [ "water_boiling_heat", 3, "LIST" ] ] ],
+    "components": [ 
+      [ 
+        [ "coffee_raw", 1 ],
+        [ "coffee_syrup", 1 ] 
+      ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ 
+        [ "butter", 1 ],
+        [ "raw_butter", 1 ],
+        [ "ghee", 1 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "hotbuttered_rum",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_DRINKS",
+    "skill_used": "cooking",
+    "time": "5 m",
+    "autolearn": true,
+    "batch_time_factors": [ 80, 4 ],
+    "qualities": [ { "id": "BOIL", "level": 1 } ],
+    "tools": [ [ [ "water_boiling_heat", 3, "LIST" ] ] ],
+    "components": [ 
+      [ [ "rum", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ 
+        [ "butter", 1 ],
+        [ "raw_butter", 1 ],
+        [ "ghee", 1 ]
+      ],
+      [ [ "sugar_standard" , 1  , "LIST" ] ]
+    ]
+  },
+  {
+  "type" : "recipe",
+  "result": "shredded_green_pepper_meat",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 2,
+    "components": [
+      [ [ "meat_red_raw"     , 2, "LIST" ] ],
+      [ [ "veggy_any"        , 1 , "LIST" ] ],
+      [ [ "bell_pepper", 1  ] ],
+      [ [ "salt_preservation", 1, "LIST"  ] ],
+      [ [ "pepper", 1  ] ],
+      [ [ "soysauce", 1        ] ],
+      [ [ "garlic_clove"      , 1 ] ],
+      [ [ "sesame_oil"      , 1 ] ]
+    ]
+  },
+  {
+  "type" : "recipe",
+  "result": "mustard_coocked_1",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 2,
+    "components": [
+      [ [ "meat_red_raw"     , 1, "LIST" ] ],
+      [ [ "mustard" , 5 ] ],
+      [ [ "salt_preservation", 1, "LIST"  ] ],
+      [ [ "mayonnaise", 5         ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ]
+    ]
+  },
+  {
+  "type" : "recipe",
+  "result": "mustard_coocked_2",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 2,
+    "components": [
+      [ [ "fish"             , 1 ] ],
+      [ [ "mustard" , 5 ] ],
+      [ [ "salt_preservation", 1, "LIST"  ] ],
+      [ [ "mayonnaise", 5         ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ]
+    ]
+  },
+  {
+  "type" : "recipe",
+  "result": "water_soda",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_DRINKS",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": "5 m",
+    "autolearn": true,
+    "charges": 1,
+    "components": [
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "chem_citric_acid" , 1] ],
+      [ [ "chem_sodium_bicarbonate" , 1], [ "pepto" , 1 ] ]
+    ]
+  },
+  {
+  "type" : "recipe",
+  "result": "breakfast_set_1",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [
+      [
+        [ "veggy"                   , 2         ],
+        [ "veggy_wild"              , 2         ],
+        [ "veggy_salted"            , 2         ],
+        [ "rehydrated_veggy"        , 2         ],
+        [ "dry_veggy"               , 2         ],
+        [ "rehydrated_corn_kernels" , 2         ],
+        [ "dry_corn"                , 2         ],
+        [ "corn_kernels"            , 2         ],
+        [ "mushroom"                , 2         ],
+        [ "dry_mushroom"            , 2         ],
+        [ "morel_cooked"            , 2         ],
+        [ "mushroom_cooked"         , 2         ],
+        [ "can_beans"               , 1         ],
+        [ "dry_beans"               , 1         ],
+        [ "raw_beans"               , 1         ],
+        [ "dry_lentils"             , 1         ],
+        [ "raw_lentils"             , 1         ],
+        [ "dry_rice"                , 1         ]
+      ],
+      [ [ "tomato"                  , 1         ],
+        [ "irradiated_tomato"       , 1         ],
+        [ "can_tomato"              , 1         ] 
+      ],
+      [ [ "meat_red"                , 1, "LIST" ], 
+        [ "dry_meat"                , 1         ], 
+        [ "can_chicken"             , 1         ] 
+      ],
+      [ [ "curry_powder"            , 4         ], 
+        [ "chilly-p"                , 4         ] 
+      ],
+
+      [ [ "milk_standard"           , 1,"LIST" ] ],
+      [ [ "yoghurt"                 , 1        ] ],
+      [ 
+        [ "sugar"                   , 1        ],
+        [ "jam_fruit"               , 1        ],
+        [ "honey_glassed"           , 1        ],
+        [ "honey_bottled"           , 1        ]
+      ]
+    ]
+    
+  },
+  {
+  "type" : "recipe",
+  "result": "breakfast_set_2",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [
+
+      [ [ "milk_standard"      , 1  ,"LIST" ] ],
+      [ [ "tea_raw"            , 1          ] ],
+      [ 
+        [ "water"              , 1          ],
+        [ "water_clean"        , 1          ]
+      ],
+      [ [ "flour"              , 10         ] ],
+      [ [ "sugar_standard"     , 1 , "LIST" ] ]
+    ]
+  },
+  {
+  "type" : "recipe",
+  "result": "breakfast_set_3",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [
+      [ [ "bread_sandwich"   , 1, "LIST" ] ],
+      [ 
+        [ "meat_frond"       , 1         ],
+        [ "veggy"            , 1         ]
+      ],
+      [ 
+        [ "veggy_tainted"    , 1         ],
+        [ "mushroom"         , 1         ]
+      ],
+      [ [ "vodka"            , 1         ] ],
+      [ [ "meat"             , 1         ] ],
+      [ [ "slime_scrap"      , 1         ] ],
+      [ 
+        [ "ketchup"          ,10         ], 
+        [ "mayonnaise"       ,10         ]      
+      ],
+      [ [ "newest_newspaper" , 1         ] ]
+    ]
+  },
+  {
+  "type" : "recipe",
+  "result": "breakfast_set_4",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [
+      [ [ "dry_rice"         , 1 ] ],
+      [ 
+        [ "water"            , 1 ],
+        [ "water_clean"      , 1 ]
+      ],
+      [ [ "fish"             , 1 ] ],
+      [ [ "kinpira"          , 1 ] ],
+      [ [ "karaage"          , 1 ] ],
+      [ [ "japanese_pickles" , 1 ] ],
+      [ [ "egg_roasted"      , 1 ] ]
+    ]
+  },
+  {
+  "type" : "recipe",
+  "result": "basil_grilled",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [
+      [ [ "sauce_pesto"  , 2         ] ],
+      [ [ "meat_red_raw" , 2, "LIST" ] ],
+      [ [ "flour"        , 10        ] ]
+    ]
+  },
+  {
+  "type" : "recipe",
+  "result": "apple_lemonade",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_DRINKS",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "charges": 2,
+    "components": [
+      [ [ "lemonade"    , 1  ] ],
+      [ [ "apple_cider" , 1  ] ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "dry_meat_drying",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRY",
+      "skill_used": "cooking",
+      "difficulty": 2,
+      "time": "5 m",
+      "batch_time_factors": [ 95, 2 ],
+      "autolearn": true,
+      "qualities": [ { "id": "CUT", "level": 1 } ],
+      "tools": [ [ [ "wire_mesh",-1 ] ] ],
+      "components": [
+        [ [ "meat_red_raw" , 1, "LIST" ] ],
+        [ [ "salt_preservation", 1, "LIST" ] ]
+      ]
+  },
+  {
+    "type" : "recipe",
+    "result": "dry_veggy_drying",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRY",
+      "skill_used": "cooking",
+      "difficulty": 2,
+      "time": "5 m",
+      "batch_time_factors": [ 95, 2 ],
+      "autolearn": true,
+      "qualities": [ { "id": "CUT", "level": 1 } ],
+      "tools": [ [ [ "wire_mesh",-1 ] ] ],
+      "components": [
+        [ [ "meat_red_raw" , 1, "LIST" ] ],
+        [ [ "salt_preservation", 1, "LIST" ] ]
+      ]
+  },
+  {
+    "type" : "recipe",
+    "result": "dry_fruit_drying",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_DRY",
+      "skill_used": "cooking",
+      "difficulty": 2,
+      "time": "5 m",
+      "batch_time_factors": [ 95, 2 ],
+      "autolearn": true,
+      "qualities": [ { "id": "CUT", "level": 1 } ],
+      "tools": [ [ [ "wire_mesh",-1 ] ] ],
+      "components": [
+        [ [ "meat_red_raw" , 1, "LIST" ] ],
+        [ [ "salt_preservation", 1, "LIST" ] ]
+      ]
+  },
+  {
+    "type" : "recipe",
+    "result": "cacao_powder",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": "2 h ",
+    "batch_time_factors": [ 95, 2 ],
+    "autolearn": true,
+    "charges": 100,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 75, "LIST" ] ], [ [ "rock_quern", -1 ], [ "clay_quern", -1 ] ] ],
+    "components": [
+      [ [ "cacao_fruit", 1 ] ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "cacao_powder",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_SNACK",
+    "id_suffix": "food_processor",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "30 m",
+    "batch_time_factors": [ 95, 2 ],
+    "autolearn": true,
+    "charges": 100,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 75, "LIST" ] ], [ [ "food_processor", 20 ] ] ],
+    "components": [
+      [ [ "cacao_fruit", 1 ] ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "chocolate",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": "1 h 30 m",
+    "batch_time_factors": [ 95, 2 ],
+    "autolearn": true,
+    "charges": 10,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "components": [
+      [ [ "cacao_powder" , 40 ] ],
+      [ [ "sugar_standard", 3, "LIST" ] ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "cocoa",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_DRINKS",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": "1m",
+    "batch_time_factors": [ 95, 2 ],
+    "autolearn": true,
+    "charges": 1,
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "components": [
+      [ [ "cacao_powder" , 5 ] ],
+      [ [ "sugar_standard", 1, "LIST" ] ],
+      [ [ "water", 1 ],
+        [ "water_clean", 1] 
+      ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "horse_tartar_steak",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
+      "skill_used": "cooking",
+      "difficulty": 3,
+      "time": "15 m",
+      "autolearn": true,
+      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
+      "charges": 2,
+      "components": [
+        [ [ "meat_horse"          , 1 ] ],
+        [ [ "onion"            , 1          ],
+          [ "irradiated_onion" , 1          ]
+        ],
+        [ [ "garlic_clove"        , 1 ] ],
+        [ [ "salt_preservation", 1 , "LIST" ] ],
+        [ [ "pepper"           , 2          ] ],
+        [ 
+          [ "powder_eggs", 5 ],
+          [ "eggs_any_shape", 1, "LIST" ],
+          [ "eggs_insect", 1, "LIST" ]
+        ]
+      ]
+  },
+  {
+    "type" : "recipe",
+    "result": "sakuranabe",
+      "category": "CC_MMF",
+      "subcategory": "CSC_MMF_MEAT",
+      "skill_used": "cooking",
+      "difficulty": 3,
+      "time": "20 m",
+      "autolearn": true,
+      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+      "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+      "charges": 2,
+      "components": [
+        [ [ "meat_horse"       , 1          ] ],
+        [ [ "veggy_any"        , 1 , "LIST" ] ],
+        [ [ "miso"             , 1            ],
+          [ "soysauce"         , 1            ]
+        ],
+        [ [ "salt_preservation", 1 , "LIST" ] ],
+        [ [ "pepper"           , 2          ] ],
+        [ [ "sugar_standard" , 1  , "LIST" ] ]
+      ]
   }
 ]

@@ -1,14 +1,31 @@
 [
-
   {
     "type": "item_group",
-    "id": "dishes_utility",
-    "items": [
-      [ "tiger", 20 ],
-      [ "zouzirushi", 10 ],
-      [ "lunch_box_h_i", 10 ],
-      [ "lunch_box_h_i_dx", 10 ],
-      [ "lunch_box_h_i_dx_atomic", 5 ]
-    ]
+    "id": "SUS_kitchen_sink",
+    "subtype": "collection",
+    "copy-from": "SUS_kitchen_sink",
+    "extend": {
+      "items": [
+        {"item": "tiger", "prob": 10 },
+        {"item": "zouzirushi", "prob": 10 },
+        {"item": "lunch_box_h_i", "prob": 10 },
+        {"item": "lunch_box_h_i_dx", "prob": 10 },
+        {"item": "lunch_box_h_i_dx_atomic", "prob": 5 },
+        {"item": "chem_citric_acid", "prob": 10 },
+        {"item": "chem_sodium_bicarbonate", "prob": 10 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "SUS_bathroom_sink",
+    "subtype": "collection",
+    "copy-from": "SUS_bathroom_sink",
+    "extend": {
+      "items": [
+        {"item": "chem_citric_acid", "prob": 60 },
+        {"item": "chem_sodium_bicarbonate", "prob": 60 }
+      ]
+    }
   }
 ]

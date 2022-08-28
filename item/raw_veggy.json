@@ -121,5 +121,20 @@
     "flags": [ "EDIBLE_FROZEN", "RAW" ],
     "charges": 4,
     "fun": -5
-  }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "cacao_fruit",
+    "name": { "str_sp": "カカオの実[MMF]" },
+    "copy-from": "pumpkin",
+    "volume": "3 L",
+    "weight": "500 g",
+    "charges": 2,
+    "quench": -20,
+    "healthy": 1,
+    "calories": 2600,
+    "fun": -15,
+    "description": "アオギリ科テオブロマ属に分類される、チョコレートやココアの主原料となる熱帯植物です。Rivtech社の技術により、ここニューイングランドでも栽培が可能になった品種です。そのまま食べるようなものじゃないので、食べるなら加工してからにしましょう",
+    "vitamins": [ [ "calcium", 41 ], [ "iron", 4 ] ]
+    }
 ]

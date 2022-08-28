@@ -18,5 +18,70 @@
       { "drop": "raw_leather", "type": "skin", "mass_ratio": 0.02 },
       { "drop": "fat", "type": "flesh", "mass_ratio": 0.07 }
     ]
+  },
+  {
+    "id": "zombie_meatslug_eye",
+    "//": "no bones or organs",
+    "type": "harvest",
+    "entries": [
+      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.4 },
+      { "drop": "flaming_eye_eye", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "blood_tainted", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "fat_tainted", "type": "offal", "mass_ratio": 0.1 }
+    ]
+  },
+  {
+    "//1": "トリフィド勢の解体内容を変更(MMF仕様)",
+    "id": "triffid_small_mmf",
+    "type": "harvest",
+    "entries": [
+      { "drop": "stick_fiber", "type": "bone", "mass_ratio": 0.5 },
+      { "drop": "veggy", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "wild_herbs", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "veggy_wild", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "veggy", "type": "offal", "mass_ratio": 0.05 }
+    ]
+  },
+  {
+
+    "id": "triffid_paralytic_mmf",
+    "type": "harvest",
+    "entries": [
+      { "drop": "stick_fiber", "type": "bone", "mass_ratio": 0.4 },
+      { "drop": "veggy", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "wild_herbs", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "veggy_wild", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "veggy", "type": "offal", "mass_ratio": 0.05 },
+      { "drop": "stick", "type": "bone", "mass_ratio": 0.05 },
+      { "drop": "venom_paralytic", "type": "offal", "mass_ratio": 0.0075 }
+    ]
+  },
+  {
+    "id": "triffid_fungal_fighter_mmf",
+    "type": "harvest",
+    "entries": [
+      { "drop": "stick_fiber", "type": "bone", "mass_ratio": 0.4 },
+      { "drop": "veggy", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "veggy", "type": "offal", "mass_ratio": 0.05 },
+      { "drop": "wild_herbs", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "veggy_wild", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "stick", "type": "bone", "mass_ratio": 0.05 },
+      { "drop": "venom_paralytic", "type": "offal", "mass_ratio": 0.0075 },
+      { "drop": "triffid_fungicide", "type": "offal", "mass_ratio": 0.0075 }
+    ]
+  },
+  {
+    "id": "triffid_queen_mmf",
+    "type": "harvest",
+    "entries": [
+      { "drop": "log", "type": "bone", "mass_ratio": 0.35 },
+      { "drop": "stick_fiber", "type": "bone", "mass_ratio": 0.15 },
+      { "drop": "veggy", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "veggy", "type": "offal", "mass_ratio": 0.05 },
+      { "drop": "wild_herbs", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "veggy_wild", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "venom_paralytic", "type": "offal", "mass_ratio": 0.02 }
+    ]
   }
 ]

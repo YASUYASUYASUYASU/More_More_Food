@@ -1,0 +1,164 @@
+[
+  {
+    "type" : "recipe",
+    "result": "set_karaage",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_セットメニュー",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": "30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 1,
+    "components": [
+      [ [ "meat_red_raw"     , 1, "LIST" ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
+      [ [ "flour"            , 1         ] ],
+      [ [ "garlic_soy_sauce" , 1         ] ],
+      
+      [ [ "dry_rice"     , 2 ] ],
+      [ 
+        [ "water"        , 2 ],
+        [ "water_clean"  , 2 ]
+      ],
+      
+      [ [ "fish_powder"  , 10 ] ],
+      [ [ "miso"         , 10 ] ],
+      [ [ "water"        , 1  ],
+        [ "water_clean"  , 1  ] 
+      ],
+      
+        [ [ "salt_preservation", 1, "LIST" ] ],
+        [
+          [ "cabbage"             , 1 ],
+          [ "irradiated_cabbage"  , 1 ],
+          [ "carrot"              , 1 ],
+          [ "irradiated_carrot"   , 1 ],
+          [ "cattail_stalk"       , 1 ],
+          [ "celery"              , 1 ],
+          [ "irradiated_celery"   , 1 ],
+          [ "cucumber"            , 1 ],
+          [ "irradiated_cucumber" , 1 ],
+          [ "lettuce"             , 1 ],
+          [ "irradiated_lettuce"  , 1 ],
+          [ "plant_sac"           , 1 ],
+          [ "raw_dandelion"       , 1 ],
+          [ "sugar_beet"          , 1 ],
+          [ "veggy"               , 1 ],
+          [ "veggy_wild"          , 1 ],
+          [ "zucchini"            , 1 ],
+          [ "irradiated_zucchini" , 1 ],
+          [ "carrot_wild"         , 1 ],
+          [ "spinach"             , 1 ]  
+      ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "seta_teisyoku",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_セットメニュー",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": "30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 1,
+    "components": [
+      [ [ "seta_main"     , 1, "LIST" ] ],
+      [ [ "dry_rice"     , 2 ] ],
+      [ 
+        [ "water"        , 2 ],
+        [ "water_clean"  , 2 ]
+      ],
+      
+      [ [ "fish_powder"  , 10 ] ],
+      [ [ "miso"         , 10 ] ],
+      [ [ "water"        , 1  ],
+        [ "water_clean"  , 1  ] 
+      ],
+      
+      [ [ "salt_preservation", 1, "LIST" ] ],
+      [
+        [ "cabbage"             , 1 ],
+        [ "irradiated_cabbage"  , 1 ],
+        [ "carrot"              , 1 ],
+        [ "irradiated_carrot"   , 1 ],
+        [ "cattail_stalk"       , 1 ],
+        [ "celery"              , 1 ],
+        [ "irradiated_celery"   , 1 ],
+        [ "cucumber"            , 1 ],
+        [ "irradiated_cucumber" , 1 ],
+        [ "lettuce"             , 1 ],
+        [ "irradiated_lettuce"  , 1 ],
+        [ "plant_sac"           , 1 ],
+        [ "raw_dandelion"       , 1 ],
+        [ "sugar_beet"          , 1 ],
+        [ "veggy"               , 1 ],
+        [ "veggy_wild"          , 1 ],
+        [ "zucchini"            , 1 ],
+        [ "irradiated_zucchini" , 1 ],
+        [ "carrot_wild"         , 1 ],
+        [ "spinach"             , 1 ]  
+      ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "setb_teisyoku",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_セットメニュー",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": "30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 1,
+    "components": [
+      [ [ "setb_main"     , 1, "LIST" ] ],
+      [ [ "dry_rice"     , 2 ] ],
+      [ 
+        [ "water"        , 2 ],
+        [ "water_clean"  , 2 ]
+      ],
+      
+      [ 
+        [ "powder_eggs", 10 ],
+        [ "eggs_any_shape", 2, "LIST" ],
+        ["eggs_insect", 2, "LIST" ]
+      ],
+      [ [ "salt_preservation", 1, "LIST" ] ],
+      [ [ "pepper"         , 1         ] ],
+      [ [ "sesame_oil"     , 1         ] ],
+      [ [ "corn"           , 1         ],
+        [ "irradiated_corn", 1         ]
+      ],
+      [ [ "salt_preservation", 1, "LIST" ] ],
+      [
+        [ "cabbage"             , 1 ],
+        [ "irradiated_cabbage"  , 1 ],
+        [ "carrot"              , 1 ],
+        [ "irradiated_carrot"   , 1 ],
+        [ "cattail_stalk"       , 1 ],
+        [ "celery"              , 1 ],
+        [ "irradiated_celery"   , 1 ],
+        [ "cucumber"            , 1 ],
+        [ "irradiated_cucumber" , 1 ],
+        [ "lettuce"             , 1 ],
+        [ "irradiated_lettuce"  , 1 ],
+        [ "plant_sac"           , 1 ],
+        [ "raw_dandelion"       , 1 ],
+        [ "sugar_beet"          , 1 ],
+        [ "veggy"               , 1 ],
+        [ "veggy_wild"          , 1 ],
+        [ "zucchini"            , 1 ],
+        [ "irradiated_zucchini" , 1 ],
+        [ "carrot_wild"         , 1 ],
+        [ "spinach"             , 1 ]  
+      ]
+    ]
+  }
+]

@@ -2,14 +2,15 @@
   {
     "type": "item_group",
     "id": "kitchen",
-    "ammo": 75,
-    "magazine": 100,
     "subtype": "distribution",
-    "entries": [
-      { "item": "dry_rice", "prob": 50 },
-      { "item": "brown_rice", "prob": 50 },
-      { "item": "can_clams", "prob": 50 },
-      { "item": "curry_powder", "prob": 40 }
-    ]
+    "copy-from": "kitchen",
+    "extend": {
+      "items": [
+        { "item": "dry_rice", "prob": 20 },
+        { "item": "brown_rice", "prob": 20 },
+        { "item": "can_clams", "prob": 20 },
+        { "item": "curry_powder", "prob": 20 }
+      ]
+    }
   }
 ]

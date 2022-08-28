@@ -2,25 +2,53 @@
   {
     "type": "item_group",
     "id": "farming_seeds",
-    "items": [
-      [ "seed_spinach", 30 ],
-      [ "seed_ginger_raw", 30 ],
-      [ "seed_sesamum", 30 ],
-      [ "seed_sweet_potato", 30 ],
-      [ "seed_okra", 30 ],
-      [ "seed_upland_rice", 30 ]
-    ]
+    "copy-from": "farming_seeds",
+    "extend": {
+      "items": [
+        [ "seed_spinach", 30 ],
+        [ "seed_ginger_raw", 30 ],
+        [ "seed_sesamum", 30 ],
+        [ "seed_sweet_potato", 30 ],
+        [ "seed_okra", 30 ],
+        [ "seed_upland_rice_seed", 30 ],
+        [ "seed_improvement_pineapple", 20 ],
+        [ "seed_improvement_melon", 20 ],
+        [ "seed_improvement_bananas", 20 ],
+        [ "seed_improvement_orange", 20 ],
+        [ "seed_improvement_lemon", 20 ],
+        [ "seed_improvement_watermelon", 20 ],
+        [ "seed_improvement_pomegranate", 20 ],
+        [ "seed_improvement_papaya", 20 ],
+        [ "seed_improvement_kiwi", 20 ],
+        [ "seed_improvement_cholla_bud", 20 ],
+        [ "seed_improvement_cacao", 20 ]
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "hydro",
-    "items": [
-      [ "spinach", 30 ],
-      [ "ginger", 30 ],
-      [ "sesamum", 30 ],
-      [ "sweet_potato", 30 ],
-      [ "okra", 30 ],
-      [ "upland_rice", 30 ]
-    ]
+    "copy-from": "hydro",
+    "extend": {
+      "items": [
+        [ "spinach", 30 ],
+        [ "ginger", 30 ],
+        [ "sesamum", 30 ],
+        [ "sweet_potato", 30 ],
+        [ "okra", 30 ],
+        [ "upland_rice", 30 ],
+        [ "seed_improvement_pineapple", 20 ],
+        [ "seed_improvement_melon", 20 ],
+        [ "seed_improvement_bananas", 20 ],
+        [ "seed_improvement_orange", 20 ],
+        [ "seed_improvement_lemon", 20 ],
+        [ "seed_improvement_watermelon", 20 ],
+        [ "seed_improvement_pomegranate", 20 ],
+        [ "seed_improvement_papaya", 20 ],
+        [ "seed_improvement_kiwi", 20 ],
+        [ "seed_improvement_cholla_bud", 20 ],
+        [ "seed_improvement_cacao", 20 ]
+      ]
+    }
   }
 ]

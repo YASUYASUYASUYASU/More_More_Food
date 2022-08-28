@@ -2,8 +2,8 @@
   {
     "result": "fridge_1",
     "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_VEHICLE",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_OTHER",
     "skill_used": "mechanics",
     "skills_required": [ "fabrication", 4 ],
     "time": "180 m",
@@ -27,8 +27,8 @@
   },{
     "result": "fridge_2",
     "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_VEHICLE",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_OTHER",
     "skill_used": "mechanics",
     "time": "180 m",
     "skills_required": [ "fabrication", 4 ],
@@ -52,8 +52,8 @@
   },  {
     "result": "freezer_1",
     "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_VEHICLE",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_OTHER",
     "skill_used": "mechanics",
     "skills_required": [ "fabrication", 4 ],
     "time": "180 m",
@@ -77,8 +77,8 @@
   },{
     "result": "freezer_2",
     "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_VEHICLE",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_OTHER",
     "skill_used": "mechanics",
     "skills_required": [ "fabrication", 4 ],
     "time": "180 m",
