@@ -6525,7 +6525,7 @@
     "components": [
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "chem_citric_acid" , 1] ],
-      [ [ "chem_sodium_bicarbonate" , 1], [ "pepto" , 1 ] ]
+      [ [ "chem_baking_soda" , 1], [ "pepto" , 1 ] ]
     ]
   },
   {

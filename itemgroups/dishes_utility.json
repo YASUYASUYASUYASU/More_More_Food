@@ -12,7 +12,7 @@
         {"item": "lunch_box_h_i_dx", "prob": 10 },
         {"item": "lunch_box_h_i_dx_atomic", "prob": 5 },
         {"item": "chem_citric_acid", "prob": 10 },
-        {"item": "chem_sodium_bicarbonate", "prob": 10 }
+        {"item": "chem_baking_soda", "prob": 10 }
       ]
     }
   },
@@ -24,7 +24,7 @@
     "extend": {
       "items": [
         {"item": "chem_citric_acid", "prob": 60 },
-        {"item": "chem_sodium_bicarbonate", "prob": 60 }
+        {"item": "chem_baking_soda", "prob": 60 }
       ]
     }
   }

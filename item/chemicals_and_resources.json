@@ -14,15 +14,5 @@
     "volume": "3500 ml",
     "weight": "650 g",
     "bashing": 1
-  },
-  {
-    "type": "AMMO",
-    "id": "chem_sodium_bicarbonate",
-    "copy-from": "detergent",
-    "price": 10,
-    "price_postapoc": 5,
-    "name": { "str_sp": "重曹" },
-    "symbol": ";",
-    "description": "食品や洗剤として広く使われている重曹です。"
   }
 ]
