@@ -3553,9 +3553,10 @@
         "type": "COMESTIBLE",
         "id": "dry_meat_drying",
         "name": { "str_sp": "乾燥肉(乾燥中)[MMF]" },
-        "copy-from": "meat",
+        "copy-from": "dry_meat",
         "spoils_in": "14 days",
         "description": "自然乾燥中の肉です。十分に水分が抜ければ安全に食べられます",
+        "fun": -5,
         "use_action": {
             "target": "dry_meat",
             "msg": "十分に水分が抜けたようです。もう食べても大丈夫ですね",
@@ -3569,9 +3570,10 @@
         "type": "COMESTIBLE",
         "id": "dry_fish_drying",
         "name": { "str_sp": "乾燥魚(乾燥中)[MMF]" },
-        "copy-from": "veggy",
+        "copy-from": "dry_fish",
         "spoils_in": "14 days",
         "description": "自然乾燥中の魚肉です。十分に水分が抜ければ安全に食べられます",
+        "fun": -5,
         "use_action": {
             "target": "dry_fish",
             "msg": "十分に水分が抜けたようです。もう食べても大丈夫ですね",
@@ -3585,9 +3587,10 @@
         "type": "COMESTIBLE",
         "id": "dry_veggy_drying",
         "name": { "str_sp": "乾燥野菜(乾燥中)[MMF]" },
-        "copy-from": "veggy",
+        "copy-from": "dry_veggy",
         "spoils_in": "14 days",
         "description": "自然乾燥中の野菜です。十分に水分が抜ければ安全に食べられます",
+        "fun": -5,
         "use_action": {
             "target": "dry_veggy",
             "msg": "十分に水分が抜けたようです。もう食べても大丈夫ですね",
@@ -3601,11 +3604,131 @@
         "type": "COMESTIBLE",
         "id": "dry_fruit_drying",
         "name": { "str_sp": "ドライフルーツ(乾燥中)[MMF]" },
-        "copy-from": "veggy",
+        "copy-from": "dry_fruit",
         "spoils_in": "14 days",
         "description": "自然乾燥中のフルーツです。十分に水分が抜ければ安全に食べられます",
+        "fun": -5,
         "use_action": {
             "target": "dry_fruit",
+            "msg": "十分に水分が抜けたようです。もう食べても大丈夫ですね",
+            "moves": 50,
+            "type": "delayed_transform",
+            "transform_age": 259200,
+            "not_ready_msg": "まだ水分が残ってますね、もう少し我慢しましょう"
+        }
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "dry_lentils_drying",
+        "name": { "str_sp": "レンズ豆(乾燥中)[MMF]" },
+        "copy-from": "dry_lentils",
+        "spoils_in": "14 days",
+        "description": "自然乾燥中のレンズ豆です。十分に水分が抜ければ安全に食べられます",
+        "fun": -5,
+        "use_action": {
+            "target": "dry_lentils",
+            "msg": "十分に水分が抜けたようです。もう食べても大丈夫ですね",
+            "moves": 50,
+            "type": "delayed_transform",
+            "transform_age": 259200,
+            "not_ready_msg": "まだ水分が残ってますね、もう少し我慢しましょう"
+        }
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "dry_lobster_drying",
+        "name": { "str_sp": "乾燥ロブスター(乾燥中)[MMF]" },
+        "copy-from": "dry_lobster",
+        "spoils_in": "14 days",
+        "description": "自然乾燥中のロブスターです。十分に水分が抜ければ安全に食べられます",
+        "fun": -5,
+        "use_action": {
+            "target": "dry_lobster",
+            "msg": "十分に水分が抜けたようです。もう食べても大丈夫ですね",
+            "moves": 50,
+            "type": "delayed_transform",
+            "transform_age": 259200,
+            "not_ready_msg": "まだ水分が残ってますね、もう少し我慢しましょう"
+        }
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "dry_meat_tainted_drying",
+        "name": { "str_sp": "乾燥汚染肉(乾燥中)[MMF]" },
+        "copy-from": "dry_meat_tainted",
+        "spoils_in": "14 days",
+        "description": "自然乾燥中の乾燥汚染肉です。十分に水分が抜ければ食べられます",
+        "fun": -5,
+        "use_action": {
+            "target": "dry_meat_tainted",
+            "msg": "十分に水分が抜けたようです。もう食べても大丈夫ですね",
+            "moves": 50,
+            "type": "delayed_transform",
+            "transform_age": 259200,
+            "not_ready_msg": "まだ水分が残ってますね、もう少し我慢しましょう"
+        }
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "dry_mollusk_drying",
+        "name": { "str_sp": "乾燥貝肉(乾燥中)[MMF]" },
+        "copy-from": "dry_mollusk",
+        "spoils_in": "14 days",
+        "description": "自然乾燥中の貝肉です。十分に水分が抜ければ安全に食べられます",
+        "fun": -5,
+        "use_action": {
+            "target": "dry_mollusk",
+            "msg": "十分に水分が抜けたようです。もう食べても大丈夫ですね",
+            "moves": 50,
+            "type": "delayed_transform",
+            "transform_age": 259200,
+            "not_ready_msg": "まだ水分が残ってますね、もう少し我慢しましょう"
+        }
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "dry_veggy_tainted_drying",
+        "name": { "str_sp": "乾燥真菌塊(乾燥中)[MMF]" },
+        "copy-from": "dry_veggy_tainted",
+        "spoils_in": "14 days",
+        "description": "自然乾燥中の真菌塊です。十分に水分が抜ければ食べられます",
+        "fun": -5,
+        "use_action": {
+            "target": "dry_veggy_tainted",
+            "msg": "十分に水分が抜けたようです。もう食べても大丈夫ですね",
+            "moves": 50,
+            "type": "delayed_transform",
+            "transform_age": 259200,
+            "not_ready_msg": "まだ水分が残ってますね、もう少し我慢しましょう"
+        }
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "dry_veggy_tofu_drying",
+        "name": { "str_sp": "乾燥豆腐(乾燥中)[MMF]" },
+        "copy-from": "dry_tofu",
+        "spoils_in": "14 days",
+        "description": "自然乾燥中の豆腐です。十分に水分が抜ければ安全に食べられます",
+        "fun": -5,
+        "use_action": {
+            "target": "dry_tofu",
+            "msg": "十分に水分が抜けたようです。もう食べても大丈夫ですね",
+            "moves": 50,
+            "type": "delayed_transform",
+            "transform_age": 259200,
+            "not_ready_msg": "まだ水分が残ってますね、もう少し我慢しましょう"
+        }
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "dry_beans_drying",
+        "name": { "str_sp": "乾燥豆(乾燥中)[MMF]" },
+        "copy-from": "dry_beans",
+        "spoils_in": "14 days",
+        "description": "自然乾燥中の豆です。十分に水分が抜ければ安全に食べられます",
+        "fun": -5,
+        "use_action": {
+            "target": "dry_beans",
             "msg": "十分に水分が抜けたようです。もう食べても大丈夫ですね",
             "moves": 50,
             "type": "delayed_transform",
