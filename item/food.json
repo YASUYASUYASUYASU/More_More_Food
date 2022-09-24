@@ -3626,8 +3626,8 @@
         "type": "COMESTIBLE",
         "id": "cocoa",
         "name": { "str_sp": "ココア[MMF]" },
-        "copy-from": "coffee",
-        "material": [ "water" ],
+        "copy-from": "tea",
+        "calories": 16,
         "description": "カカオマスの油脂分(ココアバター)を減らした固形物、または、その粉末ココアパウダーや、ココアパウダーを溶かした飲料の略称です。本来ココアパウダーはカカオ豆をじっくり焙煎してから粉砕するので、厳密には市販で売っているココアではありませんが、まあいいでしょう、おいしく飲めるということが大事なのです。",
         "flags": [ "EATEN_HOT", "EATEN_COLD" ]
     },
