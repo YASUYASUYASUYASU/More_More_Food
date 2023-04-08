@@ -1,0 +1,13 @@
+[
+  {
+    "//1": "コーラのレシピ本を銀行の金庫で見つかるようにする",
+    "type": "item_group",
+    "id": "vault",
+    "copy-from": "vault",
+    "extend": {
+      "items": [
+        [ "cola_book_mmf", 5 ]
+      ]
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cola_book_mmf",
+    "type": "BOOK",
+    "name": { "str": "本(学習/コーラの全て)", "str_pl": "本(学習/コーラの全て)" },
+    "description": "あの有名な飲料メーカーのコーラのレシピ本です。発売当初から現在に至るまでのコーラの改良記録やレシピ、マーケティング情報がびっしり記述されています。時代が時代ならこの本だけで一財産築けそうですが、現実は非常です。世紀末の今、このレシピは自分だけで楽しむことにしましょう。",
+    "copy-from": "fermenting_book",
+    "price": "5000000 USD",
+    "price_postapoc": "5 USD",
+    "required_level": 3,
+    "max_level": 4,
+    "intelligence": 9,
+    "time": "30 m",
+    "fun": 1
+  }
+]

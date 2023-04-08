@@ -120,7 +120,8 @@
     "volume": "1 L",
     "flags": [ "EDIBLE_FROZEN", "RAW" ],
     "charges": 4,
-    "fun": -5
+    "fun": -5,
+    "milling": { "into": "flour_wheat_free", "conversion_rate": 30 }
   },
   {
     "type": "COMESTIBLE",
@@ -135,6 +136,7 @@
     "calories": 2600,
     "fun": -15,
     "description": "アオギリ科テオブロマ属に分類される、チョコレートやココアの主原料となる熱帯植物です。Rivtech社の技術により、ここニューイングランドでも栽培が可能になった品種です。そのまま食べるようなものじゃないので、食べるなら加工してからにしましょう",
-    "vitamins": [ [ "calcium", 41 ], [ "iron", 4 ] ]
+    "vitamins": [ [ "calcium", 41 ], [ "iron", 4 ] ],
+    "milling": { "into": "cacao_powder", "conversion_rate": 120 }
     }
 ]

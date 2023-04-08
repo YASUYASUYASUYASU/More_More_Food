@@ -1,5 +1,6 @@
 [
   {
+    "//": "サンドイッチ用のパンにガーリックトーストを追加",
     "id": "bread_sandwich",
     "type": "requirement",
     "//": "Bread appropriate for sandwiches.",
@@ -60,9 +61,32 @@
     ]
   },
   {
+    "//1": "生肉に馬肉を追加する",
     "id": "meat_raw_steak",
     "type": "requirement",
     "//": "An unbroken slab of raw meat.  For when scraps just aren't good enough.",
     "extend": { "components": [ [ [ "meat_horse", 1 ] ] ] }
+  },
+  {
+    "//1": "粉末マヨネーズを追加する",
+    "id": "condiment",
+    "type": "requirement",
+    "//2": " Should be about a teaspoon, or smallest serving",
+    "components": [
+      [
+        [ "mayonnaise", 1 ],
+        [ "mayonnaise_powder", 1 ],
+        [ "mustard", 1 ],
+        [ "soysauce", 1 ],
+        [ "hot_sauce", 1 ],
+        [ "ketchup", 1 ],
+        [ "ketchup_powder", 1 ],
+        [ "barbecue_sauce", 1 ],
+        [ "honey_mustard", 1 ],
+        [ "horseradish", 1 ],
+        [ "sauerkraut", 1 ],
+        [ "butter", 1 ]
+      ]
+    ]
   }
 ]

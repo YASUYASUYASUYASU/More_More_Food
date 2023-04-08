@@ -1,42 +1,18 @@
 [
   {
+    "//1": "制作時に元の栄養素を上書きしないようにNUTRIENT_OVERRIDEを付けておく",
     "type": "COMESTIBLE",
     "id": "marshmallow",
     "name": { "str": "marshmallows", "str_pl": "marshmallows" },
-    "weight": "53 g",
-    "color": "white",
-    "spoils_in": "90 days",
-    "container": "bag_plastic",
-    "comestible_type": "FOOD",
-    "symbol": "%",
-    "calories": 168,
-    "description": "A handful of squishy, fluffy, puffy, delicious marshmallows.",
-    "price": 250,
-    "material": "junk",
-    "volume": "250 ml",
-    "flags" : ["FREEZERBURN","NUTRIENT_OVERRIDE"],
-    "fun": 10
+    "copy-from": "marshmallow",
+   "flags" : ["FREEZERBURN","NUTRIENT_OVERRIDE"]
   },
   {
+    "//1": "制作時に元の栄養素を上書きしないようにNUTRIENT_OVERRIDEを付けておく",  
     "type": "COMESTIBLE",
     "id": "lemonade",
     "name": { "str": "lemonade", "str_pl": "lemonade" },
-    "weight": "260 g",
-    "color": "yellow",
-    "container": "bottle_plastic",
-    "comestible_type": "DRINK",
-    "symbol": "~",
-    "quench": 35,
-    "healthy": 1,
-    "calories": 104,
-    "description": "Lemon juice mixed with water and sugar to dull the sourness.  Delicious and refreshing.",
-    "price": 80,
-    "material": "fruit",
-    "primary_material": "water",
-    "volume": "250 ml",
-    "phase": "liquid",
-    "flags": [ "EATEN_COLD","NUTRIENT_OVERRIDE" ],
-    "vitamins": [ [ "vitC", 16 ], [ "iron", 2 ] ],
-    "fun": 3
+    "copy-from": "lemonade",
+    "flags": [ "EATEN_COLD","NUTRIENT_OVERRIDE" ]
   }
 ]

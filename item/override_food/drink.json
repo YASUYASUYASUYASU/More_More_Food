@@ -1,0 +1,11 @@
+[
+  {
+    "//1": "制作時に元の栄養素を上書きしないようにNUTRIENT_OVERRIDEを付けておく",
+    "type": "COMESTIBLE",
+    "id": "cola",
+    "looks_like": "coffee",
+    "name": { "str": "dark cola" },
+    "copy-from": "cola",
+    "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME","NUTRIENT_OVERRIDE" ]
+  }
+]

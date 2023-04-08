@@ -68,7 +68,7 @@
     "id": "seed_upland_rice_seed",
     "copy-from": "seed",
     "type": "COMESTIBLE",
-    "name": "種もみ(稲)[MMF]",
+    "name": "種(稲)[MMF]",
     "description": "陸稲の種子です。",
     "looks_like": "seed_weed",    
     "weight": "10 g",

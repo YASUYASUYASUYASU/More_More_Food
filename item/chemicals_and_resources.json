@@ -2,17 +2,8 @@
   {
     "type": "GENERIC",
     "id": "material_rocksalt",
-    "category": "food",
-    "price": 50,
-    "price_postapoc": 100,
     "name": { "str_sp": "rock salt" },
-    "symbol": "*",
-    "color": "light_gray",
-    "description": "A handful of rock salt crystals.  Could be refined into table salt.",
-    "milling": { "into": "salt", "conversion_rate": 100 },
-    "material": [ "stone" ],
-    "volume": "3500 ml",
-    "weight": "650 g",
-    "bashing": 1
+    "copy-from": "material_rocksalt",
+    "milling": { "into": "salt", "conversion_rate": 100 }
   }
 ]

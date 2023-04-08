@@ -1555,22 +1555,21 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "AMMO",
         "id": "gold_leaf",
         "name": { "str_sp": "金箔[MMF]" },
-        "copy-from": "garlic_toast",
+        "copy-from": "gold_small",
         "looks_like": "gold_small",
         "weight": 12,
         "volume": 1,
-        "calories": 1,
         "description": "金を薄く延ばし、箔状態にしたものです。食べてもいいですが・・・きっと美味しくありませんよ?",
         "material": [ "gold" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "AMMO",
         "id": "gold_dust",
         "name": { "str_sp": "金粉[MMF]" },
-        "copy-from": "garlic_toast",
+        "copy-from": "gold_small",
         "looks_like": "gold_small",
         "weight": 12,
         "volume": 1,
@@ -2301,42 +2300,6 @@
         "volume": "250 ml",
         "description": "ゼンマイと山菜を天ぷらにしました。春の代名詞ですね",
         "material": [ "veggy" ]
-    },
-    {
-        "type": "COMESTIBLE",
-        "id": "yoghurt_ferment",
-        "name": { "str_sp": "ヨーグルト(発酵中)[MMF]" },
-        "copy-from": "garlic_toast",
-        "calories": 135,
-        "looks_like": "milk",
-        "weight": "150 g" ,
-        "volume": "250 ml",
-        "quench": 2,
-        "healthy": 0,
-        "description": "発酵中のヨーグルトです。発酵が終われば安全に食べられます",
-        "material": [ "milk" ],
-        "use_action": {
-            "target": "yoghurt_homemade",
-            "msg": "発酵が進み、牛乳が固まってきています。もう食べても大丈夫そうですね。",
-            "moves": 50,
-            "type": "delayed_transform",
-            "transform_age": 63600,
-            "not_ready_msg": "ヨーグルトはまだ発酵が完了していません"
-        },
-        "charges": 1,
-        "fun": -2
-    },
-    {
-        "type": "COMESTIBLE",
-        "id": "yoghurt_homemade",
-        "name": { "str_sp": "ヨーグルト(自家製)[MMF]" },
-        "copy-from": "yoghurt",
-        "calories": 135,
-        "description": "自家製のヨーグルトです。うん、なかなか悪くないですね",
-        "material": [ "milk" ],
-        "charges": 2,
-        "flags": [ "FREEZERBURN" ],
-        "fun": 12
     },
     {
         "type": "COMESTIBLE",
@@ -3293,7 +3256,7 @@
         "type": "COMESTIBLE",
         "id": "milk_jam_drink",
         "name": { "str": "ミルクジャムドリンク[MMF]", "str_pl": "ミルクジャムドリンク[MMF]" },
-        "copy-from": "gyoza_2",
+        "copy-from": "jam_drink",
         "description": "牛乳にジャムを溶かして飲みやすくしたドリンクです。ジャム完全に溶かさずに、ほどほど食感を残しておくのがポイントです",
         "looks_like": "milk",
         "calories": 160,
@@ -3308,7 +3271,7 @@
     {
         "type": "COMESTIBLE",
         "id": "jam_drink",
-        "copy-from": "milk_jam_drink",
+        "copy-from": "juice",
         "name": { "str": "ジャムドリンク[MMF]", "str_pl": "ジャムドリンク[MMF]" },
         "description": "ジャムを水溶かして飲みやすくしたドリンクです。ちょっと物足りないですが、何とか飲めます",
         "looks_like": "milk",
@@ -3503,7 +3466,7 @@
         "id" : "apple_lemonade",
         "name": "アップルレモネード[MMF]",
         "copy-from": "juice",
-        "description": "食料品店で手に入れたアップルサイダーにレモネードの粉を混ぜて作った一品。子供が喜びそうな味です。もっともゾンビになった子以外ほとんど見かけませんが。",
+        "description": "食料品店で手に入れたアップルサイダーにレモネードを混ぜて作った一品、子供が喜びそうな味です。もっともゾンビになった子以外ほとんど見かけませんが。",
         "flags" : ["EATEN_COLD"],
         "fun": 2
     },
@@ -3771,5 +3734,81 @@
         "calories": 900,
         "material": [ "flesh","veggy" ],
         "description": "馬肉（桜肉）をすき焼きのようにして食べる鍋料理です。味噌仕立てで馬肉を煮る桜鍋は、明治初期から続く東京の伝統料理なんですね。"
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "nut_pickled_honey",
+        "name": { "str_sp": "ナッツの蜂蜜漬け[MMF]" },
+        "copy-from": "garlic_toast",
+        "calories": 500,
+        "spoils_in": "360 days",
+        "volume": "125 ml",
+        "weight": "50 g",
+        "material": [ "honey","veggy" ],
+        "charges": 5,
+        "fun": 15,
+        "description": "お好みのナッツをキツめにローストして蜂蜜に漬けた贅沢な一品です。ヨーグルトやトーストなんかと相性抜群です"
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "mayonnaise_powder",
+        "name": { "str_sp": "粉末マヨネーズ[MMF]" },
+        "copy-from": "garlic_toast",
+        "volume": "125 ml",
+        "weight": "13 g",
+        "quench": -1,
+        "calories": 48,
+        "material": [ "junk", "egg" ],
+        "charges": 10,
+        "fun": -5,
+        "description": "水分を取り除き、長期保存に向くよう粉末状にしたマヨネーズです。そのままでは美味しくないですが、マヨネーズの代わりに料理に使用することができます。"
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "ketchup_powder",
+        "name": { "str_sp": "粉末ケチャップ[MMF]" },
+        "copy-from": "garlic_toast",
+        "volume": "125 ml",
+        "weight": "13 g",
+        "quench": -1,
+        "calories": 48,
+        "material": [ "veggy", "junk" ],
+        "charges": 10,
+        "fun": -5,
+        "description": "水分を取り除き、長期保存に向くよう粉末状にしたケチャップです。そのままでは美味しくないですが、ケチャップの代わりに料理に使用することができます。"
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "japanese_knotweed_stem_tea",
+        "name": { "str_sp": "イタドリ茶[MMF]" },
+        "copy-from": "tea",
+        "quench": 34,
+        "calories": 2,
+        "stim": 0,
+        "use_action": [ "FLUMED" ],
+        "description": "イタドリ茶はダイエットやデトックス効果に優れたお茶です。適度な酸味とほろ苦さ、そして後味に渋みが感じられます。飲むと風邪やインフルエンザの症状を和らげます。",
+        "fun": 6
+    },
+    {
+        "type": "COMESTIBLE",
+        "id": "japanese_knotweed_stem_saute",
+        "name": { "str_sp": "イタドリのきんぴら[MMF]" },
+        "copy-from": "garlic_toast",
+        "volume": "125 ml",
+        "weight": "100 g",
+        "quench": -1,
+        "calories": 136,
+        "material": [ "veggy" ],
+        "charges": 2,
+        "fun": 1,
+        "description": "イタドリは日本でも食用として扱う地方があり、主に山菜として扱ったりします。この料理はそのイタドリをきんぴら風に炒めた一品です。"
+    },
+    {
+      "type": "COMESTIBLE",
+      "id": "sandwich_dudeluxe_mmf",
+      "copy-from": "sandwich_deluxe",
+      "name": { "str_sp": "サンドイッチ(あいつデラックス)[MMF]" },
+      "description": "あいつの肉、野菜、チーズ、そして各種の調味料を挟んだ豪華版サンドイッチです。昨日の敵は今日の飯、その魂までも味わって腹の足しにしてやりましょう！",
+      "material": [ "hflesh", "veggy", "wheat", "milk" ]
     }
 ]
