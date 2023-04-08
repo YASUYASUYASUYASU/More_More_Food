@@ -1,9 +1,9 @@
 [
   {
-    "//": "サンドイッチ用のパンにガーリックトーストを追加",
+    "//1": "サンドイッチ用のパンにガーリックトーストを追加",
     "id": "bread_sandwich",
     "type": "requirement",
-    "//": "Bread appropriate for sandwiches.",
+    "//2": "Bread appropriate for sandwiches.",
     "components": [
       [
         [ "flatbread", 1 ],
