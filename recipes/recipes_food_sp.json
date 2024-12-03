@@ -1,9 +1,10 @@
 [
   {
-  "type" : "recipe",
-  "result": "sp_food_1",
+    "type": "recipe",
+    "result": "sp_food_1",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -12,226 +13,20 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "flour"          , 10          ] ],
-      [ [ "leech_flower"   , 1           ] ],
-      [ [ "sugar_standard" , 1  , "LIST" ] ],
-      [ 
-        [ "butter"         , 1           ],
-        [ "raw_butter"     , 1           ],
-        [ "ghee"           , 1           ]
-      ],
-      [ [ "cola"           , 1           ] ],
-      [ [ "pepto"          , 1           ] ]
+      [ [ "flour", 10 ] ],
+      [ [ "leech_flower", 1 ] ],
+      [ [ "sugar_standard", 1, "LIST" ] ],
+      [ [ "butter", 1 ], [ "raw_butter", 1 ], [ "ghee", 1 ] ],
+      [ [ "cola", 1 ] ],
+      [ [ "pepto", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_2",
+    "type": "recipe",
+    "result": "sp_food_2",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-      [ [ "bread_sandwich" , 1, "LIST"  ] ],
-      [ [ "meat_frond"     , 1          ] ],
-      [ [ "corn"           , 1          ], 
-        ["irradiated_corn" , 1          ],
-        ["can_corn"        , 1          ], 
-        ["corn_kernels"    , 1          ],
-        ["dry_corn"        , 5          ] 
-      ],
-      [ [ "veggy_any"      , 1 , "LIST" ] ],
-      [ 
-        [ "curry_powder"   , 4          ],
-        [ "chilly-p"       , 4          ] 
-      ],
-      [ 
-        [ "vodka"          , 1          ], 
-        ["chem_ethanol"    , 1          ],
-        ["denat_alcohol"   , 1          ]
-      ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_3",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-      [ [ "meat_frond"        , 1          ] ],
-      [ [ "veggy"             , 1          ] ],
-      [ [ "veggy_any"         , 1 , "LIST" ] ],
-      [ [ "garlic_clove"      , 1          ] ],
-      [ [ "any_butter_or_oil" , 1 , "LIST" ] ],
-      [ 
-        [ "curry_powder"      , 4          ],
-        [ "chilly-p"          , 4          ] 
-      ],
-      [ [ "pepto", 1  ] ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_4",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-      [ [ "meat_frond"       , 1          ] ],
-      [ [ "veggy"            , 1          ] ],
-      [ [ "veggy_any"        , 1 , "LIST" ] ],
-      [ [ "soysauce"         , 1          ] ],
-      [ [ "any_butter_or_oil", 1 , "LIST" ] ],
-      [ [ "pepto"            , 1          ] ],
-      [ [ "aspirin"          , 1          ] ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_5",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-      [ [ "veggy"            , 1          ] ],
-      [ [ "slime_scrap"      , 1          ] ],
-      [ [ "any_butter_or_oil", 1, "LIST"  ] ],
-      [ [ "soysauce"         , 1          ] ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_6",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-      [ [ "meat_frond"   , 1          ] ],
-      [ [ "cheap_wine"   , 1 , "LIST" ] ],
-      [ [ "vodka"        , 1          ], 
-        ["chem_ethanol"  , 1          ],
-        ["denat_alcohol" , 1          ]
-      ],
-      [ [ "soysauce"     , 1          ] ],
-      [ [ "ketchup"      ,10          ] ],
-      [ [ "jam_fruit"    , 2          ] ],
-      [ [ "pepto"        , 1          ] ],
-      [ [ "aspirin"      , 1          ] ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_7",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-        [ [ "batter"           , 1, "LIST" ] ],
-        [ [ "meat_red_raw"     , 2, "LIST" ] ],
-        [ 
-          [ "onion"            , 1         ],
-          [ "irradiated_onion" , 1         ]
-        ],
-        [ [ "slime_scrap"      , 1         ] ],
-        [ [ "salt_preservation", 2, "LIST" ] ],
-        [ [ "any_butter_or_oil", 1, "LIST" ] ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_8",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-      [ [ "gin"            , 1           ] ],
-      [ [ "leech_flower"   , 1           ] ],
-      [ [ "sugar_standard" , 1  , "LIST" ] ],
-      [ [ "lsd"            , 1           ] ],
-      [ [ "pepto"          , 1           ] ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_9",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "charges": 2,
-    "components": [
-      [ [ "cattail_stalk", 1  ] ],
-      [ [ "miso"         , 1  ] ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_10",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-      [ [ "meat_tainted" , 1   ] ],
-      [ [ "bleach"       , 2   ] ],
-      [ [ "gasoline"     , 10  ] ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_11",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -241,15 +36,19 @@
     "charges": 4,
     "components": [
       [ [ "bread_sandwich", 1, "LIST" ] ],
-      [ [ "meat_tainted"  , 1         ] ],
-      [ [ "bleach"        , 2         ] ]
+      [ [ "meat_frond", 1 ] ],
+      [ [ "corn", 1 ], [ "irradiated_corn", 1 ], [ "can_corn", 1 ], [ "corn_kernels", 1 ], [ "dry_corn", 5 ] ],
+      [ [ "veggy_any", 1, "LIST" ] ],
+      [ [ "curry_powder", 4 ], [ "chilly-p", 4 ] ],
+      [ [ "vodka", 1 ], [ "chem_ethanol", 1 ], [ "denat_alcohol", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_12",
+    "type": "recipe",
+    "result": "sp_food_3",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -258,17 +57,21 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "meat_tainted"  , 1 ] ],
-      [ [ "bone_tainted"  , 1 ] ],
-      [ [ "nail"          , 1 ] ],
-      [ [ "bleach"        , 2 ] ]
+      [ [ "meat_frond", 1 ] ],
+      [ [ "veggy", 1 ] ],
+      [ [ "veggy_any", 1, "LIST" ] ],
+      [ [ "garlic_clove", 1 ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
+      [ [ "curry_powder", 4 ], [ "chilly-p", 4 ] ],
+      [ [ "pepto", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_13",
+    "type": "recipe",
+    "result": "sp_food_4",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -277,31 +80,36 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "meat_tainted"       , 1  ] ],
-      [ [ "meal_bone_tainted"  , 1  ] ],
-      [ [ "flour"              , 10 ] ],
-      [ [ "ash"                , 10 ] ],
-      [ [ "bleach"             , 2  ] ],
-      [ 
-        [ "water"              , 1  ],
-        [ "water_clean"        , 1  ]
-      ],
-      [ [ "wild_herbs"         , 1  ] ],
-      [ [ "fish_powder"        , 10 ] ],
-      [ [ "fish_powder"        , 1  ] ],
-      [ 
-        [ "raw_burdock"        , 1  ],
-        [ "onion"              , 1  ],
-        [ "irradiated_onion"   , 1  ]
-      ],
-      [ [ "soysauce"           , 2  ] ]
+      [ [ "meat_frond", 1 ] ],
+      [ [ "veggy", 1 ] ],
+      [ [ "veggy_any", 1, "LIST" ] ],
+      [ [ "soysauce", 1 ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
+      [ [ "pepto", 1 ] ],
+      [ [ "aspirin", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_14",
+    "type": "recipe",
+    "result": "sp_food_5",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [ [ [ "veggy", 1 ] ], [ [ "slime_scrap", 1 ] ], [ [ "any_butter_or_oil", 1, "LIST" ] ], [ [ "soysauce", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_6",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -310,21 +118,22 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "flour"              , 10 ] ],
-      [ [ "meal_chitin_piece"  , 10 ] ],
-      [ [ "ash"                , 10 ] ],
-      [ [ "sugar"              , 10 ] ],
-      [ 
-        [ "water"              , 2  ],
-        [ "water_clean"        , 2  ]
-      ]
+      [ [ "meat_frond", 1 ] ],
+      [ [ "cheap_wine", 1, "LIST" ] ],
+      [ [ "vodka", 1 ], [ "chem_ethanol", 1 ], [ "denat_alcohol", 1 ] ],
+      [ [ "soysauce", 1 ] ],
+      [ [ "ketchup", 10 ] ],
+      [ [ "jam_fruit", 2 ] ],
+      [ [ "pepto", 1 ] ],
+      [ [ "aspirin", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_15",
+    "type": "recipe",
+    "result": "sp_food_7",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -333,19 +142,20 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "vodka"              , 1        ] ],
-      [ [ "formic_acid"        , 1        ] ],
-      [ 
-        [ "tomato"             , 1        ],
-        [ "irradiated_tomato"  , 1        ]
-      ]
+      [ [ "batter", 1, "LIST" ] ],
+      [ [ "meat_red_raw", 2, "LIST" ] ],
+      [ [ "onion", 1 ], [ "irradiated_onion", 1 ] ],
+      [ [ "slime_scrap", 1 ] ],
+      [ [ "salt_preservation", 2, "LIST" ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_16",
+    "type": "recipe",
+    "result": "sp_food_8",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -354,41 +164,78 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "meat_frond"            , 1           ] ],
-      [ [ "meal_chitin_piece"     , 10          ] ],
-      [ [ "cattail_stalk"         , 1           ] ],
-      [ [ "pepto"                 , 1           ] ],
-      [ [ "salt_preservation"     , 1  , "LIST" ] ]
+      [ [ "gin", 1 ] ],
+      [ [ "leech_flower", 1 ] ],
+      [ [ "sugar_standard", 1, "LIST" ] ],
+      [ [ "lsd", 1 ] ],
+      [ [ "pepto", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_17",
+    "type": "recipe",
+    "result": "sp_food_9",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
     "autolearn": true,
     "qualities": [ { "id": "COOK", "level": 2 } ],
-    "charges": 4,
-    "components": [
-      [ 
-        [ "canadian_whiskey"     , 1         ],
-        [ "cheap_whiskey"        , 1         ],
-        [ "single_malt_whiskey"  , 1         ],
-        [ "single_pot_whiskey"   , 1         ],
-        [ "whiskey"              , 1         ]
-      ],
-      [ [ "meat_frond"           , 1         ] ],
-      [ [ "pepto"                , 1         ] ]
-    ]
+    "charges": 2,
+    "components": [ [ [ "cattail_stalk", 1 ] ], [ [ "miso", 1 ] ] ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_18",
+    "type": "recipe",
+    "result": "sp_food_10",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [ [ [ "meat_tainted", 1 ] ], [ [ "bleach", 2 ] ], [ [ "gasoline", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_11",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [ [ [ "bread_sandwich", 1, "LIST" ] ], [ [ "meat_tainted", 1 ] ], [ [ "bleach", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_12",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [ [ [ "meat_tainted", 1 ] ], [ [ "bone_tainted", 1 ] ], [ [ "nail", 1 ] ], [ [ "bleach", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_13",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -397,26 +244,25 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "meat_frond"           , 1       ] ],
-      [ [ "pepto"                , 1       ] ],
-      [ [ "formic_acid"          , 1       ] ],
-      [ 
-        [ "tomato"               , 1       ],
-        [ "irradiated_tomato"    , 1       ]
-      ],
-      [ 
-        [ "chili_pepper"         , 1       ],
-        [ "chilly-p"             , 10      ] 
-      ],
-      [ [ "broth"                , 1       ] ],
-      [ [ "garlic_soy_sauce"     , 1       ] ]
+      [ [ "meat_tainted", 1 ] ],
+      [ [ "meal_bone_tainted", 1 ] ],
+      [ [ "flour", 10 ] ],
+      [ [ "ash", 10 ] ],
+      [ [ "bleach", 2 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "wild_herbs", 1 ] ],
+      [ [ "fish_powder", 10 ] ],
+      [ [ "fish_powder", 1 ] ],
+      [ [ "raw_burdock", 1 ], [ "onion", 1 ], [ "irradiated_onion", 1 ] ],
+      [ [ "soysauce", 2 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_19",
+    "type": "recipe",
+    "result": "sp_food_14",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -425,43 +271,34 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "meat_frond"           , 1       ] ],
-      [ [ "pepto"                , 1       ] ],
-      [ [ "formic_acid"          , 1       ] ],
-      [ 
-        [ "tomato"               , 1       ],
-        [ "irradiated_tomato"    , 1       ]
-      ],
-      [ 
-        [ "chili_pepper"         , 1       ],
-        [ "chilly-p"             , 10      ] 
-      ],
-      [ [ "broth"                , 1       ] ],
-      [ [ "garlic_soy_sauce"     , 1       ] ]
+      [ [ "flour", 10 ] ],
+      [ [ "meal_chitin_piece", 10 ] ],
+      [ [ "ash", 10 ] ],
+      [ [ "sugar", 10 ] ],
+      [ [ "water", 2 ], [ "water_clean", 2 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_20",
+    "type": "recipe",
+    "result": "sp_food_15",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
     "autolearn": true,
     "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
-    "components": [
-      [ [ "birdfood"    , 1       ] ],
-      [ [ "can_spam"    , 1       ] ],
-      [ [ "pur_tablets" , 1       ] ]
-    ]
+    "components": [ [ [ "vodka", 1 ] ], [ [ "formic_acid", 1 ] ], [ [ "tomato", 1 ], [ "irradiated_tomato", 1 ] ] ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_21",
+    "type": "recipe",
+    "result": "sp_food_16",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -470,19 +307,118 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ 
-        [ "corn"             , 1  ],
-        [ "irradiated_corn"  , 1  ]
-      ],
-      [ [ "syrup"            , 1  ] ],
-      [ [ "ash"              , 1  ] ]
+      [ [ "meat_frond", 1 ] ],
+      [ [ "meal_chitin_piece", 10 ] ],
+      [ [ "cattail_stalk", 1 ] ],
+      [ [ "pepto", 1 ] ],
+      [ [ "salt_preservation", 1, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_22",
+    "type": "recipe",
+    "result": "sp_food_17",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "charges": 4,
+    "components": [
+      [
+        [ "canadian_whiskey", 1 ],
+        [ "cheap_whiskey", 1 ],
+        [ "single_malt_whiskey", 1 ],
+        [ "single_pot_whiskey", 1 ],
+        [ "whiskey", 1 ]
+      ],
+      [ [ "meat_frond", 1 ] ],
+      [ [ "pepto", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_18",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [
+      [ [ "meat_frond", 1 ] ],
+      [ [ "pepto", 1 ] ],
+      [ [ "formic_acid", 1 ] ],
+      [ [ "tomato", 1 ], [ "irradiated_tomato", 1 ] ],
+      [ [ "chili_pepper", 1 ], [ "chilly-p", 10 ] ],
+      [ [ "broth", 1 ] ],
+      [ [ "garlic_soy_sauce", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_19",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [
+      [ [ "meat_frond", 1 ] ],
+      [ [ "pepto", 1 ] ],
+      [ [ "formic_acid", 1 ] ],
+      [ [ "tomato", 1 ], [ "irradiated_tomato", 1 ] ],
+      [ [ "chili_pepper", 1 ], [ "chilly-p", 10 ] ],
+      [ [ "broth", 1 ] ],
+      [ [ "garlic_soy_sauce", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_20",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "charges": 4,
+    "components": [ [ [ "birdfood", 1 ] ], [ [ "can_spam", 1 ] ], [ [ "pur_tablets", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_21",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [ [ [ "corn", 1 ], [ "irradiated_corn", 1 ] ], [ [ "syrup", 1 ] ], [ [ "ash", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_22",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -490,20 +426,18 @@
     "qualities": [ { "id": "COOK", "level": 2 } ],
     "charges": 2,
     "components": [
-      [ [ "rehydrated_meat"    , 1  ] ],
-      [ [ "rehydrated_veggy"   , 1  ] ],
-      [ 
-        [ "soysauce"           , 1  ] ,
-        [ "miso"               , 1  ] 
-      ],
-      [ [ "caff_gum"           , 1  ] ]
+      [ [ "rehydrated_meat", 1 ] ],
+      [ [ "rehydrated_veggy", 1 ] ],
+      [ [ "soysauce", 1 ], [ "miso", 1 ] ],
+      [ [ "caff_gum", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_23",
+    "type": "recipe",
+    "result": "sp_food_23",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -512,22 +446,18 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "rehydrated_meat"      , 1       ] ],
-      [ [ "rehydrated_veggy"     , 1       ] ],
-      [ 
-        [ "seasoning_italian"    , 1       ],
-        [ "curry_powder"         , 1       ], 
-        [ "chilly-p"             , 1       ],
-        [ "pepper"               , 1       ]
-      ],
-      [ [ "caff_gum"             , 1       ] ]
+      [ [ "rehydrated_meat", 1 ] ],
+      [ [ "rehydrated_veggy", 1 ] ],
+      [ [ "seasoning_italian", 1 ], [ "curry_powder", 1 ], [ "chilly-p", 1 ], [ "pepper", 1 ] ],
+      [ [ "caff_gum", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_24",
+    "type": "recipe",
+    "result": "sp_food_24",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -536,28 +466,19 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "alarmclock"     , 1       ] ],
-      [ 
-        [ "bacon"          , 1       ],
-        [ "can_spam"       , 1       ], 
-        [ "bologna"        , 1       ]
-      ],
-      [ [ "bread_sandwich" , 1, "LIST" ] ],
-      [ 
-        [ "eggs_any_shape" , 2, "LIST" ],
-        [ "eggs_insect"    , 2, "LIST" ]
-      ],
-      [ 
-        [ "water"          , 1         ],
-        [ "water_clean"    , 1         ]
-      ]
+      [ [ "alarmclock", 1 ] ],
+      [ [ "bacon", 1 ], [ "can_spam", 1 ], [ "bologna", 1 ] ],
+      [ [ "bread_sandwich", 1, "LIST" ] ],
+      [ [ "eggs_any_shape", 2, "LIST" ], [ "eggs_insect", 2, "LIST" ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_25",
+    "type": "recipe",
+    "result": "sp_food_25",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -566,44 +487,19 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ 
-        [ "flaming_eye_eye"   , 1         ]
-      ],
-      [ [ "salt_preservation" , 1, "LIST" ] ],
-      [ [ "pepper"            , 1         ] ],
-      [ [ "any_butter_or_oil" , 1, "LIST" ] ],
-      [ [ "ketchup"           , 1         ] ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_26",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-      [ 
-        [ "holybook_bible1"  , 1         ],
-        [ "holybook_bible2"  , 1         ],
-        [ "holybook_bible3"  , 1         ],
-        [ "holybook_satanic" , 1         ]
-      ],
+      [ [ "flaming_eye_eye", 1 ] ],
       [ [ "salt_preservation", 1, "LIST" ] ],
-      [ [ "bread_sandwich"   , 1, "LIST" ] ],
-      [ [ "cheap_wine"       , 1, "LIST" ] ]
+      [ [ "pepper", 1 ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
+      [ [ "ketchup", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_27",
+    "type": "recipe",
+    "result": "sp_food_26",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -612,29 +508,18 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "meat_horse"         , 1          ] ],
-      [ [ "mutant_meat"        , 1          ] ],
-      [ [ "veggy_any"          , 1 , "LIST" ] ],
-      [ 
-        [ "water"              , 1          ],
-        [ "water_clean"        , 1          ]
-      ],
-      [ [ "flour"       , 10 ] ],
-      [ [ "salt_preservation"  , 1, "LIST" ] ],
-      [ 
-        [ "nyquil"             , 1         ],
-        [ "dayquil"            , 1         ],
-        [ "poppysyrup"         , 1         ]
-      ],
-      [ [ "vitamins"           , 1         ] ],
-      [ [ "cheap_wine"         , 1, "LIST" ] ]
+      [ [ "holybook_bible1", 1 ], [ "holybook_bible2", 1 ], [ "holybook_bible3", 1 ], [ "holybook_satanic", 1 ] ],
+      [ [ "salt_preservation", 1, "LIST" ] ],
+      [ [ "bread_sandwich", 1, "LIST" ] ],
+      [ [ "cheap_wine", 1, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_28",
+    "type": "recipe",
+    "result": "sp_food_27",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -643,19 +528,23 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "meat_tainted"      , 1         ] ],
-      [ [ "mutant_meat"       , 1         ] ],
-      [ [ "veggy_any"         , 2, "LIST" ] ],
-      [ [ "salt_preservation" , 1, "LIST" ] ],
-      [ [ "garlic_clove"      , 1         ] ],
-      [ [ "cheap_wine"        , 1, "LIST" ] ]
+      [ [ "meat_horse", 1 ] ],
+      [ [ "mutant_meat", 1 ] ],
+      [ [ "veggy_any", 1, "LIST" ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "flour", 10 ] ],
+      [ [ "salt_preservation", 1, "LIST" ] ],
+      [ [ "nyquil", 1 ], [ "dayquil", 1 ], [ "poppysyrup", 1 ] ],
+      [ [ "vitamins", 1 ] ],
+      [ [ "cheap_wine", 1, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_30",
+    "type": "recipe",
+    "result": "sp_food_28",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -664,24 +553,20 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "sp_food_28"        , 1         ] ],
-      [ 
-        [ "water"             , 1         ],
-        [ "water_clean"       , 1         ]
-      ],
-      [ [ "flour"             , 10        ] ],
-      [ [ "salt_preservation" , 1, "LIST" ] ],
-      [ 
-        [ "potato"            , 1         ] ,
-        [ "irradiated_potato" , 1         ] 
-      ]
+      [ [ "meat_tainted", 1 ] ],
+      [ [ "mutant_meat", 1 ] ],
+      [ [ "veggy_any", 2, "LIST" ] ],
+      [ [ "salt_preservation", 1, "LIST" ] ],
+      [ [ "garlic_clove", 1 ] ],
+      [ [ "cheap_wine", 1, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_31",
+    "type": "recipe",
+    "result": "sp_food_30",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -690,23 +575,19 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "eggs_any_shape"    , 1, "LIST" ] ],
-      [ [ "fish"              , 2         ] ],
-      [ [ "salt_preservation" , 1, "LIST" ] ],
-      [ 
-        [ "meth"              , 1         ] ,
-        [ "pure_meth"         , 1         ] 
-      ],
-      [ [ "soysauce"          , 1         ] ],
-      [ [ "sugar_standard"    , 1, "LIST" ] ],
-      [ [ "vitamins"          , 1         ] ]
+      [ [ "sp_food_28", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "flour", 10 ] ],
+      [ [ "salt_preservation", 1, "LIST" ] ],
+      [ [ "potato", 1 ], [ "irradiated_potato", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_32",
+    "type": "recipe",
+    "result": "sp_food_31",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -715,18 +596,51 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "fruit_leather" , 1 ] ],
-      [ 
-        [ "coke"          , 1 ] ,
-        [ "crack"         , 1 ] 
-      ]
+      [ [ "eggs_any_shape", 1, "LIST" ] ],
+      [ [ "fish", 2 ] ],
+      [ [ "salt_preservation", 1, "LIST" ] ],
+      [ [ "meth", 1 ], [ "pure_meth", 1 ] ],
+      [ [ "soysauce", 1 ] ],
+      [ [ "sugar_standard", 1, "LIST" ] ],
+      [ [ "vitamins", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_33",
+    "type": "recipe",
+    "result": "sp_food_32",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [ [ [ "fruit_leather", 1 ] ], [ [ "coke", 1 ], [ "crack", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_33",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [ [ [ "veggy_tainted", 1 ] ], [ [ "any_butter_or_oil", 1, "LIST" ] ], [ [ "peanutbutter", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_34",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -735,16 +649,20 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "veggy_tainted"      , 1         ] ],
-      [ [ "any_butter_or_oil"  , 1, "LIST" ] ],
-      [ [ "peanutbutter"       , 1         ] ]
+      [ [ "mushroom", 2 ] ],
+      [ [ "veggy_tainted", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "flour", 10 ] ],
+      [ [ "sugar_standard", 1, "LIST" ] ],
+      [ [ "salt_preservation", 1, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_34",
+    "type": "recipe",
+    "result": "sp_food_35",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -753,22 +671,48 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "mushroom"            , 2         ] ],
-      [ [ "veggy_tainted"       , 1         ] ],
-      [ 
-        [ "water"               , 1         ],
-        [ "water_clean"         , 1         ]
-      ],
-      [ [ "flour"               , 10        ] ],
-      [ [ "sugar_standard"      , 1, "LIST" ] ],
-      [ [ "salt_preservation"   , 1, "LIST" ] ]
+      [ [ "meat_tainted", 1 ] ],
+      [ [ "veggy_tainted", 1 ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
+      [ [ "salt_preservation", 1, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_35",
+    "type": "recipe",
+    "result": "sp_food_36",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [ [ [ "veggy_tainted", 1 ] ], [ [ "sugar_standard", 1, "LIST" ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_37",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [ [ [ "human_flesh", 1 ] ], [ [ "seasoning_mild", 1, "LIST" ] ], [ [ "salt_preservation", 1, "LIST" ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_38",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -777,17 +721,19 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "meat_tainted"      , 1         ] ],
-      [ [ "veggy_tainted"     , 1         ] ],
-      [ [ "any_butter_or_oil" , 1, "LIST" ] ],
-      [ [ "salt_preservation" , 1, "LIST" ] ]
+      [ [ "meat_tainted", 1 ] ],
+      [ [ "apple_cider", 1 ] ],
+      [ [ "purple_drink", 1 ] ],
+      [ [ "energy_drink", 1 ] ],
+      [ [ "salt_preservation", 1, "LIST" ], [ "soysauce", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_36",
+    "type": "recipe",
+    "result": "sp_food_39",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -796,15 +742,19 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "veggy_tainted"  , 1         ] ],
-      [ [ "sugar_standard" , 1, "LIST" ] ]
+      [ [ "leg", 1 ] ],
+      [ [ "bag_plastic", 1 ] ],
+      [ [ "sweet_fruit_fresh", 1, "LIST" ], [ "jam_fruit", 1 ], [ "lemonade", 1 ] ],
+      [ [ "apple_cider", 1 ], [ "purple_drink", 1 ], [ "energy_drink", 1 ], [ "rootbeer", 1 ] ],
+      [ [ "salt_preservation", 1, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_37",
+    "type": "recipe",
+    "result": "sp_food_44",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -813,16 +763,20 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "human_flesh"       , 1         ] ],
-      [ [ "seasoning_mild"    , 1, "LIST" ] ],
-      [ [ "salt_preservation" , 1, "LIST" ] ]      
+      [ [ "bone_human", 10 ] ],
+      [ [ "water", 4 ], [ "water_clean", 4 ] ],
+      [ [ "human_lard", 1 ] ],
+      [ [ "human_flesh", 1 ] ],
+      [ [ "flour", 10 ] ],
+      [ [ "soysauce", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_38",
+    "type": "recipe",
+    "result": "sp_food_45",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -831,21 +785,19 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "meat_tainted"     , 1         ] ],
-      [ [ "apple_cider"      , 1         ] ],
-      [ [ "purple_drink"     , 1         ] ],
-      [ [ "energy_drink"     , 1         ] ],
-      [ 
-        [ "salt_preservation", 1, "LIST" ],
-        [ "soysauce"         , 1         ]
-      ]   
+      [ [ "human_flesh", 1 ] ],
+      [ [ "apple", 1 ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
+      [ [ "veggy_tainted", 1 ] ],
+      [ [ "sugar_standard", 1, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_39",
+    "type": "recipe",
+    "result": "sp_food_46",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -854,27 +806,24 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "leg"               , 1         ] ],
-      [ [ "bag_plastic"       , 1         ] ],
-      [ 
-        [ "sweet_fruit_fresh" , 1, "LIST" ],
-        [ "jam_fruit"         , 1         ],
-        [ "lemonade"          , 1         ]
-      ],  
-      [ 
-       [ "apple_cider"        , 1         ] ,
-       [ "purple_drink"       , 1         ],
-       [ "energy_drink"       , 1         ],
-       [ "rootbeer"           , 1         ] 
-      ],
-      [ [ "salt_preservation" , 1, "LIST" ] ]   
+      [ [ "human_flesh", 1 ] ],
+      [ [ "apple", 1 ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
+      [ [ "veggy_any", 2, "LIST" ] ],
+      [ [ "salt_preservation", 2, "LIST" ] ],
+      [ [ "soysauce", 1 ] ],
+      [ [ "sugar_standard", 1, "LIST" ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "wild_herbs", 1 ] ],
+      [ [ "garlic_clove", 1 ], [ "ginger", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_44",
+    "type": "recipe",
+    "result": "sp_food_47",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -883,22 +832,18 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "bone_human"         , 10 ] ],
-      [ 
-        [ "water"              , 4  ],
-        [ "water_clean"        , 4  ]
-      ],
-      [ [ "human_lard"         , 1  ] ],
-      [ [ "human_flesh"        , 1  ] ],
-      [ [ "flour"              , 10 ] ],
-      [ [ "soysauce"           , 1  ] ]
+      [ [ "human_flesh", 1 ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
+      [ [ "sweet_fruit_fresh", 2, "LIST" ] ],
+      [ [ "peanutbutter", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_45",
+    "type": "recipe",
+    "result": "sp_food_48",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -907,96 +852,27 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "human_flesh"          , 1          ] ],
-      [ [ "apple"                , 1          ] ],
-      [ [ "any_butter_or_oil"    , 1 , "LIST" ] ],
-      [ [ "veggy_tainted"        , 1          ] ],
-      [ [ "sugar_standard"       , 1 , "LIST" ] ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_46",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-      [ [ "human_flesh"       , 1          ] ],
-      [ [ "apple"             , 1          ] ],
-      [ [ "any_butter_or_oil" , 1 , "LIST" ] ],
-      [ [ "veggy_any"         , 2 , "LIST" ] ],
-      [ [ "salt_preservation" , 2 , "LIST" ] ],
-      [ [ "soysauce"          , 1          ] ],
-      [ [ "sugar_standard"    , 1 , "LIST" ] ],
-      [ 
-        [ "water"             , 1          ],
-        [ "water_clean"       , 1          ]
-      ],
-      [ [ "wild_herbs"        , 1          ] ],
-      [ 
-        [ "garlic_clove"      , 1          ],
-        [ "ginger"            , 1          ]
-      ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_47",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-      [ [ "human_flesh"        , 1         ] ],
-      [ [ "any_butter_or_oil"  , 1, "LIST" ] ],
-      [ [ "sweet_fruit_fresh"  , 2, "LIST" ] ],
-      [ [ "peanutbutter"       , 1         ] ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_48",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-      [ [ "human_flesh"         , 1          ] ],
-      [ [ "any_butter_or_oil"   , 1 , "LIST" ] ],
+      [ [ "human_flesh", 1 ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ],
       [
-        ["icecream"             , 1          ],
-        ["icecream_artificial"  , 1          ],
-        ["icecream_choc"        , 1          ],
-        ["icecream_candy"       , 1          ],
-        ["icecream_fruit"       , 1          ],
-        ["icecream_custard"     , 1          ],
-        ["icecream_sorbet"      , 1          ],
-        ["icecream_gelato"      , 1          ]
+        [ "icecream", 1 ],
+        [ "icecream_artificial", 1 ],
+        [ "icecream_choc", 1 ],
+        [ "icecream_candy", 1 ],
+        [ "icecream_fruit", 1 ],
+        [ "icecream_custard", 1 ],
+        [ "icecream_sorbet", 1 ],
+        [ "icecream_gelato", 1 ]
       ],
-      [ [ "salt_preservation"   , 2 , "LIST" ] ]
+      [ [ "salt_preservation", 2, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_49",
+    "type": "recipe",
+    "result": "sp_food_49",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -1005,29 +881,20 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ 
-        [ "bottle_glass"           , 1 ],
-        [ "test_tube"              , 1 ]
-      ],
-      [ [ "energy_drink"           , 1 ] ],
-      [ [ "chem_hydrogen_peroxide" , 1 ] ],
-      [ 
-        [ "garlic_clove"           , 1 ],
-        [ "ginger"                 , 1 ],
-        [ "chili_pepper"           , 1 ]
-      ],
-      [ 
-        [ "honey_glassed"          , 1 ],
-        [ "honey_bottled"          , 1 ]
-      ],
-      [ [ "cola"                   , 1 ] ]
+      [ [ "bottle_glass", 1 ], [ "test_tube", 1 ] ],
+      [ [ "energy_drink", 1 ] ],
+      [ [ "chem_hydrogen_peroxide", 1 ] ],
+      [ [ "garlic_clove", 1 ], [ "ginger", 1 ], [ "chili_pepper", 1 ] ],
+      [ [ "honey_glassed", 1 ], [ "honey_bottled", 1 ] ],
+      [ [ "cola", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_50",
+    "type": "recipe",
+    "result": "sp_food_50",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -1036,24 +903,19 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ 
-        [ "bottle_glass"       , 1 ],
-        [ "test_tube"          , 1 ]
-      ],
-      [ [ "material_quicklime" , 1 ] ],
-      [ [ "royal_jelly"        , 1 ] ],
-      [ 
-        [ "pearl"              , 1 ],
-        [ "gold_small"         , 1 ]
-      ],
-      [ [ "con_milk"           , 1 ] ]
+      [ [ "bottle_glass", 1 ], [ "test_tube", 1 ] ],
+      [ [ "material_quicklime", 1 ] ],
+      [ [ "royal_jelly", 1 ] ],
+      [ [ "pearl", 1 ], [ "gold_small", 1 ] ],
+      [ [ "con_milk", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_51",
+    "type": "recipe",
+    "result": "sp_food_51",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -1062,22 +924,20 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ 
-        [ "bottle_glass"                , 1 ],
-        [ "test_tube"                   , 1 ]
-      ],
-      [ [ "mycus_fruit"                 , 1 ] ],
-      [ [ "water_mineral"               , 1 ] ],
-      [ [ "hi_q_distillate"             , 1 ] ],
-      [ [ "meat_frond"                  , 1 ] ],
-      [ [ "jabberwock_heart_desiccated" , 1 ] ]
+      [ [ "bottle_glass", 1 ], [ "test_tube", 1 ] ],
+      [ [ "mycus_fruit", 1 ] ],
+      [ [ "water_mineral", 1 ] ],
+      [ [ "hi_q_distillate", 1 ] ],
+      [ [ "meat_frond", 1 ] ],
+      [ [ "jabberwock_heart_desiccated", 1 ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_52",
+    "type": "recipe",
+    "result": "sp_food_52",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -1086,24 +946,34 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "meat"              , 1          ] ],
-      [ 
-        [ "broth"             , 1          ],
-        [ "broth_bone"        , 1          ]
-      ],
-      [ 
-        [ "water"             , 1          ],
-        [ "water_clean"       , 1          ]
-      ],
-      [ [ "veggy_any"         , 1 , "LIST" ] ],
-      [ [ "salt_preservation" , 2 , "LIST" ] ]
+      [ [ "meat", 1 ] ],
+      [ [ "broth", 1 ], [ "broth_bone", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "veggy_any", 1, "LIST" ] ],
+      [ [ "salt_preservation", 2, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_53",
+    "type": "recipe",
+    "result": "sp_food_53",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 4,
+    "components": [ [ [ "human_flesh", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "salt_preservation", 2, "LIST" ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "sp_food_54",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -1112,45 +982,24 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "human_flesh"        , 1         ] ],
-      [ 
-        [ "water"              , 1         ],
-        [ "water_clean"        , 1         ]
-      ],
-      [ [ "salt_preservation"  , 2, "LIST" ] ]
-    ]
-  },
-  {
-  "type" : "recipe",
-  "result": "sp_food_54",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_特殊",
-    "skill_used": "cooking",
-    "difficulty": 2,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 4,
-    "components": [
-      [ [ "demihuman_flesh"          , 1         ] ],
-      [ [ "salt_preservation"        , 1, "LIST" ] ],
-      [ 
-        [ "newest_newspaper"         , 1         ],
-        [ "many_years_old_newspaper" , 1         ],
-        [ "years_old_newspaper"      , 1         ],
-        [ "one_year_old_newspaper"   , 1         ],
-        [ "months_old_newspaper"     , 1         ],
-        [ "weeks_old_newspaper"      , 1         ]
-        
+      [ [ "demihuman_flesh", 1 ] ],
+      [ [ "salt_preservation", 1, "LIST" ] ],
+      [
+        [ "newest_newspaper", 1 ],
+        [ "many_years_old_newspaper", 1 ],
+        [ "years_old_newspaper", 1 ],
+        [ "one_year_old_newspaper", 1 ],
+        [ "months_old_newspaper", 1 ],
+        [ "weeks_old_newspaper", 1 ]
       ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_55",
+    "type": "recipe",
+    "result": "sp_food_55",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -1159,25 +1008,18 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "demihuman_flesh"   , 1          ] ],
-      [ 
-        [ "salt_preservation" , 1, "LIST"  ],
-        [ "curry_powder"      , 4          ],
-        [ "chilly-p"          , 4          ] 
-      ],
-      [ 
-        [ "water"             , 1          ],
-        [ "water_clean"       , 1          ],
-        [ "milk_standard"     , 1 , "LIST" ]
-      ],
-      [ [ "veggy_any"         , 1 , "LIST" ] ]
+      [ [ "demihuman_flesh", 1 ] ],
+      [ [ "salt_preservation", 1, "LIST" ], [ "curry_powder", 4 ], [ "chilly-p", 4 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ], [ "milk_standard", 1, "LIST" ] ],
+      [ [ "veggy_any", 1, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_56",
+    "type": "recipe",
+    "result": "sp_food_56",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -1186,21 +1028,18 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "demihuman_flesh"   , 1           ] ],
-      [ 
-        [ "salt_preservation" , 1 , "LIST"  ],
-        [ "curry_powder"      , 4           ],
-        [ "chilly-p"          , 4           ] 
-      ],
-      [ [ "flour"             , 10          ] ],
-      [ [ "any_butter_or_oil" , 1 , "LIST"  ] ]      
+      [ [ "demihuman_flesh", 1 ] ],
+      [ [ "salt_preservation", 1, "LIST" ], [ "curry_powder", 4 ], [ "chilly-p", 4 ] ],
+      [ [ "flour", 10 ] ],
+      [ [ "any_butter_or_oil", 1, "LIST" ] ]
     ]
   },
   {
-  "type" : "recipe",
-  "result": "sp_food_57",
+    "type": "recipe",
+    "result": "sp_food_57",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_特殊",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 2,
     "time": "15 m",
@@ -1209,20 +1048,13 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "charges": 4,
     "components": [
-      [ [ "demihuman_flesh"   , 1          ] ],
-      [ [ "demihuman_lard"    , 1          ] ],
-      [ [ "salt_preservation" , 1 , "LIST" ] ],
-      [ [ "flour"             , 10         ] ],
-      [ [ "bread_sandwich"    , 1 , "LIST" ] ],
-      [ 
-        [ "slime_scrap"       , 1          ],
-        [ "eggs_any_shape"    , 2 , "LIST" ],
-        [ "eggs_insect"       , 2 , "LIST" ]
-      ],
-      [ 
-        [ "garlic_soy_sauce"  , 1          ],
-        [ "Marmite"           , 1          ]
-      ]      
+      [ [ "demihuman_flesh", 1 ] ],
+      [ [ "demihuman_lard", 1 ] ],
+      [ [ "salt_preservation", 1, "LIST" ] ],
+      [ [ "flour", 10 ] ],
+      [ [ "bread_sandwich", 1, "LIST" ] ],
+      [ [ "slime_scrap", 1 ], [ "eggs_any_shape", 2, "LIST" ], [ "eggs_insect", 2, "LIST" ] ],
+      [ [ "garlic_soy_sauce", 1 ], [ "Marmite", 1 ] ]
     ]
   }
 ]

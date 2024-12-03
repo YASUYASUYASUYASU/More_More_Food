@@ -11,7 +11,7 @@
         {"item": "lunch_box_h_i", "prob": 10 },
         {"item": "lunch_box_h_i_dx", "prob": 10 },
         {"item": "lunch_box_h_i_dx_atomic", "prob": 5 },
-        {"item": "chem_citric_acid", "prob": 10 },
+        { "prob": 10, "group": "chem_citric_acid_bottle_glass_50" },
         {"item": "chem_baking_soda", "prob": 10 }
       ]
     }
@@ -23,7 +23,7 @@
     "copy-from": "SUS_bathroom_sink",
     "extend": {
       "items": [
-        {"item": "chem_citric_acid", "prob": 60 },
+        { "prob": 60, "group": "chem_citric_acid_bottle_glass_50" },
         {"item": "chem_baking_soda", "prob": 60 }
       ]
     }

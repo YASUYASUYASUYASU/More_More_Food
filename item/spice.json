@@ -2,7 +2,7 @@
   {
     "type": "COMESTIBLE",
     "id": "miso",
-    "name": "味噌",
+    "name": { "str_sp": "味噌[MMF]" },
     "description": "大豆を発酵させて作る日本ではお馴染みの調味料です。様々な料理に使えます。",
     "comestible_type": "FOOD",
     "looks_like": "sugar_fried",

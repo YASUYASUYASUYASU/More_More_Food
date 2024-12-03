@@ -1,0 +1,22 @@
+[
+  {
+    "type": "construction_group",
+    "id": "place_fridge1",
+    "name": "冷蔵庫(中型)[MMF]を設置する"
+  },
+  {
+    "type": "construction_group",
+    "id": "place_fridge2",
+    "name": "冷蔵庫(大型)[MMF]を設置する"
+  },
+  {
+    "type": "construction_group",
+    "id": "place_freezer1",
+    "name": "冷凍庫(中型)[MMF]を設置する"
+  },
+  {
+    "type": "construction_group",
+    "id": "place_freezer2",
+    "name": "冷凍庫(大型)[MMF]を設置する"
+  }
+]

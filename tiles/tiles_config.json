@@ -1,0 +1,19 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "Chibi_Ultica", "MshockXottoplus" ],
+    "tiles-new": [
+
+      {
+        "file": "tiles/tile.png",
+        "sprite_height":32,
+        "sprite_width":32,
+        "tiles": [
+          { "id": "ikuradon_tokumori"         , "fg": 0, "rotates": false },
+          { "id": "overlay_wielded_ikuradon_tokumori"         , "fg": 0, "rotates": false }
+        ]
+      }
+
+    ]
+  }
+]

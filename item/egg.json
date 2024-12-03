@@ -1,9 +1,9 @@
 [
   {
     "type": "COMESTIBLE",
-    "id": "egg_bird",
-    "name": { "str": "bird egg" },
-    "copy-from": "egg_bird",
+    "id": "egg_chicken",
+    "name": { "str": "chicken egg" },
+    "copy-from": "egg_chicken",
     "spoils_in": "14 days",
     "extend": { "flags": [ "SMOKABLE" ] },
     "smoking_result": "egg_smoked"

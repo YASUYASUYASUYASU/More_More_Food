@@ -8,8 +8,6 @@
     "looks_like": "seed_cabbage",
     "weight": "10 g",
     "price": 160,
-    "charges": 2,
-    "stack_size": 8,
     "seed_data": { "plant_name": "ホウレンソウ[MMF]", "fruit": "spinach", "byproducts": [ "straw_pile" ], "grow": "15 days" }
   },
   {
@@ -21,8 +19,6 @@
     "looks_like": "seed_potato_raw",
     "weight": "152 g",
     "price": 160,
-    "charges": 2,
-    "stack_size": 8,
     "seed_data": { "plant_name": "生姜[MMF]", "fruit": "ginger", "byproducts": [ "straw_pile" ], "grow": "15 days" }
   },
   {
@@ -34,8 +30,6 @@
     "looks_like": "seed_cabbage",
     "weight": "10 g",
     "price": 160,
-    "charges": 2,
-    "stack_size": 8,
     "seed_data": { "plant_name": "ゴマ[MMF]", "fruit": "sesamum", "byproducts": [ "straw_pile" ], "grow": "15 days" }
   },
   {
@@ -47,8 +41,6 @@
     "looks_like": "seed_potato_raw",
     "weight": "152 g",
     "price": 160,
-    "charges": 2,
-    "stack_size": 8,
     "seed_data": { "plant_name": "サツマイモ[MMF]", "fruit": "sweet_potato", "byproducts": [ "straw_pile" ], "grow": "15 days" }
   },
   {
@@ -60,8 +52,6 @@
     "looks_like": "seed_cabbage",
     "weight": "10 g",
     "price": 160,
-    "charges": 2,
-    "stack_size": 8,
     "seed_data": { "plant_name": "オクラ[MMF]", "fruit": "okra", "byproducts": [ "straw_pile" ], "grow": "15 days" }
   },
   {
@@ -73,8 +63,6 @@
     "looks_like": "seed_weed",    
     "weight": "10 g",
     "price": 160,
-    "charges": 2,
-    "stack_size": 8,
     "seed_data": { "plant_name": "陸稲[MMF]", "fruit": "upland_rice", "byproducts": [ "straw_pile" ], "grow": "15 days" }
   },
   {
@@ -85,8 +73,6 @@
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたパインアップルの苗です。従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
     "weight": "140 g",
     "price": 100,
-    "charges": 2,
-    "stack_size": 8,
     "seed_data": { "plant_name": "パインアップル[MMF]", "fruit": "pineapple", "byproducts": [ "straw_pile" ], "grow": "15 days" }
   },
   {

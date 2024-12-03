@@ -1,23 +1,5 @@
 [
   {
-    "//1": "サンドイッチ用のパンにガーリックトーストを追加",
-    "id": "bread_sandwich",
-    "type": "requirement",
-    "//2": "Bread appropriate for sandwiches.",
-    "components": [
-      [
-        [ "flatbread", 1 ],
-        [ "bread", 1 ],
-        [ "wastebread", 1 ],
-        [ "sourdough_bread", 1 ],
-        [ "biscuit", 1 ],
-        [ "brioche", 1 ],
-        [ "crackers", 1 ],
-        [ "garlic_toast", 1]
-      ]
-    ]
-  },
-  {
     "id": "seta_main",
     "type": "requirement",
     "//": "定食用のメイン一覧(みそ汁セット)",

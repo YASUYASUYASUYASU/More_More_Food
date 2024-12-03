@@ -83,5 +83,85 @@
       { "drop": "veggy_wild", "type": "flesh", "mass_ratio": 0.01 },
       { "drop": "venom_paralytic", "type": "offal", "mass_ratio": 0.02 }
     ]
+  },
+  {
+    "//1": "mokomoko7様のいくら丼modの要素、魚解体時に卵がとれるように",
+    "id": "fish_tiny",
+    "type": "harvest",
+    "entries": [
+      { "drop": "fish", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "fish_scrap", "type": "flesh", "mass_ratio": 0.08 },
+      { "drop": "egg_fish", "type": "offal", "mass_ratio": 0.06 }
+    ]
+  },
+  {
+    "id": "fish_small",
+    "type": "harvest",
+    "entries": [
+      { "drop": "fish", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "fish_scrap", "type": "flesh", "mass_ratio": 0.08 },
+      { "drop": "bone", "type": "bone", "mass_ratio": 0.1 },
+      { "drop": "egg_fish", "type": "offal", "mass_ratio": 0.06 }
+    ]
+  },
+  {
+    "id": "fish_large",
+    "type": "harvest",
+    "message": "You gut and fillet the fish.",
+    "entries": [
+      { "drop": "fish", "type": "flesh", "mass_ratio": 0.38 },
+      { "drop": "animal_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "fish_scrap", "type": "flesh", "mass_ratio": 0.02 },
+      { "drop": "liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "bone", "type": "bone", "mass_ratio": 0.1 },
+      { "drop": "egg_fish", "type": "offal", "mass_ratio": 0.06 }
+    ]
+  },
+  {
+    "id": "mutant_fish",
+    "type": "harvest",
+    "entries": [
+      { "drop": "mutant_meat", "type": "flesh", "mass_ratio": 0.38 },
+      { "drop": "mutant_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "mutant_liver", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "bone", "type": "bone", "mass_ratio": 0.1 },
+      { "drop": "egg_fish", "type": "offal", "mass_ratio": 0.06 }
+    ]
+  },
+  {
+    "id": "shellfish",
+    "type": "harvest",
+    "message": "You carefully crack open its exoskeleton to get at the flesh beneath.",
+    "entries": [
+      { "drop": "fish", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "fish_scrap", "type": "flesh", "mass_ratio": 0.03 },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.1 },
+      { "drop": "egg_fish", "type": "offal", "mass_ratio": 0.06 }
+    ]
+  },
+  {
+    "id": "lobster",
+    "type": "harvest",
+    "message": "You carefully crack open its exoskeleton to get at the flesh beneath.",
+    "entries": [
+      { "drop": "lobster", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "meat_scrap", "type": "flesh", "mass_ratio": 0.03 },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.1 },
+      { "drop": "egg_fish", "type": "offal", "mass_ratio": 0.06 }
+    ]
+  },
+  {
+    "id": "mutant_shellfish",
+    "type": "harvest",
+    "message": "You crack open its hard shell to get at the flesh beneath.",
+    "entries": [
+      { "drop": "mutant_meat", "type": "flesh", "mass_ratio": 0.32 },
+      { "drop": "mutant_blood", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "chitin_piece", "type": "skin", "mass_ratio": 0.1 },
+      { "drop": "egg_fish", "type": "offal", "mass_ratio": 0.06 }
+    ]
   }
+]
 ]

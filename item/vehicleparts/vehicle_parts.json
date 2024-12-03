@@ -4,9 +4,7 @@
     "id": "fridge_1",
     "name": "冷蔵庫(中型)[MMF]",
     "description": "食品を保冷できる中型の冷蔵庫です。内容物を外気から断熱します。",
-    "symbol": "H",
     "color": "light_blue",
-    "broken_symbol": "#",
     "broken_color": "blue",
     "looks_like": "minifridge",
     "damage_modifier": 80,
@@ -28,16 +26,15 @@
       { "item": "hose", "prob": 50 },
       { "item": "motor_tiny", "prob": 25 }
     ],
-    "damage_reduction": { "all": 32 }
+    "damage_reduction": { "all": 32 },
+    "variants": [ { "symbols": "H", "symbols_broken": "#" } ]
   },
   {
     "type": "vehicle_part",
     "id": "fridge_2",
     "name": "冷蔵庫(大型)[MMF]",
     "description": "食品を保冷できる大型の冷蔵庫です。内容物を外気から断熱します。",
-    "symbol": "H",
     "color": "light_blue",
-    "broken_symbol": "#",
     "broken_color": "blue",
     "looks_like": "minifridge",
     "damage_modifier": 80,
@@ -53,22 +50,27 @@
     },
     "flags": [ "CARGO", "OBSTACLE", "FRIDGE", "COVERED", "ENABLED_DRAINS_EPOWER" ],
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 8, 13 ] },
-      { "item": "steel_chunk", "count": [ 8, 13 ] },
-      { "item": "scrap", "count": [ 8, 13 ] },
-      { "item": "hose", "prob": 50 },
+      { "item": "sheet_metal", "count": [ 1, 4 ] },
+      { "item": "sheet_metal_small", "count": [ 8, 12 ] },
+      { "item": "steel_chunk", "count": [ 0, 3 ] },
+      { "item": "scrap", "count": [ 2, 8 ] },
+      { "item": "plastic_chunk", "count": [ 9, 14 ] },
+      { "item": "cable", "charges": [ 1, 2 ] },
+      { "item": "pipe_fittings", "count": [ 1, 3 ] },
+      { "item": "hose", "count": 1 },
+      { "item": "cu_pipe", "count": [ 2, 4 ] },
+      { "item": "scrap_copper", "count": [ 1, 2 ] },
       { "item": "motor_tiny", "prob": 25 }
     ],
-    "damage_reduction": { "all": 32 }
+    "damage_reduction": { "all": 32 },
+    "variants": [ { "symbols": "H", "symbols_broken": "#" } ]
   },
   {
     "type": "vehicle_part",
     "id": "freezer_1",
     "name": "冷凍庫(中型)[MMF]",
     "description": "食品を冷凍できる中型の冷凍庫です。内容物を外気から断熱します。",
-    "symbol": "H",
     "color": "light_blue",
-    "broken_symbol": "#",
     "broken_color": "blue",
     "looks_like": "minifridge",
     "damage_modifier": 80,
@@ -84,22 +86,27 @@
     },
     "flags": [ "CARGO", "OBSTACLE", "FREEZER", "COVERED", "ENABLED_DRAINS_EPOWER" ],
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 8, 13 ] },
-      { "item": "steel_chunk", "count": [ 8, 13 ] },
-      { "item": "scrap", "count": [ 8, 13 ] },
-      { "item": "hose", "prob": 50 },
+      { "item": "sheet_metal", "count": [ 1, 4 ] },
+      { "item": "sheet_metal_small", "count": [ 8, 12 ] },
+      { "item": "steel_chunk", "count": [ 0, 3 ] },
+      { "item": "scrap", "count": [ 2, 8 ] },
+      { "item": "plastic_chunk", "count": [ 9, 14 ] },
+      { "item": "cable", "charges": [ 1, 2 ] },
+      { "item": "pipe_fittings", "count": [ 1, 3 ] },
+      { "item": "hose", "count": 1 },
+      { "item": "cu_pipe", "count": [ 2, 4 ] },
+      { "item": "scrap_copper", "count": [ 1, 2 ] },
       { "item": "motor_tiny", "prob": 25 }
     ],
-    "damage_reduction": { "all": 32 }
+    "damage_reduction": { "all": 32 },
+    "variants": [ { "symbols": "H", "symbols_broken": "#" } ]
   },
   {
     "type": "vehicle_part",
     "id": "freezer_2",
     "name": "冷凍庫(大型)[MMF]",
     "description": "食品を冷凍できる大型の冷凍庫です。内容物を外気から断熱します。",
-    "symbol": "H",
     "color": "light_blue",
-    "broken_symbol": "#",
     "broken_color": "blue",
     "looks_like": "minifridge",
     "damage_modifier": 80,
@@ -115,12 +122,19 @@
     },
     "flags": [ "CARGO", "OBSTACLE", "FREEZER", "COVERED", "ENABLED_DRAINS_EPOWER" ],
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 8, 13 ] },
-      { "item": "steel_chunk", "count": [ 8, 13 ] },
-      { "item": "scrap", "count": [ 8, 13 ] },
-      { "item": "hose", "prob": 50 },
+      { "item": "sheet_metal", "count": [ 1, 4 ] },
+      { "item": "sheet_metal_small", "count": [ 8, 12 ] },
+      { "item": "steel_chunk", "count": [ 0, 3 ] },
+      { "item": "scrap", "count": [ 2, 8 ] },
+      { "item": "plastic_chunk", "count": [ 9, 14 ] },
+      { "item": "cable", "charges": [ 1, 2 ] },
+      { "item": "pipe_fittings", "count": [ 1, 3 ] },
+      { "item": "hose", "count": 1 },
+      { "item": "cu_pipe", "count": [ 2, 4 ] },
+      { "item": "scrap_copper", "count": [ 1, 2 ] },
       { "item": "motor_tiny", "prob": 25 }
     ],
-    "damage_reduction": { "all": 32 }
+    "damage_reduction": { "all": 32 },
+    "variants": [ { "symbols": "H", "symbols_broken": "#" } ]
   }
 ]

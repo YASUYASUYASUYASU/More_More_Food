@@ -17,8 +17,7 @@
     "material": "veggy",
     "volume": "1 L",
     "flags": [ "FREEZERBURN", "RAW" ],
-    "charges": 4,
-    "vitamins": [ [ "calcium", 15 ], [ "iron", 1 ], [ "iron", 1 ], [ "vitC", 3 ],[ "vitB", 1 ]  ],
+    "vitamins": [ [ "calcium", 15 ], [ "iron", 1 ], [ "iron", 1 ], [ "vitC", 3 ]  ],
     "fun": -1
   },{
     "type": "COMESTIBLE",
@@ -38,8 +37,7 @@
     "material": "veggy",
     "volume": "1 L",
     "flags": [ "FREEZERBURN", "RAW" ],
-    "charges": 4,
-    "vitamins": [ [ "calcium", 8 ], [ "vitA", 1 ], [ "vitB", 10 ], [ "iron", 1 ], [ "vitC", 6 ] ],
+    "vitamins": [ [ "calcium", 8 ], [ "iron", 1 ], [ "vitC", 6 ] ],
     "fun": -1
   },{
     "type": "COMESTIBLE",
@@ -58,8 +56,7 @@
     "material": "veggy",
     "volume": "1 L",
     "flags": [ "EDIBLE_FROZEN", "RAW" ],
-    "charges": 4,
-    "vitamins": [ [ "calcium", 12 ], [ "vitA", 1 ], [ "vitB", 6 ], [ "iron", 10 ] ],
+    "vitamins": [ [ "calcium", 12 ], [ "iron", 10 ] ],
     "fun": -1
   },{
     "type": "COMESTIBLE",
@@ -79,8 +76,7 @@
     "material": "veggy",
     "volume": "1 L",
     "flags": [ "FREEZERBURN", "RAW" ],
-    "charges": 4,
-    "vitamins": [ [ "calcium", 9 ], [ "vitA", 1 ], [ "vitC", 11 ], [ "iron",9 ] ],
+    "vitamins": [ [ "calcium", 9 ], [ "vitC", 11 ], [ "iron",9 ] ],
     "fun": -1
   },{
     "type": "COMESTIBLE",
@@ -100,7 +96,6 @@
     "material": "veggy",
     "volume": "1 L",
     "flags": [ "EDIBLE_FROZEN", "RAW" ],
-    "charges": 4,
     "fun": -1
   },{
     "type": "COMESTIBLE",
@@ -119,7 +114,6 @@
     "material": "veggy",
     "volume": "1 L",
     "flags": [ "EDIBLE_FROZEN", "RAW" ],
-    "charges": 4,
     "fun": -5,
     "milling": { "into": "flour_wheat_free", "conversion_rate": 30 }
   },
@@ -130,7 +124,6 @@
     "copy-from": "pumpkin",
     "volume": "3 L",
     "weight": "500 g",
-    "charges": 2,
     "quench": -20,
     "healthy": 1,
     "calories": 2600,
