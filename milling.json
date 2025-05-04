@@ -1,0 +1,51 @@
+[
+  {
+    "result": "salt",
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "id_suffix": "mill_1_100",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "charges": 100,
+    "time": "0 s",
+    "autolearn": false,
+    "flags": [ "SECRET" ],
+    "tools": [  ],
+    "components": [ [ [ "material_rocksalt", 1 ] ] ]
+  },
+  {
+    "result": "flour_wheat_free",
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "id_suffix": "mill_1_30",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "charges": 30,
+    "time": "0 s",
+    "autolearn": false,
+    "flags": [ "SECRET" ],
+    "tools": [  ],
+    "components": [ [ [ "brown_rice", 1 ] ] ]
+  },
+  {
+    "result": "cacao_powder",
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "id_suffix": "mill_1_120",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "charges": 120,
+    "time": "0 s",
+    "autolearn": false,
+    "flags": [ "SECRET" ],
+    "tools": [  ],
+    "components": [ [ [ "cacao_fruit", 1 ] ] ]
+  }
+
+]

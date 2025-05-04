@@ -4,6 +4,6 @@
     "id": "meal_chitin_piece",
     "name": { "str_sp": "chitin powder" },
     "copy-from": "meal_chitin_piece",
-    "milling": { "into": "meal_chitin_piece", "conversion_rate": 4 }
+    "milling": { "into": "meal_chitin_piece", "recipe": "meal_chitin_piece_mill_4_1" }
   }
 ]

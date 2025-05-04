@@ -26,7 +26,7 @@ More_More_Food
     何かあればこちらで連絡いただけると助かります。
     
     ◆ Cataclysm:DDA(JP) Discordサーバー
-    https://discord.gg/2z5MxHg2zh
+    https://discord.com/invite/wawQKMK
 
 	
 	◆導入方法
@@ -34,6 +34,11 @@ More_More_Food
 	modフォルダに配置して頂ければOKです。
 	
 	【更新履歴】
+-----ver1.H.2 2025/05/04 公開----- 
+	◆開発版向け対応
+	・一部レシピの見直し
+	・風車レシピの見直し
+	・単位付与対応
 -----ver1.H.1 2024/12/21 公開----- 
 	◆0.H向け対応
 	・各種冷蔵・冷凍庫の消費電力を調整(単位が変った為の対応)
