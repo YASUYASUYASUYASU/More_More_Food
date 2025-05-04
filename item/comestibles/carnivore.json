@@ -63,7 +63,7 @@
     "type": "COMESTIBLE",
     "id": "meat_mutant_tainted_smoked",
     "copy-from": "meat_mutant_tainted_smoked",
-    "name": { "str": "smoked tainted mutant meat" },
+    "name": { "str_sp": "smoked tainted mutant meat" },
     "spoils_in": "48 days"
   },
   {
@@ -79,14 +79,14 @@
     "id": "meat_cooked",
     "copy-from": "meat_cooked",
     "type": "COMESTIBLE",
-    "name": { "str": "cooked meat" },
+    "name": { "str_sp": "cooked meat" },
     "spoils_in": "2 day"
   },
   {
     "id": "meat_fatty_cooked",
     "copy-from": "meat_fatty_cooked",
     "type": "COMESTIBLE",
-    "name": { "str": "cooked fatty meat" },
+    "name": { "str_sp": "cooked fatty meat" },
     "spoils_in": "2 day"
   },
   {
@@ -121,7 +121,7 @@
     "id": "meat_smoked",
     "copy-from": "meat_smoked",
     "type": "COMESTIBLE",
-    "name": { "str": "smoked meat" },
+    "name": { "str_sp": "smoked meat" },
     "spoils_in": "48 days"
   },
   {
@@ -150,7 +150,7 @@
     "type": "COMESTIBLE",
     "id": "tallow",
     "copy-from": "tallow",
-    "name": { "str": "tallow" },
+    "name": { "str_sp": "tallow" },
     "spoils_in": "120 days"
   },
   {
@@ -165,7 +165,7 @@
     "type": "COMESTIBLE",
     "id": "fat_tainted",
     "category": "other",
-    "name": { "str": "tainted fat" },
+    "name": { "str_sp": "tainted fat" },
     "copy-from": "fat_tainted",
     "spoils_in": "12 hours"
   },
@@ -180,7 +180,7 @@
     "type": "COMESTIBLE",
     "id": "raw_leather",
     "category": "spare_parts",
-    "name": { "str": "raw hide" },
+    "name": { "str_sp": "raw hide" },
     "copy-from": "raw_leather",
     "spoils_in": "3 day"
   },
@@ -188,14 +188,14 @@
     "type": "COMESTIBLE",
     "id": "raw_tainted_leather",
     "copy-from": "raw_tainted_leather",
-    "name": { "str": "tainted hide" },
+    "name": { "str_sp": "tainted hide" },
     "spoils_in": "1 days"
   },
   {
     "type": "COMESTIBLE",
     "id": "raw_fur",
     "category": "spare_parts",
-    "name": { "str": "raw pelt" },
+    "name": { "str_sp": "raw pelt" },
     "copy-from": "raw_fur",
     "spoils_in": "3 day",
     "healthy": -5
@@ -203,7 +203,7 @@
   {
     "type": "COMESTIBLE",
     "id": "raw_tainted_fur",
-    "name": { "str": "tainted pelt" },
+    "name": { "str_sp": "tainted pelt" },
     "copy-from": "raw_tainted_fur",
     "spoils_in": "12 hours"
   },
@@ -219,18 +219,18 @@
     "id": "meat_horse",
     "copy-from": "flesh",
     "type": "COMESTIBLE",
-    "name": { "str": "馬肉[MMF]", "str_pl": "馬肉[MMF]" },
+    "name": { "str_sp": "馬肉[MMF]"},
     "description": "馬肉です。栄養豊富ですよ！",
     "weight": "296 g",
     "volume": "250 ml",
-    "price": 500,
-    "price_postapoc": 50,
+    "price": "500 cent",
+    "price_postapoc": "500 cent",
     "spoils_in": "2 day",
     "calories": 402,
     "healthy": -1,
     "fun": -10,
     "cooks_like": "meat_cooked",
-    "vitamins": [ [ "calcium", 6 ], [ "iron", 12 ], [ "vitB", 80 ] ],
+    "vitamins": [ [ "calcium", 6 ], [ "iron", 12 ] ],
     "flags": [ "SMOKABLE", "RAW", "PREDATOR_FUN" ],
     "smoking_result": "meat_smoked"
   },
@@ -243,7 +243,7 @@
     "weight": "296 g",
     "volume": "250 ml",
     "cooks_like": "meat_cooked",
-    "vitamins": [ [ "calcium", 6 ], [ "iron", 12 ], [ "vitB", 80 ] ],
+    "vitamins": [ [ "calcium", 6 ], [ "iron", 12 ] ],
     "flags": [ "RAW", "PREDATOR_FUN" ],
     "smoking_result": "meat_smoked"
   }

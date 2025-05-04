@@ -1,7 +1,7 @@
 [
   {
     "type": "MOD_INFO",
-    "ident": "More_More_Food",
+    "id": "More_More_Food",
     "name": "<color_magenta>追加 - More_More_Food!</color>",
     "authors": [ "YasuYasu" ],
     "maintainers": [ "YasuYasu" ],

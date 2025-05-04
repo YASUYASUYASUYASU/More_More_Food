@@ -28,7 +28,6 @@
     "id": "cashews",
     "name": { "str_sp": "cashews" },
     "copy-from": "cashews",
-    "volume": "250 ml",
     "extend": { "flags": [ "SMOKABLE" ] },
     "smoking_result": "smoke_nuts"
   },
@@ -36,7 +35,7 @@
     "type": "COMESTIBLE",
     "id": "pecan_shelled",
     "name": { "str_sp": "shelled pecans" },
-    "copy-from": "egg_bird",
+    "copy-from": "pecan_shelled",
     "extend": { "flags": [ "SMOKABLE" ] },
     "smoking_result": "smoke_nuts"
   },

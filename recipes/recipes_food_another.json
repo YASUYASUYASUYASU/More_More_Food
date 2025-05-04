@@ -8,14 +8,8 @@
     "subcategory": "CSC_MMF_MEAT",
     "id_suffix": "from_more_tool",
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
-    "tools": [
-       [ [ "surface_heat", 15, "LIST" ] ],
-       [ [ "wire_mesh", -1 ] ]
-      ],
-    "components": [
-       [ [ "meat_red", 1, "LIST" ] ],
-       [ [ "splinter", 2 ] ]
-      ]
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ], [ [ "wire_mesh", -1 ] ] ],
+    "components": [ [ [ "meat_red", 1, "LIST" ] ], [ [ "splinter", 2 ] ] ]
   },
   {
     "//1": "通常調理器具と金網、裂けた木材(チップ)を使った燻製魚肉のアナザーレシピ",
@@ -25,22 +19,17 @@
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_MEAT",
     "id_suffix": "from_more_tool",
-    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
-    "tools": [
-      [ [ "surface_heat", 15, "LIST" ] ],
-      [ [ "wire_mesh", -1 ] ]
-     ],
-    "components": [
-       [ [ "fish"    , 1 ] ],
-       [ [ "splinter", 2 ] ]
-       ]
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ], [ [ "wire_mesh", -1 ] ] ],
+    "components": [ [ [ "fish", 1 ] ], [ [ "splinter", 2 ] ] ]
   },
   {
     "//1": "モモのシロップ漬け(既存アイテム)のレシピ",
-    "type" : "recipe",
+    "type": "recipe",
     "result": "can_peach",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_OTHER",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "30 m",
@@ -55,138 +44,119 @@
     ],
     "tools": [ [ [ "can_sealer", -1 ] ] ],
     "components": [
-      [ [ "canister_empty", 1 ], [ "can_food_unsealed", 1 ] ],
-     [ [ "scrap", 1 ] ],
-      [ [ "peach", 1  ],[ "irradiated_peach", 1  ] ],
-      [ [ "sugar", 25        ] ],
-      [ [ "water",2  ],[ "water_clean",2  ] ]
+      [ [ "canister_empty", 1 ] ],
+      [ [ "scrap", 1 ] ],
+      [ [ "peach", 1 ], [ "irradiated_peach", 1 ] ],
+      [ [ "sugar", 25 ] ],
+      [ [ "water", 2 ], [ "water_clean", 2 ] ]
     ]
   },
   {
     "//1": "プディング(既存アイテム)のレシピ",
-    "type" : "recipe",
+    "type": "recipe",
     "result": "pudding",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_OTHER",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "30 m",
     "autolearn": true,
     "charges": 10,
     "batch_time_factors": [ 83, 3 ],
-    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
     "components": [
-      [ [ "eggs_any_shape", 2, "LIST"  ],
-        ["eggs_insect", 2, "LIST" ] 
-      ],
-      [ [ "milk_standard", 1,"LIST"          ] ],
-      [ [ "sugar", 25        ] ],
-      [ [ "sugar_fried", 1        ] ]
-    ]      
+      [ [ "eggs_any_shape", 2, "LIST" ], [ "eggs_insect", 2, "LIST" ] ],
+      [ [ "milk_standard", 1, "LIST" ] ],
+      [ [ "sugar", 25 ] ],
+      [ [ "sugar_fried", 1 ] ]
+    ]
   },
   {
     "//1": "グラハムクラッカー(既存アイテム)のレシピ",
-    "type" : "recipe",
+    "type": "recipe",
     "result": "grahmcrackers",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_OTHER",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "30 m",
     "autolearn": true,
     "charges": 10,
     "batch_time_factors": [ 83, 3 ],
-    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "components": [
-      [ [ "eggs_any_shape", 2, "LIST"  ],
-        ["eggs_insect", 2, "LIST" ] 
-      ],
-      [ [ "milk_standard", 1,"LIST"          ] ],
+      [ [ "eggs_any_shape", 2, "LIST" ], [ "eggs_insect", 2, "LIST" ] ],
+      [ [ "milk_standard", 1, "LIST" ] ],
       [ [ "flour", 20 ] ],
-      [ [ "water",4  ],[ "water_clean",4  ] ],
-      [ [ "sugar", 25        ] ],
-      [ [ "salt", 4        ] ]
+      [ [ "water", 4 ], [ "water_clean", 4 ] ],
+      [ [ "sugar", 25 ] ],
+      [ [ "salt", 4 ] ]
     ]
   },
   {
     "//1": "クラッカー(既存アイテム)のレシピ",
-    "type" : "recipe",
+    "type": "recipe",
     "result": "crackers",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_MEAT",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "30 m",
     "autolearn": true,
     "charges": 10,
     "batch_time_factors": [ 83, 3 ],
-    "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
     "components": [
-      [ 
-        [ "eggs_any_shape", 2, "LIST"  ],
-        [ "eggs_insect", 2, "LIST"] 
-      ],
-      [ [ "milk_standard", 1,"LIST"          ] ],
+      [ [ "eggs_any_shape", 2, "LIST" ], [ "eggs_insect", 2, "LIST" ] ],
+      [ [ "milk_standard", 1, "LIST" ] ],
       [ [ "flour", 20 ] ],
-      [ [ "water",4  ],[ "water_clean",4  ] ],
-      [ [ "sugar", 25        ] ],
-      [ [ "salt", 4        ] ]
+      [ [ "water", 4 ], [ "water_clean", 4 ] ],
+      [ [ "sugar", 25 ] ],
+      [ [ "salt", 4 ] ]
     ]
   },
   {
     "//1": "レモネードパウダーのレシピ",
-    "type" : "recipe",
+    "type": "recipe",
     "result": "lemonade_powder",
-      "category": "CC_MMF",
-      "subcategory": "CSC_MMF_VEGGI",
-      "skill_used": "cooking",
-      "difficulty": 1,
-      "time": "5 m",
-      "autolearn": true,
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
-      "tools": 
-      [ 
-        [ [ "dehydrator", 10 ] ],
-        [ [ "surface_heat", 5, "LIST" ] ],
-        [ [ "food_processor", 10 ] ]
-      ],
-      "charges": 2,
-      "components": [
-        [ [ "lemon"            , 1          ],
-          [ "irradiated_lemon" , 1          ] 
-        ],
-        [ [ "sugar"            , 1           ] ],
-        [ [ "water"       , 1 ],
-          [ "water_clean" , 1 ] 
-        ]
-      ]
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_VEGGI",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "dehydrator", 10 ] ], [ [ "surface_heat", 5, "LIST" ] ], [ [ "food_processor", 10 ] ] ],
+    "charges": 2,
+    "components": [ [ [ "lemon", 1 ], [ "irradiated_lemon", 1 ] ], [ [ "sugar", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   },
   {
     "//1": "マシュマロ(自動レシピ)のレシピ",
-    "type" : "recipe",
+    "type": "recipe",
     "result": "marshmallow",
-      "category": "CC_MMF",
-      "subcategory": "CSC_MMF_SNACK",
-      "skill_used": "cooking",
-      "difficulty": 1,
-      "time": "20 m",
-      "autolearn": true,
-      "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
-      "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-      "charges": 10,
-      "components": [
-        [ [ "sugar"       , 10         ] ],
-        [ [ "eggs_any_shape"   , 1 , "LIST" ],
-          ["eggs_insect", 2, "LIST" ] 
-        ],
-        [ [ "water"       , 1 ],
-          [ "water_clean" , 1 ] 
-        ],
-        [ [ "chem_agar"   , 1          ] ]
-      ]
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_SNACK",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "charges": 10,
+    "components": [
+      [ [ "sugar", 10 ] ],
+      [ [ "eggs_any_shape", 1, "LIST" ], [ "eggs_insect", 2, "LIST" ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "chem_agar", 1 ] ]
+    ]
   },
   {
     "//1": "調理油のレシピ",
@@ -204,9 +174,7 @@
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "oil_press_manual", 50 ], [ "oil_press_primitive", 50 ] ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" } ],
-    "components": [
-      [ [ "veggy", 100 ] ]
-    ]
+    "components": [ [ [ "veggy", 100 ] ] ]
   },
   {
     "//1": "コーラのレシピ",
@@ -269,5 +237,27 @@
     "batch_time_factors": [ 67, 5 ],
     "tools": [ [ [ "dehydrator", 25 ], [ "char_smoker", 25 ] ], [ [ "surface_heat", 5, "LIST" ] ] ],
     "components": [ [ [ "eggs_bird", 1, "LIST" ], [ "egg_reptile", 1 ] ] ]
+  },
+  {
+    "//1": "トウモロコシ(保存食)を自作できるように",
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "can_corn",
+    "category": "CC_MMF",
+    "subcategory": "CSC_MMF_DRY",
+    "id_suffix": "frozen_ingredients_modicum",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": "30 m",
+    "charges": 2,
+    "book_learn": [ [ "manual_canning", 3 ] ],
+    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
+    "batch_time_factors": [ 83, 5 ],
+    "using": [ [ "canning_metal", 1, "LIST" ], [ "tincan_small", 1 ] ],
+    "//2": "pressure canning is measured in 0.5 liter quantities, so 1u of canning_high_heat.",
+    "components": [ 
+      [ [ "water_clean", 1 ] ],
+      [ [ "jar_glass_sealed", 1 ] ],
+      [ [ "corn_kernels", 2 ] ] ]
   }
 ]

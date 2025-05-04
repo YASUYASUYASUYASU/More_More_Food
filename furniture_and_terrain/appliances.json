@@ -1,0 +1,38 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "ap_fridge_1",
+    "copy-from": "ap_minifridge",
+    "name": { "str": "冷蔵庫(中型)[MMF]" },
+    "epower": "-60 W",
+    "size": "150 L",
+    "item": "fridge_1"
+  },
+  {
+    "type": "vehicle_part",
+    "id": "ap_fridge_2",
+    "copy-from": "ap_minifridge",
+    "name": { "str": "冷蔵庫(大型)[MMF]" },
+    "epower": "-80 W",
+    "size": "200 L",
+    "item": "fridge_2"
+  },
+  {
+    "type": "vehicle_part",
+    "id": "ap_freezer_1",
+    "copy-from": "ap_minifridge",
+    "name": { "str": "冷蔵庫(中型)[MMF]" },
+    "epower": "-60 W",
+    "size": "150 L",
+    "item": "freezer_1"
+  },
+  {
+    "type": "vehicle_part",
+    "id": "ap_freezer_2",
+    "copy-from": "ap_minifridge",
+    "name": { "str": "冷蔵庫(大型)[MMF]" },
+    "epower": "-80 W",
+    "size": "200 L",
+    "item": "freezer_2"
+  }
+]

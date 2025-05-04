@@ -13,12 +13,11 @@
     "healthy": 1,
     "calories": 30,
     "description": "世界中で様々に利用されてきた香味野菜の一つです。どんな食材とも合わせやすく使いやすい食材ですね。",
-    "price": 20,
+    "price": "2 USD",
     "material": "veggy",
     "volume": "1 L",
     "flags": [ "FREEZERBURN", "RAW" ],
-    "charges": 4,
-    "vitamins": [ [ "calcium", 15 ], [ "iron", 1 ], [ "iron", 1 ], [ "vitC", 3 ],[ "vitB", 1 ]  ],
+    "vitamins": [ [ "calcium", 15 ], [ "iron", 1 ], [ "iron", 1 ], [ "vitC", 3 ]  ],
     "fun": -1
   },{
     "type": "COMESTIBLE",
@@ -34,12 +33,11 @@
     "healthy": 1,
     "calories": 345,
     "description": "ヒルガオ科サツマイモ属の植物です。原産地は南アメリカ大陸、ペルー熱帯地方とされます。しっとり甘い美味しさが特徴です",
-    "price": 20,
+    "price": "2 USD",
     "material": "veggy",
     "volume": "1 L",
     "flags": [ "FREEZERBURN", "RAW" ],
-    "charges": 4,
-    "vitamins": [ [ "calcium", 8 ], [ "vitA", 1 ], [ "vitB", 10 ], [ "iron", 1 ], [ "vitC", 6 ] ],
+    "vitamins": [ [ "calcium", 8 ], [ "iron", 1 ], [ "vitC", 6 ] ],
     "fun": -1
   },{
     "type": "COMESTIBLE",
@@ -54,12 +52,11 @@
     "healthy": 1,
     "calories": 20,
     "description": "主に種子が食材や食用油などの油製品の材料とされ、古代から今日まで世界中で利用する植物です。日本ではこれを炒ったり、擂ったりして使われています。",
-    "price": 20,
+    "price": "2 USD",
     "material": "veggy",
     "volume": "1 L",
     "flags": [ "EDIBLE_FROZEN", "RAW" ],
-    "charges": 4,
-    "vitamins": [ [ "calcium", 12 ], [ "vitA", 1 ], [ "vitB", 6 ], [ "iron", 10 ] ],
+    "vitamins": [ [ "calcium", 12 ], [ "iron", 10 ] ],
     "fun": -1
   },{
     "type": "COMESTIBLE",
@@ -75,12 +72,11 @@
     "healthy": 1,
     "calories": 126,
     "description": "和名をアメリカネリと言い、ほかに陸蓮根（おかれんこん）の異名もあるアオイ科トロロアオイ属の植物です。",
-    "price": 20,
+    "price": "2 USD",
     "material": "veggy",
     "volume": "1 L",
     "flags": [ "FREEZERBURN", "RAW" ],
-    "charges": 4,
-    "vitamins": [ [ "calcium", 9 ], [ "vitA", 1 ], [ "vitC", 11 ], [ "iron",9 ] ],
+    "vitamins": [ [ "calcium", 9 ], [ "vitC", 11 ], [ "iron",9 ] ],
     "fun": -1
   },{
     "type": "COMESTIBLE",
@@ -96,14 +92,14 @@
     "healthy": 1,
     "calories": 500,
     "description": "陸稲と呼ばれる畑で栽培される稲です。主にインドのアッサム地方、ブラジルなどで栽培されています。",
-    "price": 20,
+    "price": "2 USD",
     "material": "veggy",
     "volume": "1 L",
     "flags": [ "EDIBLE_FROZEN", "RAW" ],
-    "charges": 4,
     "fun": -1
   },{
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": ["MILLING", "COMESTIBLE" ],
     "id": "brown_rice",
     "name": "玄米[MMF]",
     "looks_like": "oats",
@@ -115,28 +111,29 @@
     "healthy": 1,
     "calories": 126,
     "description": "稲の実をもみすりし、もみがらを外したものです。この後、精米をする事で白米になりますが、このままでも調理は可能です。",
-    "price": 20,
+    "price": "2 USD",
     "material": "veggy",
     "volume": "1 L",
     "flags": [ "EDIBLE_FROZEN", "RAW" ],
-    "charges": 4,
     "fun": -5,
-    "milling": { "into": "flour_wheat_free", "conversion_rate": 30 }
+    "into": "flour_wheat_free",
+    "recipe": "flour_wheat_free_mill_1_30"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": ["MILLING", "COMESTIBLE" ],
     "id": "cacao_fruit",
     "name": { "str_sp": "カカオの実[MMF]" },
     "copy-from": "pumpkin",
     "volume": "3 L",
     "weight": "500 g",
-    "charges": 2,
     "quench": -20,
     "healthy": 1,
     "calories": 2600,
     "fun": -15,
     "description": "アオギリ科テオブロマ属に分類される、チョコレートやココアの主原料となる熱帯植物です。Rivtech社の技術により、ここニューイングランドでも栽培が可能になった品種です。そのまま食べるようなものじゃないので、食べるなら加工してからにしましょう",
     "vitamins": [ [ "calcium", 41 ], [ "iron", 4 ] ],
-    "milling": { "into": "cacao_powder", "conversion_rate": 120 }
-    }
+    "into": "cacao_powder",
+    "recipe": "cacao_powder_mill_1_120"
+  }
 ]

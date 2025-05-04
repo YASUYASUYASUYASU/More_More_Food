@@ -1,9 +1,11 @@
 [
   {
+    "//1": "各種冷蔵・冷凍庫のレシピ",
     "result": "fridge_1",
     "type": "recipe",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_OTHER",
+    "activity_level": "BRISK_EXERCISE",
     "skill_used": "mechanics",
     "skills_required": [ "fabrication", 4 ],
     "time": "180 m",
@@ -27,12 +29,7 @@
   },{
     "result": "fridge_2",
     "type": "recipe",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_OTHER",
-    "skill_used": "mechanics",
-    "time": "180 m",
-    "skills_required": [ "fabrication", 4 ],
-    "autolearn": true,
+    "copy-from": "fridge_1",
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
@@ -52,12 +49,7 @@
   },  {
     "result": "freezer_1",
     "type": "recipe",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_OTHER",
-    "skill_used": "mechanics",
-    "skills_required": [ "fabrication", 4 ],
-    "time": "180 m",
-    "autolearn": true,
+    "copy-from": "fridge_1",
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
@@ -77,12 +69,7 @@
   },{
     "result": "freezer_2",
     "type": "recipe",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_OTHER",
-    "skill_used": "mechanics",
-    "skills_required": [ "fabrication", 4 ],
-    "time": "180 m",
-    "autolearn": true,
+    "copy-from": "fridge_1",
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },

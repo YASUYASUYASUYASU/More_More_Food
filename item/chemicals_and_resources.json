@@ -4,6 +4,6 @@
     "id": "material_rocksalt",
     "name": { "str_sp": "rock salt" },
     "copy-from": "material_rocksalt",
-    "milling": { "into": "salt", "conversion_rate": 100 }
+    "milling": { "into": "salt", "recipe": "salt_mill_1_100" }
   }
 ]

@@ -8,8 +8,8 @@
     "looks_like": "thermos",
     "description": "液体を保温できるタイガー社の魔法瓶です。2Lの容量があります。",
     "weight": "730 g",
-    "price": 1895,
-    "price_postapoc": 100,
+    "price": "20 USD",
+    "price_postapoc": "10 USD",
     "volume": "2250 ml",
     "pocket_data": [
       {
@@ -30,8 +30,8 @@
     "looks_like": "thermos",
     "description": "液体を保温できる象印社の魔法瓶です。3Lの容量があります。",
     "weight": "830 g",
-    "price": 2095,
-    "price_postapoc": 100,
+    "price": "20 USD",
+    "price_postapoc": "10 USD",
     "volume": "3250 ml",
     "pocket_data": [
       {
@@ -53,8 +53,8 @@
     "looks_like": "thermos",
     "description": "ごはんを保温できる保温弁当箱です。これにお弁当を入れてピクニックしましょう！",
     "weight": "730 g",
-    "price": "15 USD",
-    "price_postapoc": "15 USD",
+    "price": "20 USD",
+    "price_postapoc": "10 USD",
     "volume": "2250 ml",
     "material": "steel",
     "symbol": "I",

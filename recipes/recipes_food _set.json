@@ -1,9 +1,11 @@
 [
   {
+    "//1": "各種セットメニューのレシピ",
     "type" : "recipe",
     "result": "set_karaage",
     "category": "CC_MMF",
     "subcategory": "CSC_MMF_セットメニュー",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "cooking",
     "difficulty": 3,
     "time": "30 m",
@@ -57,15 +59,9 @@
   {
     "type" : "recipe",
     "result": "seta_teisyoku",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_セットメニュー",
-    "skill_used": "cooking",
-    "difficulty": 3,
-    "time": "30 m",
-    "autolearn": true,
+    "copy-from": "set_karaage",
     "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 1,
     "components": [
       [ [ "seta_main"     , 1, "LIST" ] ],
       [ [ "dry_rice"     , 2 ] ],
@@ -108,15 +104,9 @@
   {
     "type" : "recipe",
     "result": "setb_teisyoku",
-    "category": "CC_MMF",
-    "subcategory": "CSC_MMF_セットメニュー",
-    "skill_used": "cooking",
-    "difficulty": 3,
-    "time": "30 m",
-    "autolearn": true,
+    "copy-from": "set_karaage",
     "qualities": [ { "id": "COOK", "level": 2 },{ "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "charges": 1,
     "components": [
       [ [ "setb_main"     , 1, "LIST" ] ],
       [ [ "dry_rice"     , 2 ] ],
