@@ -1,6 +1,7 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "bacon",
     "name": { "str": "bacon", "str_pl": "pieces of bacon" },
     "weight": "85 g",
@@ -23,7 +24,8 @@
     "smoking_result": "smoke_bacon"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "can_salmon",
     "name": { "str": "canned salmon", "str_pl": "canned salmon" },
     "weight": "200 g",

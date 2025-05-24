@@ -1,6 +1,8 @@
 [
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "garlic_chips",
         "name": { "str_sp": "ガーリックチップス[MMF]" },
         "copy-from": "garlic_rice",
@@ -13,7 +15,9 @@
         "fun" : 1
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "garlic_rice",
         "name": { "str_sp": "ガーリックライス[MMF]" },
         "looks_like": "deluxe_veggy_beansnrice",
@@ -21,7 +25,6 @@
         "volume": "250 ml",
         "color" : "red",
         "spoils_in": "2 days",
-        "comestible_type" : "FOOD",
         "symbol" : "%",
         "quench" : -1,
         "healthy" : 2,
@@ -32,7 +35,9 @@
         "fun" : 5
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "garlic_soy_sauce",
         "name": { "str_sp": "にんにく醤油[MMF]" },
         "copy-from": "soysauce",
@@ -40,7 +45,9 @@
         "calories": 9
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "garlic_soy_sauce_coocked_1",
         "name": { "str_sp": "にんにく醤油炒め(野菜)[MMF]" },
         "copy-from": "garlic_rice",
@@ -54,7 +61,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "garlic_soy_sauce_coocked_2",
         "name": { "str_sp": "にんにく醤油炒め(肉)[MMF]" },
         "copy-from": "garlic_soy_sauce_coocked_1",
@@ -63,7 +72,9 @@
         "material": [ "flesh","veggy" ]
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "garlic_soy_sauce_coocked_3",
         "name": { "str_sp": "にんにく醤油炒め(魚)[MMF]" },
         "copy-from": "garlic_soy_sauce_coocked_1",
@@ -73,7 +84,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "karaage",
         "name": { "str_sp": "からあげ[MMF]" },
         "copy-from": "garlic_rice",
@@ -86,7 +99,9 @@
         "fun": 5
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "german_fries_1",
         "name": { "str_sp": "ジャーマンポテト(マスタードあり)[MMF]" },
         "copy-from": "garlic_rice",
@@ -98,7 +113,9 @@
         "material": [ "flesh","veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "german_fries_2",
         "name": { "str_sp": "ジャーマンポテト(マスタードなし)[MMF]" },
         "copy-from": "garlic_rice",
@@ -110,7 +127,9 @@
         "material": [ "flesh","veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "veggi_stick_1",
         "name": { "str_sp": "野菜スティック(マヨ)[MMF]" },
         "copy-from": "garlic_rice",
@@ -125,7 +144,9 @@
         "fun": 1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "japanese_pickles",
         "name": { "str_sp": "漬物[MMF]" },
         "copy-from": "garlic_rice",
@@ -142,7 +163,9 @@
         "fun": 1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gyoza_1",
         "name": { "str_sp": "餃子[MMF]" },
         "copy-from": "garlic_rice",
@@ -155,14 +178,15 @@
         "flags" : ["EATEN_HOT","FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "DRINK",
         "id": "gyoza_2",
         "name": { "str_sp": "水餃子[MMF]" },
         "calories": 177,
         "looks_like": "pelmeni",
         "weight": "300 g" ,
         "volume": "250 ml",
-        "comestible_type": "DRINK",
         "phase": "liquid",
         "container": "bottle_plastic",
         "color": "red",
@@ -178,7 +202,9 @@
         "charges": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gyoza_3",
         "name": { "str_sp": "餃子(肉)[MMF]" },
         "copy-from": "gyoza_1",
@@ -187,7 +213,9 @@
         "material": [ "flesh","wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gyoza_4",
         "name": { "str_sp": "餃子(野菜)[MMF]" },
         "copy-from": "gyoza_1",
@@ -197,7 +225,9 @@
         "material": [ "veggy","wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "twice_cooked_pork",
         "name": { "str_sp": "回鍋肉[MMF]" },
         "copy-from": "garlic_rice",
@@ -209,7 +239,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "chili_bean_sauce",
         "name": { "str_sp": "豆板醤[MMF]" },
         "copy-from": "soysauce",
@@ -226,7 +258,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "chinese_style_fried_chicken",
         "name": { "str_sp": "油淋鶏[MMF]" },
         "copy-from": "garlic_rice",
@@ -239,7 +273,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "vinegar_pork_1",
         "name": { "str_sp": "酢豚(パインあり)[MMF]" },
         "copy-from": "garlic_rice",
@@ -252,7 +288,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "vinegar_pork_2",
         "name": { "str_sp": "酢豚(パインなし)[MMF]" },
         "copy-from": "garlic_rice",
@@ -265,7 +303,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "stir_fried_greens",
         "name": { "str_sp": "青菜炒め[MMF]" },
         "copy-from": "garlic_rice",
@@ -277,7 +317,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "shanghai_style_yakisoba",
         "name": { "str_sp": "上海風焼きそば[MMF]" },
         "copy-from": "garlic_rice",
@@ -289,7 +331,9 @@
         "material": [ "flesh", "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "chinese_congee_1",
         "name": { "str_sp": "中華粥[MMF]" },
         "copy-from": "gyoza_2",
@@ -299,7 +343,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "chinese_congee_2",
         "name": { "str_sp": "中華粥(DX)[MMF]" },
         "copy-from": "gyoza_2",
@@ -309,7 +355,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "mabu_tofu",
         "name": { "str_sp": "麻婆豆腐[MMF]" },
         "copy-from": "garlic_rice",
@@ -321,7 +369,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "bruschetta",
         "name": { "str_sp": "ブルスケッタ[MMF]" },
         "copy-from": "garlic_rice",
@@ -333,7 +383,9 @@
         "material": [ "wheat","tomato" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "hiyayako",
         "name": { "str_sp": "ひややっこ[MMF]" },
         "copy-from": "garlic_rice",
@@ -348,7 +400,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "agedasi_tofu",
         "name": { "str_sp": "揚げだし豆腐[MMF]" },
         "copy-from": "garlic_rice",
@@ -360,7 +414,9 @@
         "material": [ "veggy"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "flaked_tuna_mixed",
         "name": { "str_sp": "ツナマヨ[MMF]" },
         "copy-from": "garlic_rice",
@@ -373,7 +429,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "onigiri_1",
         "name": { "str_sp": "おにぎり(塩)[MMF]" },
         "copy-from": "garlic_rice",
@@ -385,7 +443,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "onigiri_2",
         "name": { "str_sp": "おにぎり(から揚げマヨ)[MMF]" },
         "copy-from": "onigiri_1",
@@ -396,7 +456,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "onigiri_3",
         "name": { "str_sp": "おにぎり(漬物)[MMF]" },
         "copy-from": "onigiri_1",
@@ -407,7 +469,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "onigiri_4",
         "name": { "str_sp": "おにぎり(ツナマヨ)[MMF]" },
         "copy-from": "onigiri_1",
@@ -417,7 +481,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "onigiri_5",
         "name": { "str_sp": "おにぎり(いくら)[MMF]" },
         "copy-from": "onigiri_1",
@@ -427,7 +493,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "potato_butter",
         "name": { "str_sp": "じゃがバター[MMF]" },
         "copy-from": "garlic_rice",
@@ -439,14 +507,15 @@
         "material": [ "veggy","milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "DRINK",
         "id": "olive_oil",
         "name": { "str_sp": "オリーブオイル[MMF]" },
         "looks_like": "diesel",
         "weight": "15 g",
         "volume": "750 ml",
         "calories": 127,
-        "comestible_type": "DRINK",
         "phase": "liquid",
         "color": "red",
         "symbol": "%",
@@ -460,7 +529,9 @@
         "charges": 15
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sandwich_tuna",
         "name": { "str_sp": "サンドイッチ(ツナマヨ)[MMF]" },
         "copy-from": "fish_sandwich",
@@ -469,7 +540,9 @@
         "material": [ "flesh", "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sandwich_smoke",
         "name": { "str_sp": "サンドイッチ(スモークサーモン)[MMF]" },
         "copy-from": "fish_sandwich",
@@ -478,7 +551,9 @@
         "material": [ "flesh", "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "potato_salad",
         "name": { "str_sp": "ポテトサラダ[MMF]" },
         "copy-from": "garlic_rice",
@@ -491,7 +566,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "egg_roasted",
         "name": { "str_sp": "卵焼き[MMF]" },
         "copy-from": "garlic_rice",
@@ -504,7 +581,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "udon_nekase",
         "name": { "str_sp": "うどん(麺)(寝かせ中)[MMF]" },
         "copy-from": "garlic_rice",
@@ -527,7 +606,9 @@
         "fun": -1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "udon",
         "name": { "str_sp": "うどん(麺)[MMF]" },
         "copy-from": "garlic_rice",
@@ -539,7 +620,9 @@
         "material": [ "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "udon_1",
         "name": { "str_sp": "うどん[MMF]" },
         "copy-from": "gyoza_2",
@@ -549,7 +632,9 @@
         "material": [ "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "udon_2",
         "name": { "str_sp": "カレーうどん[MMF]" },
         "copy-from": "udon_1",
@@ -560,7 +645,9 @@
         "material": [ "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ramen_1",
         "name": { "str_sp": "ラーメン(塩)[MMF]" },
         "copy-from": "gyoza_2",
@@ -572,7 +659,9 @@
         "material": [ "flesh","wheat","veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ramen_2",
         "name": { "str_sp": "ラーメン(醤油)[MMF]" },
         "copy-from": "ramen_1",
@@ -581,7 +670,9 @@
         "material": [ "flesh","wheat","veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ramen_3",
         "name": { "str_sp": "ラーメン(カレー)[MMF]" },
         "copy-from": "ramen_1",
@@ -591,7 +682,9 @@
         "material": [ "flesh", "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "pho",
         "name": { "str_sp": "フォー[MMF]" },
         "copy-from": "ramen_1",
@@ -602,7 +695,9 @@
         "material": [ "flesh", "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "hamburg_steak",
         "name": { "str_sp": "ハンバーグ[MMF]" },
         "copy-from": "garlic_rice",
@@ -614,7 +709,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sandwich_hamburg_steak",
         "name": { "str_sp": "サンドイッチ(ハンバーグ)[MMF]" },
         "copy-from": "fish_sandwich",
@@ -623,7 +720,9 @@
         "material": [ "flesh", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "bone_crackers",
         "name": { "str_sp": "骨せんべい[MMF]" },
         "copy-from": "garlic_rice",
@@ -638,7 +737,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "curry_bread",
         "name": { "str_sp": "カレーパン[MMF]" },
         "copy-from": "garlic_rice",
@@ -650,7 +751,9 @@
         "material": [ "flesh", "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "nanbanzuke",
         "name": { "str_sp": "南蛮漬け(魚)[MMF]" },
         "copy-from": "garlic_rice",
@@ -664,7 +767,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "Lassi",
         "name": { "str_sp": "ラッシー[MMF]" },
         "copy-from": "juice",
@@ -675,7 +780,9 @@
         "material": [ "milk","water" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "salada_onion",
         "name": { "str_sp": "オニオンサラダ[MMF]" },
         "copy-from": "garlic_rice",
@@ -683,14 +790,15 @@
         "calories": 192,
         "weight": "150 g" ,
         "volume": "250 ml",
-        "comestible_type": "FOOD",
         "quench": 5,
         "description": "スライスしたタマネギを使ったサラダです。手軽にできるサラダです",
         "material": [ "veggy" ],
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "tomato_simmered_fish",
         "name": { "str_sp": "トマト煮(魚)[MMF]" },
         "copy-from": "garlic_rice",
@@ -703,7 +811,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "tomato_simmered_meat",
         "name": { "str_sp": "トマト煮(肉)[MMF]" },
         "copy-from": "garlic_rice",
@@ -716,7 +826,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "croquettes",
         "name": { "str_sp": "コロッケ[MMF]" },
         "copy-from": "garlic_rice",
@@ -729,7 +841,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sandwich_croquettes",
         "name": { "str_sp": "サンドイッチ(コロッケ)[MMF]" },
         "copy-from": "fish_sandwich",
@@ -738,7 +852,9 @@
         "material": [ "flesh", "veggy", "wheat","egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "minced",
         "name": { "str_sp": "メンチカツ[MMF]" },
         "copy-from": "garlic_rice",
@@ -750,7 +866,9 @@
         "material": [ "flesh", "veggy", "wheat","egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sandwich_minced",
         "name": { "str_sp": "サンドイッチ(メンチカツ)[MMF]" },
         "copy-from": "fish_sandwich",
@@ -760,7 +878,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "yamatoni_meat",
         "name": { "str_sp": "大和煮(肉)[MMF]" },
         "copy-from": "garlic_rice",
@@ -772,7 +892,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "yamatoni_fish",
         "name": { "str_sp": "大和煮(魚)[MMF]" },
         "copy-from": "garlic_rice",
@@ -784,7 +906,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "Marmite",
         "name": { "str_sp": "マーマイト[MMF]" },
         "copy-from": "garlic_rice",
@@ -801,7 +925,9 @@
         "fun": -5
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sandwich_Marmite",
         "name": { "str_sp": "サンドイッチ(マーマイト)[MMF]" },
         "copy-from": "fish_sandwich",
@@ -814,7 +940,9 @@
         "fun": -2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gratin",
         "name": { "str_sp": "グラタン[MMF]" },
         "copy-from": "garlic_rice",
@@ -826,14 +954,15 @@
         "material": [ "flesh", "veggy", "wheat","milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gratin_fish",
         "name": { "str_sp": "白身魚のグラタン[MMF]" },
         "looks_like": "lasagne",
         "calories": 630,
         "weight": "150 g" ,
         "volume": "250 ml",
-        "comestible_type": "FOOD",
         "color": "red",
         "spoils_in": "2 days",
         "symbol": "%",
@@ -846,7 +975,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "mushroom_Saute",
         "name": { "str_sp": "きのこのガーリックバター炒め[MMF]" },
         "copy-from": "garlic_rice",
@@ -858,7 +989,9 @@
         "material": [ "veggy"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "mushroom_marinated",
         "name": { "str_sp": "きのこのマリネ[MMF]" },
         "copy-from": "garlic_rice",
@@ -871,7 +1004,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "fricassee",
         "name": { "str_sp": "鶏ときのこのフリカッセ[MMF]" },
         "copy-from": "gyoza_2",
@@ -881,7 +1016,9 @@
         "material": [ "flesh", "veggy", "milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "japanese_mushroom_pasta",
         "name": { "str_sp": "和風きのこパスタ[MMF]" },
         "copy-from": "garlic_rice",
@@ -893,7 +1030,9 @@
         "material": [ "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "osuimono",
         "name": { "str_sp": "お吸い物[MMF]" },
         "copy-from": "gyoza_2",
@@ -906,7 +1045,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "kabayaki",
         "name": { "str_sp": "蒲焼[MMF]" },
         "copy-from": "garlic_rice",
@@ -918,7 +1059,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "glace_carrot",
         "name": { "str_sp": "グラッセ(ニンジン)[MMF]" },
         "copy-from": "garlic_rice",
@@ -933,7 +1076,9 @@
         "fun": 4
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "glace_marron",
         "name": { "str_sp": "グラッセ(クリ)[MMF]" },
         "copy-from": "garlic_rice",
@@ -948,7 +1093,9 @@
         "fun": 4
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "okonomiyaki",
         "name": { "str_sp": "お好み焼き[MMF]" },
         "copy-from": "garlic_rice",
@@ -960,7 +1107,9 @@
         "material": [ "flesh", "veggy", "wheat","egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "motuni",
         "name": { "str_sp": "モツ煮[MMF]" },
         "copy-from": "garlic_rice",
@@ -972,7 +1121,9 @@
         "material": [ "flesh", "veggy", "egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "baked_corn",
         "name": { "str_sp": "焼きトウモロコシ[MMF]" },
         "copy-from": "garlic_rice",
@@ -984,7 +1135,9 @@
         "material": [ "veggy"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "kakuni",
         "name": { "str_sp": "角煮[MMF]" },
         "copy-from": "garlic_rice",
@@ -996,7 +1149,9 @@
         "material": [ "flesh", "veggy", "wheat", "tomato","fruit","honey","milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "Quiche",
         "name": { "str_sp": "キッシュ[MMF]" },
         "copy-from": "garlic_rice",
@@ -1008,7 +1163,9 @@
         "material": [ "flesh", "veggy", "wheat", "milk", "egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "meatloaf",
         "name": { "str_sp": "ミートローフ[MMF]" },
         "copy-from": "garlic_rice",
@@ -1020,7 +1177,9 @@
         "material": [ "flesh", "veggy", "egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "fish_and_chips",
         "name": { "str_sp": "フィッシュアンドチップス[MMF]" },
         "copy-from": "garlic_rice",
@@ -1032,7 +1191,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "stir_fried_carrot",
         "name": { "str_sp": "にんじんしりしり[MMF]" },
         "copy-from": "garlic_rice",
@@ -1044,7 +1205,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "green_smoothie",
         "name": { "str_sp": "グリーンスムージー[MMF]" },
         "copy-from": "gyoza_2",
@@ -1059,7 +1222,9 @@
         "flags" : ["EATEN_COLD","FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gnocchi",
         "name": { "str_sp": "ニョッキ(未調理)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1073,7 +1238,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gnocchi_pesto",
         "name": { "str_sp": "ニョッキ(ペストソース)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1085,7 +1252,9 @@
         "material": [ "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gnocchi_red",
         "name": { "str_sp": "ニョッキ(トマトソース)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1097,7 +1266,9 @@
         "material": [ "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ikura",
         "name": { "str_sp": "いくら[MMF]" },
         "copy-from": "garlic_rice",
@@ -1111,7 +1282,9 @@
         "fun": 1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "scotch_egg",
         "name": { "str_sp": "スコッチエッグ[MMF]" },
         "copy-from": "garlic_rice",
@@ -1123,7 +1296,9 @@
         "material": [ "flesh", "veggy", "egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "yakitori_meat_tare",
         "name": { "str_sp": "焼き鳥(タレ)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1135,7 +1310,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "yakitori_meat_salt",
         "name": { "str_sp": "焼き鳥(塩)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1147,7 +1324,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "spinach_saute",
         "name": { "str_sp": "ホウレンソウのコーンのバターソテー[MMF]" },
         "copy-from": "garlic_rice",
@@ -1159,7 +1338,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ohitasi",
         "name": { "str_sp": "ホウレンソウのおひたし[MMF]" },
         "copy-from": "garlic_rice",
@@ -1172,7 +1353,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "hotsand_spam_spinach",
         "name": { "str_sp": "スパムとホウレンソウのホットサンド[MMF]" },
         "copy-from": "fish_sandwich",
@@ -1183,7 +1366,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "egg_smoked",
         "name": { "str_sp": "燻製卵[MMF]" },
         "copy-from": "garlic_rice",
@@ -1197,7 +1382,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "cheese_smoked",
         "name": { "str_sp": "燻製チーズ[MMF]" },
         "copy-from": "garlic_rice",
@@ -1211,7 +1398,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "soup_spinach",
         "name": { "str_sp": "ホウレンソウと卵の中華スープ[MMF]" },
         "copy-from": "gyoza_2",
@@ -1224,7 +1413,9 @@
         "material": [ "egg", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ginger_flavored_pickled",
         "name": { "str_sp": "キュウリの生姜風味付け[MMF]" },
         "copy-from": "garlic_rice",
@@ -1237,7 +1428,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "shogayaki",
         "name": { "str_sp": "生姜焼き[MMF]" },
         "copy-from": "garlic_rice",
@@ -1249,7 +1442,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "shogatou",
         "name": { "str_sp": "生姜糖[MMF]" },
         "copy-from": "garlic_rice",
@@ -1264,7 +1459,9 @@
         "fun": 4
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "shogayu",
         "name": { "str_sp": "生姜湯[MMF]" },
         "copy-from": "gyoza_2",
@@ -1279,7 +1476,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "honny_shogayu",
         "name": { "str_sp": "はちみつ生姜湯[MMF]" },
         "copy-from": "gyoza_2",
@@ -1296,7 +1495,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "smoke_salmon",
         "name": { "str_sp": "スモークサーモン[MMF]" },
         "copy-from": "garlic_rice",
@@ -1310,7 +1511,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "smoke_salmon_carpaccio",
         "name": { "str_sp": "スモークサーモンのカルパッチョ[MMF]" },
         "copy-from": "garlic_rice",
@@ -1323,7 +1526,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "smoke_nuts",
         "name": { "str_sp": "スモークナッツ[MMF]" },
         "copy-from": "garlic_rice",
@@ -1336,7 +1541,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "smoke_bacon",
         "name": { "str_sp": "スモークベーコン[MMF]" },
         "copy-from": "garlic_rice",
@@ -1350,7 +1557,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "peperoncino",
         "name": { "str_sp": "ペペロンチーノ[MMF]" },
         "copy-from": "garlic_rice",
@@ -1362,7 +1571,9 @@
         "material": [ "flesh", "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ginger_ale_syrup",
         "name": { "str_sp": "ジンジャーエ－ル(シロップ)[MMF]" },
         "copy-from": "gyoza_2",
@@ -1378,7 +1589,9 @@
         "fun": -1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ginger_ale",
         "name": { "str_sp": "ジンジャーエ－ル[MMF]" },
         "copy-from": "gyoza_2",
@@ -1393,7 +1606,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "yakiimo",
         "name": { "str_sp": "焼きいも[MMF]" },
         "copy-from": "garlic_rice",
@@ -1405,7 +1620,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "yakimarshmallow",
         "name": { "str_sp": "焼きマシュマロ[MMF]" },
         "copy-from": "garlic_rice",
@@ -1418,7 +1635,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sweet_potato_cooked",
         "name": { "str_sp": "サツマイモ(調理済み)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1430,7 +1649,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sweet_potato_pie",
         "name": { "str_sp": "サツマイモパイ[MMF]" },
         "copy-from": "garlic_rice",
@@ -1442,7 +1663,9 @@
         "material": [ "veggy", "wheat","egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sweet_potato_saute",
         "name": { "str_sp": "サツマイモのバター炒め[MMF]" },
         "copy-from": "garlic_rice",
@@ -1454,7 +1677,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "daigakuimo",
         "name": { "str_sp": "大学芋[MMF]" },
         "copy-from": "garlic_rice",
@@ -1466,7 +1691,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "tempura_sweet_potato",
         "name": { "str_sp": "サツマイモの天ぷら[MMF]" },
         "looks_like": "potato_baked",
@@ -1478,7 +1705,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sesame_oil",
         "name": { "str_sp": "ゴマ油[MMF]" },
         "copy-from": "soysauce",
@@ -1491,7 +1720,9 @@
         "fun": -5
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "kinpira",
         "name": { "str_sp": "きんぴら[MMF]" },
         "copy-from": "garlic_rice",
@@ -1503,7 +1734,8 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "AMMO",
+        "type": "ITEM",
+        "subtypes": [ "AMMO" ],
         "id": "gold_leaf",
         "name": { "str_sp": "金箔[MMF]" },
         "copy-from": "gold_small",
@@ -1514,7 +1746,8 @@
         "material": [ "gold" ]
     },
     {
-        "type": "AMMO",
+        "type": "ITEM",
+        "subtypes": [ "AMMO" ],
         "id": "gold_dust",
         "name": { "str_sp": "金粉[MMF]" },
         "copy-from": "gold_small",
@@ -1525,7 +1758,9 @@
         "material": [ "gold" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gold_dust_chocolate",
         "name": { "str_sp": "金粉チョコレート[MMF]" },
         "copy-from": "garlic_rice",
@@ -1540,14 +1775,15 @@
         "fun": 10
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "veggi_chips",
         "name": { "str_sp": "野菜チップス[MMF]" },
         "looks_like": "chips",
         "calories": 118,
         "weight": "100 g" ,
         "volume": "50 ml",
-        "comestible_type": "FOOD",
         "color": "red",
         "spoils_in": "14 days",
         "symbol": "%",
@@ -1559,7 +1795,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "cajun_spice",
         "name": { "str_sp": "ケイジャンスパイス[MMF]" },
         "copy-from": "garlic_rice",
@@ -1572,7 +1810,9 @@
         "fun": -1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gumbo_fish",
         "name": { "str_sp": "ガンボ(シーフード)[MMF]" },
         "copy-from": "gyoza_2",
@@ -1582,7 +1822,9 @@
         "material": [ "flesh", "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gumbo_meat",
         "name": { "str_sp": "ガンボ(肉)[MMF]" },
         "copy-from": "gyoza_2",
@@ -1592,7 +1834,9 @@
         "material": [ "flesh", "veggy", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "jambalaya",
         "name": { "str_sp": "ジャンバラヤ[MMF]" },
         "copy-from": "garlic_rice",
@@ -1604,7 +1848,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ohitasi_okra",
         "name": { "str_sp": "オクラのおひたし[MMF]" },
         "copy-from": "garlic_rice",
@@ -1617,7 +1863,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "okra_saute",
         "name": { "str_sp": "オクラとベーコンの炒め物[MMF]" },
         "copy-from": "garlic_rice",
@@ -1629,7 +1877,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "natto_ferment",
         "name": { "str_sp": "納豆(発酵中)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1649,7 +1899,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "natto",
         "name": { "str_sp": "納豆[MMF]" },
         "copy-from": "garlic_rice",
@@ -1664,7 +1916,9 @@
         "fun": 1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "natto_tamagoyaki",
         "name": { "str_sp": "納豆入り卵焼き[MMF]" },
         "copy-from": "garlic_rice",
@@ -1676,7 +1930,9 @@
         "material": [ "veggy","egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "seed_upland_rice",
         "name": { "str_sp": "種もみ[MMF]" },
         "copy-from": "garlic_rice",
@@ -1690,7 +1946,9 @@
         "flags" : ["FREEZERBURN","NUTRIENT_OVERRIDE"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "brown_rice_cooked",
         "name": { "str_sp": "玄米(調理済み)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1704,7 +1962,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN","NUTRIENT_OVERRIDE"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "buckwheat_flour",
         "name": { "str_sp": "蕎麦粉[MMF]" },
         "copy-from": "garlic_rice",
@@ -1718,7 +1978,9 @@
         "fun": -2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sobagaki",
         "name": { "str_sp": "そばがき[MMF]" },
         "copy-from": "garlic_rice",
@@ -1730,7 +1992,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "buckwheat_cookie",
         "name": { "str_sp": "クッキー(蕎麦粉)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1743,7 +2007,9 @@
         "material": [ "veggy","egg","milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "buckwheat_galette",
         "name": { "str_sp": "ガレット(蕎麦粉)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1755,7 +2021,9 @@
         "material": [ "veggy","egg","milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "galette_bacon_cheese_egg",
         "name": { "str_sp": "ガレット(ベーコンチーズ卵)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1767,7 +2035,9 @@
         "material": [ "flesh", "veggy", "egg", "milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "galette_honey_fruits",
         "name": { "str_sp": "ガレット(ハニー＆フルーツ)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1779,7 +2049,9 @@
         "material": [ "veggy","fruit","honey","milk","egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "galette_salad",
         "name": { "str_sp": "ガレット(サラダ)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1791,7 +2063,9 @@
         "material": [ "veggy","milk","egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "mentuyu",
         "name": { "str_sp": "めんつゆ[MMF]" },
         "copy-from": "soysauce",
@@ -1804,7 +2078,9 @@
         "fun": -1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "teuti_soba",
         "name": { "str_sp": "手打ちそば(未調理)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1818,7 +2094,9 @@
         "fun": -3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "zaru_soba",
         "name": { "str_sp": "ざるそば[MMF]" },
         "copy-from": "garlic_rice",
@@ -1831,7 +2109,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "tukimi_soba",
         "name": { "str_sp": "月見そば[MMF]" },
         "copy-from": "gyoza_2",
@@ -1841,7 +2121,9 @@
         "material": [ "veggy","egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sansai_soba",
         "name": { "str_sp": "山菜そば[MMF]" },
         "copy-from": "gyoza_2",
@@ -1851,7 +2133,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "croquettes_soba",
         "name": { "str_sp": "コロッケそば[MMF]" },
         "copy-from": "gyoza_2",
@@ -1861,7 +2145,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "homemade_calorie_mate",
         "name": { "str_sp": "自作カロリーメイト(プレーン)[MMF]" },
         "copy-from": "garlic_rice",
@@ -1876,7 +2162,9 @@
         "flags": [ "EDIBLE_FROZEN" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "homemade_calorie_mate_honny",
         "name": { "str_sp": "自作カロリーメイト(はちみつ)[MMF]" },
         "copy-from": "homemade_calorie_mate",
@@ -1885,7 +2173,9 @@
         "material": [ "wheat", "honey", "milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "homemade_calorie_mate_chocolate",
         "name": { "str_sp": "自作カロリーメイト(チョコ)[MMF]" },
         "copy-from": "homemade_calorie_mate",
@@ -1894,7 +2184,9 @@
         "material": [ "wheat", "milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "homemade_calorie_mate_fruits",
         "name": { "str_sp": "自作カロリーメイト(フルーツ)[MMF]" },
         "copy-from": "homemade_calorie_mate",
@@ -1903,7 +2195,9 @@
         "material": [ "wheat","fruit","milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "homemade_calorie_mate_maple",
         "name": { "str_sp": "自作カロリーメイト(メープル)[MMF]" },
         "copy-from": "homemade_calorie_mate",
@@ -1914,7 +2208,9 @@
         "material": [ "wheat", "milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "homemade_calorie_mate_cheese",
         "name": { "str_sp": "自作カロリーメイト(チーズ)[MMF]" },
         "copy-from": "homemade_calorie_mate",
@@ -1923,7 +2219,9 @@
         "material": [ "wheat", "milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "can_pine",
         "name": { "str_sp": "パイナップルのシロップ漬け[MMF]" },
         "copy-from": "garlic_rice",
@@ -1938,7 +2236,9 @@
         "flags": [ "FREEZERBURN" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "can_orange",
         "name": { "str_sp": "オレンジのシロップ漬け[MMF]" },
         "copy-from": "can_pine",
@@ -1946,7 +2246,9 @@
         "description": "あっさりとしたシロップに漬け込まれたオレンジです。"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "clams_saute",
         "name": { "str_sp": "ハマグリのバター醤油焼き[MMF]" },
         "copy-from": "garlic_rice",
@@ -1958,7 +2260,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "clams_wine_steamed",
         "name": { "str_sp": "ハマグリの白ワイン蒸し[MMF]" },
         "copy-from": "garlic_rice",
@@ -1970,7 +2274,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "clams_soup",
         "name": { "str_sp": "ハマグリのお吸い物[MMF]" },
         "copy-from": "gyoza_2",
@@ -1983,7 +2289,9 @@
         "material": [ "flesh"  ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "omelet_meat_potato",
         "name": { "str_sp": "オムレツ(ひき肉＆じゃがいも)[MMF]" },
         "copy-from": "scrambled_eggs",
@@ -1993,7 +2301,9 @@
 	    "fun": 8
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "omelet_meat_cheese",
         "name": { "str_sp": "オムレツ(チーズ)[MMF]" },
         "copy-from": "scrambled_eggs",
@@ -2002,7 +2312,9 @@
 	    "fun": 8
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "omelet_meat_natto",
         "name": { "str_sp": "オムレツ(納豆)[MMF]" },
         "copy-from": "scrambled_eggs",
@@ -2012,7 +2324,9 @@
 	    "fun": 8
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "tortilla",
         "name": { "str_sp": "スペイン風オムレツ[MMF]" },
         "copy-from": "scrambled_eggs",
@@ -2022,7 +2336,9 @@
 	    "fun": 8
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "tomato_egg_saute",
         "name": { "str_sp": "トマトと卵の中華炒め[MMF]" },
         "copy-from": "garlic_rice",
@@ -2034,7 +2350,9 @@
         "material": [ "egg", "tomato" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "chinese_corn_soup",
         "name": { "str_sp": "中華風コーンスープ[MMF]" },
         "copy-from": "gyoza_2",
@@ -2048,7 +2366,9 @@
         "charges": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "oeuf_mayonnaise",
         "looks_like": "powder_eggs",
         "name": { "str_sp": "ウフマヨ[MMF]" },
@@ -2060,7 +2380,9 @@
         "material": [ "egg","milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "menemen",
         "name": { "str_sp": "ネメノン[MMF]" },
         "copy-from": "garlic_rice",
@@ -2072,7 +2394,9 @@
         "material": [ "egg", "veggy","tomato" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "Shakshka",
         "name": { "str_sp": "シャクシュカ[MMF]" },
         "copy-from": "garlic_rice",
@@ -2084,7 +2408,9 @@
         "material": [ "egg", "veggy","tomato" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "dashi_firewood_egg",
         "name": { "str_sp": "だし巻き卵[MMF]" },
         "copy-from": "garlic_rice",
@@ -2096,7 +2422,9 @@
         "material": [ "egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "Katsudon",
         "name": { "str_sp": "かつ丼[MMF]" },
         "copy-from": "garlic_rice",
@@ -2108,7 +2436,9 @@
         "material": [ "flesh", "veggy"  ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "tendon",
         "name": { "str_sp": "天丼[MMF]" },
         "looks_like": "deluxe_veggy_beansnrice",
@@ -2120,7 +2450,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "oyakodon",
         "name": { "str_sp": "親子丼[MMF]" },
         "copy-from": "garlic_rice",
@@ -2132,7 +2464,9 @@
         "material": [ "flesh", "veggy", "egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "chawanmusi",
         "name": { "str_sp": "茶わん蒸し[MMF]" },
         "copy-from": "garlic_rice",
@@ -2144,7 +2478,9 @@
         "material": [ "flesh", "veggy", "egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "instant_soup_dry_1",
         "name": { "str_sp": "コーンスープ(粉末)[MMF]" },
         "copy-from": "garlic_rice",
@@ -2161,7 +2497,9 @@
         "flags": [ "NUTRIENT_OVERRIDE" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "instant_soup_1",
         "name": { "str_sp": "コーンスープ(インスタント)[MMF]" },
         "copy-from": "gyoza_2",
@@ -2176,32 +2514,42 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "instant_soup_dry_2",
         "name": { "str_sp": "オニオンスープ(粉末)[MMF]" },
         "copy-from": "instant_soup_dry_1"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "instant_soup_2",
         "name": { "str_sp": "オニオンスープ(インスタント)[MMF]" },
         "copy-from": "instant_soup_1"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "instant_soup_dry_3",
         "name": { "str_sp": "トマトスープ(粉末)[MMF]" },
         "copy-from": "instant_soup_dry_1"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "instant_soup_3",
         "name": { "str_sp": "トマトスープ(インスタント)[MMF]" },
         "looks_like": "soup_tomato",
         "copy-from": "instant_soup_1"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "fiddlehead_soup",
         "name": { "str_sp": "卵とゼンマイのスープ[MMF]" },
         "looks_like": "soup_woods",
@@ -2216,7 +2564,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "fiddlehead_tenpura",
         "name": { "str_sp": "ゼンマイの天ぷら[MMF]" },
         "copy-from": "garlic_rice",
@@ -2228,7 +2578,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "chicken_rice",
         "name": { "str_sp": "チキンライス[MMF]" },
         "copy-from": "garlic_rice",
@@ -2240,7 +2592,9 @@
         "material": [ "flesh", "veggy", "tomato" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "meat_nuggets",
         "name": { "str_sp": "ミートナゲット[MMF]" },
         "copy-from": "garlic_rice",
@@ -2252,7 +2606,9 @@
         "material": [ "flesh","wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "spaghetti_naporitan",
         "name": { "str_sp": "スパゲティ(ナポリタン)[MMF]" },
         "copy-from": "garlic_rice",
@@ -2264,7 +2620,9 @@
         "material": [ "flesh", "veggy", "wheat", "tomato" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "mustard_grill",
         "name": { "str_sp": "肉巻き茸のマスタード焼き[MMF]" },
         "copy-from": "garlic_rice",
@@ -2276,7 +2634,9 @@
         "material": [ "flesh", "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "steak_horseradish",
         "name": { "str_sp": "ステーキ(山わさび添え)[MMF]" },
         "copy-from": "garlic_rice",
@@ -2288,7 +2648,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "steak_soysauce",
         "name": { "str_sp": "ステーキ(醤油ソース)[MMF]" },
         "copy-from": "garlic_rice",
@@ -2303,12 +2665,12 @@
         "type": "ITEM",
         "id": "miso_ferment",
         "subtypes": [ "BREWABLE", "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "name": { "str_sp": "味噌(発酵中)[MMF]" },
         "looks_like": "leverpostej",
         "calories": 217,
         "weight": "10 g" ,
         "volume": "250 ml",
-        "comestible_type": "FOOD",
         "color": "red",
         "symbol": "%",
         "quench": -1,
@@ -2323,14 +2685,15 @@
         "charges": 100
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "fish_powder",
         "name": { "str_sp": "削り粉[MMF]" },
         "looks_like": "flour",
         "calories": 6,
         "weight": "50 g" ,
         "volume": "50 ml",
-        "comestible_type": "FOOD",
         "color": "red",
         "spoils_in": "360 days",
         "symbol": "%",
@@ -2342,7 +2705,9 @@
         "fun": -1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_soup_1",
         "name": { "str_sp": "味噌汁[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2355,7 +2720,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_soup_2",
         "name": { "str_sp": "味噌汁(野菜)[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2368,7 +2735,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_soup_3",
         "name": { "str_sp": "味噌汁(あら汁)[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2383,7 +2752,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_soup_4",
         "name": { "str_sp": "味噌汁(はまぐり)[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2396,7 +2767,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN","NUTRIENT_OVERRIDE"],
         "fun": 2
     },{
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_soup_5",
         "name": { "str_sp": "味噌汁(納豆汁)[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2410,7 +2783,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN","NUTRIENT_OVERRIDE"],
         "fun": 2
     },{
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_soup_6",
         "name": { "str_sp": "豚汁[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2423,7 +2798,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN","NUTRIENT_OVERRIDE"],
         "fun": 2
     },{
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "yaki_onigiri_1",
         "name": { "str_sp": "焼きおにぎり(醤油)[MMF]" },
         "copy-from": "garlic_rice",
@@ -2434,7 +2811,9 @@
         "description": "焼きおにぎりとは、白飯を握ったのち、焦げ目が付くまで焼き、醤油や味噌を塗って、さらに炙ったものです。香ばしい香りが食欲をそそりますね。",
         "material": [ "veggy"]
     },{
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "yaki_onigiri_2",
         "name": { "str_sp": "焼きおにぎり(味噌)[MMF]" },
         "copy-from": "yaki_onigiri_1",
@@ -2446,7 +2825,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_soup_1_dry",
         "name": { "str_sp": "味噌汁(粉末)[MMF]" },
         "copy-from": "instant_soup_dry_1",
@@ -2456,7 +2837,9 @@
         "flags" : ["NUTRIENT_OVERRIDE"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_soup_2_dry",
         "name": { "str_sp": "味噌汁(野菜)(粉末)[MMF]" },
         "copy-from": "instant_soup_dry_1",
@@ -2466,7 +2849,9 @@
         "flags" : ["NUTRIENT_OVERRIDE"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_soup_3_dry",
         "name": { "str_sp": "味噌汁(あら汁)(粉末)[MMF]" },
         "copy-from": "instant_soup_dry_1",
@@ -2476,7 +2861,9 @@
         "flags" : ["NUTRIENT_OVERRIDE"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_soup_4_dry",
         "name": { "str_sp": "味噌汁(はまぐり)(粉末)[MMF]" },
         "copy-from": "instant_soup_dry_1",
@@ -2486,7 +2873,9 @@
         "flags" : ["NUTRIENT_OVERRIDE"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_soup_5_dry",
         "name": { "str_sp": "味噌汁(納豆)(粉末)[MMF]" },
         "copy-from": "instant_soup_dry_1",
@@ -2496,7 +2885,9 @@
         "flags" : ["NUTRIENT_OVERRIDE"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_soup_6_dry",
         "name": { "str_sp": "豚汁(粉末)[MMF]" },
         "copy-from": "instant_soup_dry_1",
@@ -2506,7 +2897,9 @@
         "flags" : ["NUTRIENT_OVERRIDE"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "cucumber_miso",
         "name": { "str_sp": "キュウリ（味噌）[MMF]" },
         "copy-from": "garlic_rice",
@@ -2520,7 +2913,9 @@
         "flags" : [ ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_saute_fish",
         "name": { "str_sp": "味噌焼き(魚)[MMF]" },
         "copy-from": "garlic_rice",
@@ -2533,7 +2928,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_saute_meat",
         "name": { "str_sp": "味噌焼き(肉)[MMF]" },
         "copy-from": "garlic_rice",
@@ -2546,7 +2943,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "tantanmen",
         "name": { "str_sp": "担々麺[MMF]" },
         "copy-from": "gyoza_2",
@@ -2558,7 +2957,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "zhajiangmian",
         "name": { "str_sp": "ジャージャー麺[MMF]" },
         "copy-from": "garlic_rice",
@@ -2571,7 +2972,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "tofu_nikumiso",
         "name": { "str_sp": "肉みそ豆腐[MMF]" },
         "copy-from": "garlic_rice",
@@ -2584,7 +2987,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gaspacho",
         "name": { "str_sp": "ガスパチョ[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2598,7 +3003,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "potage_1",
         "name": { "str_sp": "ポタージュ(じゃがいも)[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2612,7 +3019,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "potage_2",
         "name": { "str_sp": "ポタージュ(ホウレンソウ)[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2626,7 +3035,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "potage_3",
         "name": { "str_sp": "ポタージュ(カボチャ)[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2640,7 +3051,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "muffin_1",
         "name": { "str_sp": "フルーツマフィン[MMF]" },
         "copy-from": "garlic_rice",
@@ -2654,7 +3067,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "tofu_hamburg_steak",
         "name": { "str_sp": "豆腐ハンバーグ[MMF]" },
         "copy-from": "garlic_rice",
@@ -2666,7 +3081,9 @@
         "material": [ "flesh", "veggy", "egg" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "curry_dry",
         "name": { "str_sp": "ドライカレー[MMF]" },
         "copy-from": "garlic_rice",
@@ -2679,7 +3096,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "gapa_rice",
         "name": { "str_sp": "ガパオライス[MMF]" },
         "copy-from": "garlic_rice",
@@ -2692,7 +3111,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "tomkakai",
         "name": { "str_sp": "トムカーガイ[MMF]" },
         "copy-from": "gyoza_2",
@@ -2704,7 +3125,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "lyon_style_salad",
         "name": { "str_sp": "リヨン風サラダ[MMF]" },
         "copy-from": "garlic_rice",
@@ -2718,7 +3141,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "caprese",
         "name": { "str_sp": "カプレーゼ[MMF]" },
         "copy-from": "garlic_rice",
@@ -2732,7 +3157,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "macedonia",
         "name": { "str_sp": "マチェドニア[MMF]" },
         "copy-from": "garlic_rice",
@@ -2746,7 +3173,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "pai_huanggua",
         "name": { "str_sp": "拍黄瓜[MMF]" },
         "copy-from": "garlic_rice",
@@ -2760,7 +3189,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "olivier_salad",
         "name": { "str_sp": "オリヴィエ・サラダ[MMF]" },
         "copy-from": "garlic_rice",
@@ -2774,7 +3205,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "kasza",
         "name": { "str_sp": "カーシャ[MMF]" },
         "copy-from": "gyoza_2",
@@ -2786,7 +3219,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "otyaduke_1",
         "name": { "str_sp": "出汁茶漬け[MMF]" },
         "copy-from": "gyoza_2",
@@ -2798,14 +3233,15 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "DRINK",
         "id": "sauce_cocktail",
         "name": { "str_sp": "カクテルソース[MMF]" },
         "looks_like": "soysauce",
         "calories": 27,
         "weight": "50 g" ,
         "volume": "50 ml",
-        "comestible_type": "DRINK",
         "color": "red",
         "spoils_in": "4 days",
         "symbol": "%",
@@ -2818,7 +3254,9 @@
         "fun": 1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "seafood_cocktail",
         "name": { "str_sp": "海鮮カクテル[MMF]" },
         "copy-from": "garlic_rice",
@@ -2832,7 +3270,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "fish_fly",
         "name": { "str_sp": "魚のフライ[MMF]" },
         "copy-from": "garlic_rice",
@@ -2844,7 +3284,9 @@
         "material": [ "flesh"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ketchup_chips",
         "name": { "str_sp": "ケチャップチップス[MMF]" },
         "copy-from": "garlic_rice",
@@ -2859,7 +3301,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "fried_butter",
         "name": { "str_sp": "揚げバター[MMF]" },
         "copy-from": "garlic_rice",
@@ -2876,7 +3320,9 @@
         "fun": 5
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ajillo",
         "name": { "str_sp": "アヒージョ[MMF]" },
         "copy-from": "garlic_rice",
@@ -2890,7 +3336,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "miso_butter_gohan",
         "name": { "str_sp": "味噌バター炊き込みご飯[MMF]" },
         "copy-from": "garlic_rice",
@@ -2906,7 +3354,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "pumpkin_stew",
         "name": { "str_sp": "かぼちゃシチュー[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2920,7 +3370,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "moti",
         "name": { "str_sp": "餅[MMF]" },
         "copy-from": "garlic_rice",
@@ -2932,7 +3384,9 @@
         "material": [ "veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "moti_pack",
         "name": { "str_sp": "餅(真空パック)[MMF]" },
         "copy-from": "moti",
@@ -2947,7 +3401,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "moti_suger",
         "name": { "str_sp": "餅(砂糖醤油)[MMF]" },
         "copy-from": "moti",
@@ -2958,7 +3414,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "moti_soy",
         "name": { "str_sp": "餅(きなこ)[MMF]" },
         "copy-from": "moti",
@@ -2970,7 +3428,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "zenzai",
         "name": { "str_sp": "ぜんざい[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2984,7 +3444,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "zoni",
         "name": { "str_sp": "雑煮[MMF]" },
         "copy-from": "instant_soup_1",
@@ -2999,7 +3461,9 @@
         "fun": 1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "basasi",
         "name": { "str_sp": "馬刺し[MMF]" },
         "copy-from": "garlic_rice",
@@ -3013,7 +3477,9 @@
         "fun": 1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "pizza_mayo_corn",
         "name": { "str_sp": "マヨコーンピザ[MMF]" },
         "copy-from": "garlic_rice",
@@ -3027,7 +3493,9 @@
         "fun": 10
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "pizza_mayo",
         "name": { "str_sp": "マヨピザ[MMF]" },
         "copy-from": "garlic_rice",
@@ -3042,7 +3510,9 @@
         "fun": 10
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "hamburg_steak_bellpepper",
         "name": { "str_sp": "ピーマンの肉詰め[MMF]" },
         "copy-from": "garlic_rice",
@@ -3054,7 +3524,9 @@
         "material": [ "flesh", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "bellpepper_miso_coocked",
         "name": { "str_sp": "ピーマンの肉と野菜の味噌炒め[MMF]" },
         "copy-from": "garlic_rice",
@@ -3066,7 +3538,9 @@
         "material": [ "flesh", "wheat" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "protein_bar_milk",
         "name": { "str_sp": "プロテインバーのミルク掛け[MMF]" },
         "copy-from": "gyoza_2",
@@ -3081,7 +3555,9 @@
         "fun": -1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "icecream_chocmint",
         "name": { "str": "チョコミントアイスクリーム[MMF]", "str_pl": "チョコミントアイスクリーム[MMF]" },
         "copy-from": "icecream",
@@ -3089,7 +3565,9 @@
         "calories": 345
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "zunda",
         "name": { "str": "ずんだ[MMF]", "str_pl": "ずんだ[MMF]" },
         "copy-from": "garlic_rice",
@@ -3103,7 +3581,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "zundamoti",
         "name": { "str": "ずんだ餅[MMF]", "str_pl": "ずんだ餅[MMF]" },
         "copy-from": "garlic_rice",
@@ -3116,7 +3596,9 @@
         "flags" : ["FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "kiritanpo",
         "name": { "str": "きりたんぽ[MMF]", "str_pl": "きりたんぽ[MMF]" },
         "copy-from": "garlic_rice",
@@ -3129,7 +3611,9 @@
         "flags" : ["EATEN_HOT","FREEZERBURN"]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "kiritanpo_miso",
         "name": { "str": "きりたんぽ(味噌焼き)[MMF]", "str_pl": "きりたんぽ(味噌焼き)[MMF]" },
         "copy-from": "garlic_rice",
@@ -3143,7 +3627,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "DRINK",
         "id": "milk_jam_drink",
         "name": { "str": "ミルクジャムドリンク[MMF]", "str_pl": "ミルクジャムドリンク[MMF]" },
         "copy-from": "jam_drink",
@@ -3158,7 +3644,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "DRINK",
         "id": "jam_drink",
         "copy-from": "juice",
         "name": { "str": "ジャムドリンク[MMF]", "str_pl": "ジャムドリンク[MMF]" },
@@ -3170,7 +3658,9 @@
         "healthy": 1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "cafeaulait",
         "name": { "str": "カフェラテ[MMF]", "str_pl": "カフェラテ[MMF]" },
         "copy-from": "coffee",
@@ -3180,7 +3670,9 @@
         "material": [ "water","milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "cafeaulait_sweet",
         "name": { "str": "糖分入りカフェラテ[MMF]", "str_pl": "糖分入りカフェラテ[MMF]" },
         "copy-from": "coffee",
@@ -3192,7 +3684,9 @@
         "fun": 7    
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "vienna_coffee",
         "name": { "str": "ウインナー・コーヒー[MMF]", "str_pl": "ウインナー・コーヒー[MMF]" },
         "copy-from": "coffee",
@@ -3205,7 +3699,9 @@
         "fun": 6
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "vienna_coffee2",
         "name": { "str": "ウインナー・コーヒー[MMF]", "str_pl": "ウインナー・コーヒー[MMF]" },
         "copy-from": "coffee",
@@ -3216,7 +3712,9 @@
         "fun": 0
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "butter_coffee",
         "name": { "str": "バターコーヒー[MMF]", "str_pl": "バターコーヒー[MMF]" },
         "copy-from": "coffee",
@@ -3228,7 +3726,9 @@
         "fun": 1
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "DRINK",
         "id": "hotbuttered_rum",
         "name": { "str": "ホット・バタード・ラム [MMF]", "str_pl": "ホット・バタード・ラム [MMF]" },
         "description": "ラムをベースとするカクテルです。バターを入れるホットドリンクとして知られていますね。",
@@ -3240,7 +3740,6 @@
         "sleepiness_mod": 36,
         "stim": -10,
         "container": "bottle_plastic",
-        "comestible_type": "DRINK",
         "symbol": "~",
         "quench": -12,
         "healthy": -2,
@@ -3256,7 +3755,9 @@
         "freezing_point": -30
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "shredded_green_pepper_meat",
         "name": { "str_sp": "青椒肉絲[MMF]" },
         "copy-from": "garlic_rice",
@@ -3268,7 +3769,9 @@
         "material": [ "veggy", "flesh" ]
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "set_karaage",
         "name": { "str_sp": "からあげ定食[MMF]" },
         "copy-from": "garlic_rice",
@@ -3282,7 +3785,9 @@
         "material": [ "veggy", "flesh" ]
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "seta_teisyoku",
         "name": { "str_sp": "日替わりA定食[MMF]" },
         "copy-from": "garlic_rice",
@@ -3298,7 +3803,9 @@
         "fun" : 4
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "setb_teisyoku",
         "name": { "str_sp": "日替わりB定食[MMF]" },
         "copy-from": "garlic_rice",
@@ -3313,7 +3820,9 @@
         "fun" : 4
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "mustard_coocked_1",
         "name": { "str_sp": "マスタード焼き(肉)[MMF]" },
         "copy-from": "garlic_rice",
@@ -3325,7 +3834,9 @@
         "material": [ "flesh","veggy" ]
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "mustard_coocked_2",
         "name": { "str_sp": "マスタード焼き(魚)[MMF]" },
         "copy-from": "garlic_rice",
@@ -3337,7 +3848,9 @@
         "material": [ "flesh","veggy" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "basil_grilled",
         "name": { "str_sp": "バジルチキン[MMF]" },
         "copy-from": "garlic_rice",
@@ -3349,7 +3862,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "apple_lemonade",
         "name": "アップルレモネード[MMF]",
         "copy-from": "juice",
@@ -3358,7 +3873,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "breakfast_set_1",
         "name": { "str_sp": "インド料理セット[MMF]" },
         "copy-from": "garlic_rice",
@@ -3370,7 +3887,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "breakfast_set_2",
         "name": { "str_sp": "ロンドン朝セット[MMF]" },
         "copy-from": "breakfast_set_1",
@@ -3380,7 +3899,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "breakfast_set_3",
         "name": { "str_sp": "ニューイングランド駅弁[MMF]" },
         "copy-from": "breakfast_set_1",
@@ -3390,7 +3911,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "breakfast_set_4",
         "name": { "str_sp": "幕の内弁当[MMF]" },
         "copy-from": "breakfast_set_1",
@@ -3400,7 +3923,9 @@
         "material": [ "flesh" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "dry_meat_drying",
         "name": { "str_sp": "乾燥肉(乾燥中)[MMF]" },
         "copy-from": "dry_meat",
@@ -3417,7 +3942,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "dry_fish_drying",
         "name": { "str_sp": "乾燥魚(乾燥中)[MMF]" },
         "copy-from": "dry_fish",
@@ -3434,7 +3961,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "dry_veggy_drying",
         "name": { "str_sp": "乾燥野菜(乾燥中)[MMF]" },
         "copy-from": "dry_veggy",
@@ -3451,7 +3980,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "dry_fruit_drying",
         "name": { "str_sp": "ドライフルーツ(乾燥中)[MMF]" },
         "copy-from": "dry_fruit",
@@ -3468,7 +3999,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "dry_lentils_drying",
         "name": { "str_sp": "レンズ豆(乾燥中)[MMF]" },
         "copy-from": "dry_lentils",
@@ -3485,7 +4018,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "dry_lobster_drying",
         "name": { "str_sp": "乾燥ロブスター(乾燥中)[MMF]" },
         "copy-from": "dry_lobster",
@@ -3502,7 +4037,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "dry_meat_tainted_drying",
         "name": { "str_sp": "乾燥汚染肉(乾燥中)[MMF]" },
         "copy-from": "dry_meat_tainted",
@@ -3519,7 +4056,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "dry_mollusk_drying",
         "name": { "str_sp": "乾燥貝肉(乾燥中)[MMF]" },
         "copy-from": "dry_mollusk",
@@ -3536,7 +4075,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "dry_veggy_tainted_drying",
         "name": { "str_sp": "乾燥真菌塊(乾燥中)[MMF]" },
         "copy-from": "dry_veggy_tainted",
@@ -3553,7 +4094,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "dry_veggy_tofu_drying",
         "name": { "str_sp": "乾燥豆腐(乾燥中)[MMF]" },
         "copy-from": "dry_tofu",
@@ -3570,7 +4113,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "dry_beans_drying",
         "name": { "str_sp": "乾燥豆(乾燥中)[MMF]" },
         "copy-from": "dry_beans",
@@ -3587,7 +4132,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "cacao_powder",
         "name": { "str_sp": "カカオパウダー[MMF]" },
         "copy-from": "sugar",
@@ -3596,7 +4143,9 @@
         "description": "粉末状にしたカカオの実です。これと砂糖を混ぜ合わせ、湯煎して成形し冷蔵したものがチョコレートとなります。"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "cocoa",
         "name": { "str_sp": "ココア[MMF]" },
         "copy-from": "tea",
@@ -3605,7 +4154,9 @@
         "flags": [ "EATEN_HOT", "EATEN_COLD" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "horse_tartar_steak",
         "name": { "str_sp": "馬肉のタルタルステーキ[MMF]" },
         "copy-from": "garlic_rice",
@@ -3614,7 +4165,9 @@
         "description": "牛肉または馬肉を粗いみじん切りにし、オリーブオイル、食塩、コショウで味付けし、タマネギ、ニンニク、ケッパー、ピクルスのみじん切りなどの薬味と卵黄を添えた料理です。美味いの一言に付きますね"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "sakuranabe",
         "name": { "str_sp": "桜鍋[MMF]" },
         "copy-from": "garlic_rice",
@@ -3623,7 +4176,9 @@
         "description": "馬肉（桜肉）をすき焼きのようにして食べる鍋料理です。味噌仕立てで馬肉を煮る桜鍋は、明治初期から続く東京の伝統料理なんですね。"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "nut_pickled_honey",
         "name": { "str_sp": "ナッツの蜂蜜漬け[MMF]" },
         "copy-from": "garlic_rice",
@@ -3636,7 +4191,9 @@
         "description": "お好みのナッツをキツめにローストして蜂蜜に漬けた贅沢な一品です。ヨーグルトやトーストなんかと相性抜群です"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "mayonnaise_powder",
         "name": { "str_sp": "粉末マヨネーズ[MMF]" },
         "copy-from": "garlic_rice",
@@ -3649,7 +4206,9 @@
         "description": "水分を取り除き、長期保存に向くよう粉末状にしたマヨネーズです。そのままでは美味しくないですが、マヨネーズの代わりに料理に使用することができます。"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ketchup_powder",
         "name": { "str_sp": "粉末ケチャップ[MMF]" },
         "copy-from": "garlic_rice",
@@ -3662,7 +4221,9 @@
         "description": "水分を取り除き、長期保存に向くよう粉末状にしたケチャップです。そのままでは美味しくないですが、ケチャップの代わりに料理に使用することができます。"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "japanese_knotweed_stem_tea",
         "name": { "str_sp": "イタドリ茶[MMF]" },
         "copy-from": "tea",
@@ -3674,7 +4235,9 @@
         "fun": 6
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "japanese_knotweed_stem_saute",
         "name": { "str_sp": "イタドリのきんぴら[MMF]" },
         "copy-from": "garlic_rice",
@@ -3687,7 +4250,9 @@
         "description": "イタドリは日本でも食用として扱う地方があり、主に山菜として扱ったりします。この料理はそのイタドリをきんぴら風に炒めた一品です。"
     },
     {
-      "type": "COMESTIBLE",
+      "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
       "id": "sandwich_dudeluxe_mmf",
       "copy-from": "sandwich_deluxe",
       "name": { "str_sp": "サンドイッチ(あいつデラックス)[MMF]" },
@@ -3695,7 +4260,9 @@
       "material": [ "hflesh", "veggy", "wheat", "milk" ]
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "mmf_salo",
         "name": { "str_sp": "サーロ[MMF]" },
         "copy-from": "garlic_rice",
@@ -3710,7 +4277,9 @@
         "description": "ウクライナ料理で供される、豚の脂身の塩漬けです。食用油脂のラードと異なり、未精製で食されます。ボルシチとヴァレーヌィクと並んで、ウクライナの代表的な伝統料理ですね。"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "mmf_uzvar",
         "name": { "str_sp": "ウズヴァール[MMF]" },
         "copy-from": "juice",
@@ -3724,7 +4293,9 @@
         "description": "ウズヴァールはウクライナの国民的な飲み物で、ドライフルーツで作るジュースです。"
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "tempura_sweet_corn",
         "name": { "str_sp": "トウモロコシの天ぷら[MMF]" },
         "looks_like": "potato_baked",
@@ -3737,7 +4308,9 @@
     },
     {
     "//1": "mokomoko7様のいくら丼modの要素",
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id": "ikuradon_tokumori",
         "name": { "str_sp": "特盛いくら丼[MMF]" },
         "copy-from": "garlic_rice",

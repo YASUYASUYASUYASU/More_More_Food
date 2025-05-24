@@ -1,7 +1,8 @@
 [
   {
     "//1": "制作時に元の栄養素を上書きしないようにNUTRIENT_OVERRIDEを付けておく",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "marshmallow",
     "name": { "str": "marshmallows", "str_pl": "marshmallows" },
     "copy-from": "marshmallow",
@@ -9,7 +10,8 @@
   },
   {
     "//1": "制作時に元の栄養素を上書きしないようにNUTRIENT_OVERRIDEを付けておく",  
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "lemonade",
     "name": { "str": "lemonade", "str_pl": "lemonade" },
     "copy-from": "lemonade",

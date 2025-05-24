@@ -2,35 +2,40 @@
   {
     "id": "fish",
     "copy-from": "fish",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str": "fillet of fish", "str_pl": "fillets of fish" },
     "spoils_in": "24 hours"
   },
   {
     "id": "fish_cooked",
     "copy-from": "fish_cooked",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str_sp": "cooked fish" },
     "spoils_in": "2 day"
   },
   {
     "id": "meat",
     "copy-from": "meat",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str": "chunk of meat", "str_pl": "chunks of meat" },
     "spoils_in": "2 day"
   },
   {
     "id": "porkbelly",
     "copy-from": "porkbelly",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str": "chunk of porkbelly", "str_pl": "chunks of porkbelly" },
     "spoils_in": "2 day"
 
   },
   {
     "id": "raw_cured_fatty_meat",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "copy-from": "raw_cured_fatty_meat",
     "name": { "str": "slab of raw cured porkbelly", "str_pl": "slabs of raw cured porkbelly" },
     "spoils_in": "28 days"
@@ -38,7 +43,8 @@
   },
   {
     "id": "bacon_uncut",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "copy-from": "bacon_uncut",
     "name": { "str": "large slab of uncut bacon", "str_pl": "large slabs of uncut bacon" },
     "spoils_in": "48 days"
@@ -46,28 +52,32 @@
   },
   {
     "id": "raw_curing_fatty_meat",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "copy-from": "raw_curing_fatty_meat",
     "name": { "str": "slab of raw curing porkbelly", "str_pl": "slices of raw curing porkbelly" },
     "spoils_in": "28 days"
 
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "meat_mutant_tainted",
     "copy-from": "meat_mutant_tainted",
     "name": { "str": "chunk of tainted mutant meat", "str_pl": "chunks of tainted mutant meat" },
     "spoils_in": "12 hours"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "meat_mutant_tainted_smoked",
     "copy-from": "meat_mutant_tainted_smoked",
     "name": { "str_sp": "smoked tainted mutant meat" },
     "spoils_in": "48 days"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "comestible_type": "FOOD",
     "id": "ruined_chunks",
     "name": { "str_sp": "butchery refuse" },
@@ -78,83 +88,95 @@
   {
     "id": "meat_cooked",
     "copy-from": "meat_cooked",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str_sp": "cooked meat" },
     "spoils_in": "2 day"
   },
   {
     "id": "meat_fatty_cooked",
     "copy-from": "meat_fatty_cooked",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str_sp": "cooked fatty meat" },
     "spoils_in": "2 day"
   },
   {
     "id": "offal_pickled",
     "copy-from": "offal_pickled",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str_sp": "pickled offal" },
     "spoils_in": "2 day 24 hours"
   },
   {
     "id": "stomach",
     "copy-from": "stomach",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str": "stomach" },
     "spoils_in": "16 hours"
   },
   {
     "id": "jerky",
     "copy-from": "jerky",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str_sp": "meat jerky" },
     "spoils_in": "48 days"
   },
   {
     "id": "salted_fish",
     "copy-from": "salted_fish",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str_sp": "salted fish" },
     "spoils_in": "48 days"
   },
   {
     "id": "meat_smoked",
     "copy-from": "meat_smoked",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str_sp": "smoked meat" },
     "spoils_in": "48 days"
   },
   {
     "id": "fish_smoked",
     "copy-from": "fish_smoked",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str_sp": "smoked fish" },
     "spoils_in": "48 days"
   },
   {
     "id": "lung",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "copy-from": "lung",
     "looks_like": "offal",
     "name": { "str": "piece of raw lung", "str_pl": "pieces of raw lung" },
     "spoils_in": "2 day"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "fat",
     "copy-from": "fat",
     "name": { "str": "chunk of fat", "str_pl": "chunks of fat" },
     "spoils_in": "14 days"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "tallow",
     "copy-from": "tallow",
     "name": { "str_sp": "tallow" },
     "spoils_in": "120 days"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "meat_tainted",
     "category": "other",
     "name": { "str": "chunk of tainted meat", "str_pl": "chunks of tainted meat" },
@@ -162,7 +184,8 @@
     "spoils_in": "12 hours"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "fat_tainted",
     "category": "other",
     "name": { "str_sp": "tainted fat" },
@@ -170,55 +193,18 @@
     "spoils_in": "12 hours"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "small_stomach_boiled",
     "name": { "str": "boiled stomach" },
     "copy-from": "small_stomach_boiled",
     "spoils_in": "2 day"
   },
   {
-    "type": "COMESTIBLE",
-    "id": "raw_leather",
-    "category": "spare_parts",
-    "name": { "str_sp": "raw hide" },
-    "copy-from": "raw_leather",
-    "spoils_in": "3 day"
-  },
-  {
-    "type": "COMESTIBLE",
-    "id": "raw_tainted_leather",
-    "copy-from": "raw_tainted_leather",
-    "name": { "str_sp": "tainted hide" },
-    "spoils_in": "1 days"
-  },
-  {
-    "type": "COMESTIBLE",
-    "id": "raw_fur",
-    "category": "spare_parts",
-    "name": { "str_sp": "raw pelt" },
-    "copy-from": "raw_fur",
-    "spoils_in": "3 day",
-    "healthy": -5
-  },
-  {
-    "type": "COMESTIBLE",
-    "id": "raw_tainted_fur",
-    "name": { "str_sp": "tainted pelt" },
-    "copy-from": "raw_tainted_fur",
-    "spoils_in": "12 hours"
-  },
-  {
-    "id": "leech_flower",
-    "type": "COMESTIBLE",
-    "comestible_type": "FOOD",
-    "name": { "str": "leech flower" },
-    "copy-from": "leech_flower",
-    "spoils_in": "60 days"
-  },
-  {
     "id": "meat_horse",
     "copy-from": "flesh",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str_sp": "馬肉[MMF]"},
     "description": "馬肉です。栄養豊富ですよ！",
     "weight": "296 g",
@@ -237,7 +223,8 @@
   {
     "id": "flaming_eye_eye",
     "copy-from": "flesh",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str": "フレーミングアイの目[MMF]", "str_pl": "フレーミングアイの目[MMF]" },
     "description": "フレーミングアイの目です。死してなお、その目を見ると悪寒が走ります",
     "weight": "296 g",

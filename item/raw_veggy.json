@@ -1,6 +1,7 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "ginger",
     "name": "生姜[MMF]",
     "looks_like": "potato",
@@ -20,7 +21,8 @@
     "vitamins": [ [ "calcium", 15 ], [ "iron", 1 ], [ "iron", 1 ], [ "vitC", 3 ]  ],
     "fun": -1
   },{
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "sweet_potato",
     "name": "サツマイモ[MMF]",
     "looks_like": "potato",
@@ -40,7 +42,8 @@
     "vitamins": [ [ "calcium", 8 ], [ "iron", 1 ], [ "vitC", 6 ] ],
     "fun": -1
   },{
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "sesamum",
     "name": "ゴマ[MMF]",
     "looks_like": "raw_beans",
@@ -59,7 +62,8 @@
     "vitamins": [ [ "calcium", 12 ], [ "iron", 10 ] ],
     "fun": -1
   },{
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "okra",
     "name": "オクラ[MMF]",
     "looks_like": "zucchini",
@@ -79,7 +83,8 @@
     "vitamins": [ [ "calcium", 9 ], [ "vitC", 11 ], [ "iron",9 ] ],
     "fun": -1
   },{
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "upland_rice",
     "name": "陸稲(稲)[MMF]",
     "looks_like": "wheat",

@@ -1,7 +1,7 @@
 [
   {
     "id": "tiger",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "container",
     "name": "魔法瓶(2L)[MMF]",
     "copy-from": "thermos",
@@ -23,7 +23,7 @@
     "insulation": 10
   },{
     "id": "zouzirushi",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "container",
     "name": "魔法瓶(3L)[MMF]",
     "copy-from": "thermos",
@@ -46,7 +46,7 @@
   },
   {
     "id": "lunch_box_h_i",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "container",
     "name": "保温弁当箱[MMF]",
     "copy-from": "thermos",
@@ -72,7 +72,7 @@
   },
   {
     "id": "lunch_box_h_i_dx",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "container",
     "name": "保温弁当箱DX[MMF]",
     "copy-from": "thermos",
@@ -95,7 +95,8 @@
   },
   {
     "id": "lunch_box_h_i_dx_atomic",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "container",
     "name": "アトミック保温弁当箱[MMF]",
     "copy-from": "thermos",

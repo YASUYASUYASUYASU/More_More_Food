@@ -91,11 +91,11 @@
     "brew_time": "4 days"
   },
   {
+    "type": "ITEM",
     "id": "brew_hopped_mead",
     "subtypes": [ "BREWABLE", "COMESTIBLE" ],
     "copy-from": "brew_hopped_mead",
     "name": { "str_sp": "hopped mead must" },
-    "type": "COMESTIBLE",
     "brew_time": "4 days"
   },
   {
@@ -103,7 +103,7 @@
     "subtypes": [ "BREWABLE", "COMESTIBLE" ],
     "copy-from": "brew_spiced_mead",
     "name": { "str_sp": "spiced mead must" },
-    "type": "COMESTIBLE",
+    "type": "ITEM",
     "brew_time": "4 days"
   },
   {

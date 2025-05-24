@@ -2,7 +2,8 @@
   {
     "id": "water_soda",
     "copy-from": "water",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str_sp": "炭酸水[MMF]" },
     "description": "炭酸ガスを含む水です。そのまま飲んでも、ジュースやお酒を割っても美味しいですよ。",
     "container": "bottle_plastic",

@@ -1,9 +1,10 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "MILLING" ],
     "id": "meal_chitin_piece",
     "name": { "str_sp": "chitin powder" },
     "copy-from": "meal_chitin_piece",
-    "milling": { "into": "meal_chitin_piece", "recipe": "meal_chitin_piece_mill_4_1" }
+    "into": "meal_chitin_piece", "recipe": "meal_chitin_piece_mill_4_1"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "pine_nuts",
     "name": { "str_sp": "pine nuts" },
     "copy-from": "pine_nuts",
@@ -8,7 +9,8 @@
     "smoking_result": "smoke_nuts"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "pistachio_shelled",
     "name": { "str_sp": "shelled pistachios" },
     "copy-from": "pistachio_shelled",
@@ -16,7 +18,8 @@
     "smoking_result": "smoke_nuts"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "almond_shelled",
     "name": { "str_sp": "shelled almonds" },
     "copy-from": "almond_shelled",
@@ -24,7 +27,8 @@
     "smoking_result": "smoke_nuts"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "cashews",
     "name": { "str_sp": "cashews" },
     "copy-from": "cashews",
@@ -32,7 +36,8 @@
     "smoking_result": "smoke_nuts"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "pecan_shelled",
     "name": { "str_sp": "shelled pecans" },
     "copy-from": "pecan_shelled",
@@ -40,7 +45,8 @@
     "smoking_result": "smoke_nuts"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "peanut_shelled",
     "name": { "str_sp": "shelled peanuts" },
     "copy-from": "peanut_shelled",
@@ -48,7 +54,8 @@
     "smoking_result": "smoke_nuts"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "beech_nuts",
     "name": { "str_sp": "beech nuts" },
     "copy-from": "beech_nuts",
@@ -56,7 +63,8 @@
     "smoking_result": "smoke_nuts"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "walnut_shelled",
     "name": { "str_sp": "shelled walnuts" },
     "copy-from": "walnut_shelled",
@@ -64,7 +72,8 @@
     "smoking_result": "smoke_nuts"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "chestnut_shelled",
     "name": { "str_sp": "shelled chestnuts" },
     "copy-from": "chestnut_shelled",
@@ -72,7 +81,8 @@
     "smoking_result": "smoke_nuts"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "hazelnut_shelled",
     "name": { "str_sp": "shelled hazelnuts" },
     "copy-from": "hazelnut_shelled",
@@ -80,7 +90,8 @@
     "smoking_result": "smoke_nuts"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "hickory_nut_shelled",
     "name": { "str_sp": "shelled hickory nuts" },
     "copy-from": "hickory_nut_shelled",
@@ -88,7 +99,8 @@
     "smoking_result": "smoke_nuts"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "acorns",
     "name": { "str_sp": "acorns" },
     "copy-from": "acorns",

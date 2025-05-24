@@ -1,9 +1,11 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "material_rocksalt",
+    "subtypes": [ "MILLING" ],
     "name": { "str_sp": "rock salt" },
     "copy-from": "material_rocksalt",
-    "milling": { "into": "salt", "recipe": "salt_mill_1_100" }
+    "into": "salt",
+    "recipe": "salt_mill_1_100"
   }
 ]

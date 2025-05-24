@@ -2,166 +2,184 @@
   {
     "id": "seed_spinach",
     "copy-from": "seed",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "種(ホウレンソウ)[MMF]",
     "description": "ホウレンソウの種です",
     "looks_like": "seed_cabbage",
     "weight": "10 g",
     "price": "100 cent",
-    "seed_data": { "plant_name": "ホウレンソウ[MMF]", "fruit": "spinach", "byproducts": [ "straw_pile" ], "grow": "15 days" }
+    "plant_name": "ホウレンソウ[MMF]", "fruit": "spinach", "byproducts": [ "straw_pile" ], "grow": "15 days" 
   },
   {
     "id": "seed_ginger_raw",
     "copy-from": "seed",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "苗(ショウガ)[MMF]",
     "description": "上請けように切り分けた生の生姜です",
     "looks_like": "seed_potato_raw",
     "weight": "152 g",
     "price": "100 cent",
-    "seed_data": { "plant_name": "生姜[MMF]", "fruit": "ginger", "byproducts": [ "straw_pile" ], "grow": "15 days" }
+    "plant_name": "生姜[MMF]", "fruit": "ginger", "byproducts": [ "straw_pile" ], "grow": "15 days" 
   },
   {
     "id": "seed_sesamum",
     "copy-from": "seed",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "種(ゴマ)[MMF]",
     "description": "ゴマの種です",
     "looks_like": "seed_cabbage",
     "weight": "10 g",
     "price": "100 cent",
-    "seed_data": { "plant_name": "ゴマ[MMF]", "fruit": "sesamum", "byproducts": [ "straw_pile" ], "grow": "15 days" }
+    "plant_name": "ゴマ[MMF]", "fruit": "sesamum", "byproducts": [ "straw_pile" ], "grow": "15 days" 
   },
   {
     "id": "seed_sweet_potato",
     "copy-from": "seed",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "苗(サツマイモ)[MMF]",
     "description": "上請けように切り分けた生のサツマイモ(つる)です",
     "looks_like": "seed_potato_raw",
     "weight": "152 g",
     "price": "100 cent",
-    "seed_data": { "plant_name": "サツマイモ[MMF]", "fruit": "sweet_potato", "byproducts": [ "straw_pile" ], "grow": "15 days" }
+    "plant_name": "サツマイモ[MMF]", "fruit": "sweet_potato", "byproducts": [ "straw_pile" ], "grow": "15 days" 
   },
   {
     "id": "seed_okra",
     "copy-from": "seed",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "種(オクラ)[MMF]",
     "description": "オクラの種です",
     "looks_like": "seed_cabbage",
     "weight": "10 g",
     "price": "100 cent",
-    "seed_data": { "plant_name": "オクラ[MMF]", "fruit": "okra", "byproducts": [ "straw_pile" ], "grow": "15 days" }
+    "plant_name": "オクラ[MMF]", "fruit": "okra", "byproducts": [ "straw_pile" ], "grow": "15 days" 
   },
   {
     "id": "seed_upland_rice_seed",
     "copy-from": "seed",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "種(稲)[MMF]",
     "description": "陸稲の種子です。",
     "looks_like": "seed_weed",    
     "weight": "10 g",
     "price": "100 cent",
-    "seed_data": { "plant_name": "陸稲[MMF]", "fruit": "upland_rice", "byproducts": [ "straw_pile" ], "grow": "15 days" }
+    "plant_name": "陸稲[MMF]", "fruit": "upland_rice", "byproducts": [ "straw_pile" ], "grow": "15 days" 
   },
   {
     "id": "seed_improvement_pineapple",
     "copy-from": "seed",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "パインアップルの苗[MMF]",
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたパインアップルの苗です。従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
     "weight": "140 g",
     "price": "100 cent",
-    "seed_data": { "plant_name": "パインアップル[MMF]", "fruit": "pineapple", "byproducts": [ "straw_pile" ], "grow": "15 days" }
+    "plant_name": "パインアップル[MMF]", "fruit": "pineapple", "byproducts": [ "straw_pile" ], "grow": "15 days" 
   },
   {
     "id": "seed_improvement_melon",
     "copy-from": "seed_fruit",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "メロンの種[MMF]",
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたメロンの苗です。従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
-    "seed_data": { "plant_name": "メロン[MMF]", "fruit": "melon", "byproducts": [ "withered" ], "grow": "15 days" }
+    "plant_name": "メロン[MMF]", "fruit": "melon", "byproducts": [ "withered" ], "grow": "15 days" 
   },
   {
     "id": "seed_improvement_bananas",
     "copy-from": "seed_fruit",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "バナナの苗[MMF]",
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたバナナの苗です。従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
-    "seed_data": { "plant_name": "バナナ[MMF]", "fruit": "banana", "byproducts": [ "withered" ], "grow": "15 days" }
+    "plant_name": "バナナ[MMF]", "fruit": "banana", "byproducts": [ "withered" ], "grow": "15 days" 
   },
   {
     "id": "seed_improvement_orange",
     "copy-from": "seed_fruit",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "オレンジの苗[MMF]",
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたオレンジの苗です。従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
-    "seed_data": { "plant_name": "オレンジ[MMF]", "fruit": "orange", "byproducts": [ "withered" ], "grow": "15 days" }
+    "plant_name": "オレンジ[MMF]", "fruit": "orange", "byproducts": [ "withered" ], "grow": "15 days" 
   },
   {
     "id": "seed_improvement_lemon",
     "copy-from": "seed_fruit",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "レモンの苗[MMF]",
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたレモンの苗です。従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
-    "seed_data": { "plant_name": "レモン[MMF]", "fruit": "lemon", "byproducts": [ "withered" ], "grow": "15 days" }
+    "plant_name": "レモン[MMF]", "fruit": "lemon", "byproducts": [ "withered" ], "grow": "15 days" 
   },
   {
     "id": "seed_improvement_coconut",
     "copy-from": "seed_fruit",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "ココナッツの苗[MMF]",
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたレモンの苗です。従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
-    "seed_data": { "plant_name": "ココナッツ[MMF]", "fruit": "coconut", "byproducts": [ "withered" ], "grow": "15 days" }
+    "plant_name": "ココナッツ[MMF]", "fruit": "coconut", "byproducts": [ "withered" ], "grow": "15 days" 
   },
   {
     "id": "seed_improvement_watermelon",
     "copy-from": "seed_fruit",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "スイカの種[MMF]",
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたスイカの苗です。従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
-    "seed_data": { "plant_name": "スイカ[MMF]", "fruit": "watermelon", "byproducts": [ "withered" ], "grow": "15 days" }
+    "plant_name": "スイカ[MMF]", "fruit": "watermelon", "byproducts": [ "withered" ], "grow": "15 days" 
   },
   {
     "id": "seed_improvement_pomegranate",
     "copy-from": "seed_fruit",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "ざくろの種[MMF]",
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたざくろの苗です。この品種は果樹本体が小さく畑で栽培できるほか、従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
-    "seed_data": { "plant_name": "ざくろ[MMF]", "fruit": "pomegranate", "byproducts": [ "withered" ], "grow": "15 days" }
+    "plant_name": "ざくろ[MMF]", "fruit": "pomegranate", "byproducts": [ "withered" ], "grow": "15 days" 
   },
   {
     "id": "seed_improvement_papaya",
     "copy-from": "seed_fruit",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "パパイヤの種[MMF]",
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたパパイヤの苗です。この品種は果樹本体が小さく畑で栽培できるほか、従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
-    "seed_data": { "plant_name": "パパイヤ[MMF]", "fruit": "papaya", "byproducts": [ "withered" ], "grow": "15 days" }
+    "plant_name": "パパイヤ[MMF]", "fruit": "papaya", "byproducts": [ "withered" ], "grow": "15 days" 
   },
   {
     "id": "seed_improvement_kiwi",
     "copy-from": "seed_fruit",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "キウイの種[MMF]",
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたキウイの苗です。この品種は果樹本体が小さく畑で栽培できるほか、従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
-    "seed_data": { "plant_name": "キウイ[MMF]", "fruit": "kiwi", "byproducts": [ "withered" ], "grow": "15 days" }
+    "plant_name": "キウイ[MMF]", "fruit": "kiwi", "byproducts": [ "withered" ], "grow": "15 days" 
   },
   {
     "id": "seed_improvement_cholla_bud",
     "copy-from": "seed_fruit",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "チョヤサボテンの種[MMF]",
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたチョヤサボテンの苗です。畑で栽培できるほか、従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
-    "seed_data": { "plant_name": "チョヤサボテン[MMF]", "fruit": "cholla_bud", "byproducts": [ "cholla_bud" ], "grow": "15 days" }
+    "plant_name": "チョヤサボテン[MMF]", "fruit": "cholla_bud", "byproducts": [ "cholla_bud" ], "grow": "15 days" 
   },
   {
     "id": "seed_improvement_cacao",
     "copy-from": "seed_fruit",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE","SEED" ],
     "name": "カカオの種[MMF]",
     "description": "大変動前に大々的に宣伝されていた、ある企業の品種改良されたカカオの苗です。畑で栽培できるほか、従来の物に比べて早く育ちます。CMでは絶対安全で安心と謳ってました。",
-    "seed_data": { "plant_name": "カカオ[MMF]", "fruit": "cholla_bud", "byproducts": [ "cacao_fruit" ], "grow": "15 days" }
+    "plant_name": "カカオ[MMF]", "fruit": "cholla_bud", "byproducts": [ "cacao_fruit" ], "grow": "15 days" 
   }
 
 ]

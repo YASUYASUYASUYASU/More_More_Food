@@ -1,6 +1,7 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "egg_chicken",
     "name": { "str": "chicken egg" },
     "copy-from": "egg_chicken",

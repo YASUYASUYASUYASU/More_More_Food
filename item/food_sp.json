@@ -1,6 +1,8 @@
 [
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_base",
         "name" : "SPフードベース[MMF]",
         "looks_like": "sandwich_t",
@@ -9,7 +11,6 @@
         "volume": "250 ml",
         "color" : "red",
         "spoils_in": "2 days",
-        "comestible_type" : "FOOD",
         "symbol" : "%",
         "quench" : -1,
         "healthy" : -1,
@@ -21,7 +22,8 @@
         "fun" : 1
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
         "id" : "sp_food_base2",
         "name" : "SPフードベース2[MMF]",
         "looks_like": "sandwich_t",
@@ -43,7 +45,9 @@
         "fun" : 1
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_1",
         "name" : "異界花のタルト[MMF]",
         "copy-from": "sp_food_base",
@@ -59,7 +63,9 @@
         "fun" : 1
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_2",
         "name" : "ベジタリアンハンバーガー 異界風[MMF]",
         "copy-from": "sp_food_base",
@@ -73,7 +79,9 @@
         "fun" : 1
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_3",
         "name" : "糖質フリー・ベジペペロンチーノ[MMF]",
         "copy-from": "sp_food_base",
@@ -89,7 +97,9 @@
         "fun" : 2
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_4",
         "name" : "グルテンフリー焼きうどん[MMF]",
         "copy-from": "sp_food_base",
@@ -102,7 +112,9 @@
         "fun" : 1
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_5",
         "name" : "トリカツ[MMF]",
         "copy-from": "sp_food_base",
@@ -119,7 +131,9 @@
         "fun" : 2
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_6",
         "name" : "糖質フリー・ベジビーフシチュー[MMF]",
         "copy-from": "sp_food_base",
@@ -136,7 +150,9 @@
         "fun" : 2
     },
     {
-        "type" : "COMESTIBLE",
+        "type" : "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_7",
         "name" : "ジューシーハンバーグ[MMF]",
         "copy-from": "sp_food_base",
@@ -153,7 +169,8 @@
         "fun" : 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
         "id" : "sp_food_8",
         "name": "ステラ[MMF]",
         "copy-from": "sp_food_base",
@@ -170,7 +187,9 @@
         "fun": 3
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_9",
         "name": "代替葉生姜[MMF]",
         "copy-from": "sp_food_base",
@@ -178,7 +197,6 @@
         "calories": 329,
         "weight": "150 g" ,
         "volume": "250 ml",
-        "comestible_type": "FOOD",
         "quench": -1,
         "healthy": 1,
         "description": "酒のあてはこんなのでいいんだよ、と強がって食べられます。そのまま食べるよりちょっとだけマシです。",
@@ -188,7 +206,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_10",
         "name": "ドブ肉炒め[MMF]",
         "copy-from": "sp_food_base",
@@ -205,7 +225,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_11",
         "name": "ドブバーガー[MMF]",
         "copy-from": "sp_food_base",
@@ -222,7 +244,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_12",
         "name": "ドブ煮込み[MMF]",
         "copy-from": "sp_food_base",
@@ -230,7 +254,6 @@
         "calories": 329,
         "weight": "150 g" ,
         "volume": "250 ml",
-        "comestible_type": "FOOD",
         "quench": -1,
         "healthy": 1,
         "description": "木から出るセルロースと釘の鉄分で毒素を中和した煮込み料理。文字通りドブをさらってヘドロを飲んだほうが幾分かマシと思えるような臭いと味です。",
@@ -240,7 +263,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_13",
         "name": "デラックスドブ鍋[MMF]",
         "copy-from": "sp_food_base",
@@ -257,7 +282,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_14",
         "name": "LMOEクッキー[MMF]",
         "looks_like": "deluxe_veggy_beansnrice",
@@ -274,7 +301,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_15",
         "name": "ブラッドブラッディーメアリー[MMF]",
         "copy-from": "sp_food_base",
@@ -291,7 +320,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_16",
         "copy-from": "sp_food_base",
         "name": "三界せんべい[MMF]",
@@ -308,7 +339,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_17",
         "name": "ホットプラントウィスキー[MMF]",
         "copy-from": "sp_food_base",
@@ -325,7 +358,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_18",
         "name": "向こう側トムヤンクン[MMF]",
         "copy-from": "sp_food_base",
@@ -342,7 +377,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_19",
         "name": "グルテンフリージェノベーゼ[MMF]",
         "copy-from": "sp_food_base",
@@ -359,7 +396,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_20",
         "name": "サバイバリストのお急ぎランチ 小鳥の餌風[MMF]",
         "copy-from": "sp_food_base",
@@ -376,7 +415,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_21",
         "name": "サバイバリストのお急ぎランチ カナダ風[MMF]",
         "copy-from": "sp_food_base",
@@ -393,7 +434,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_22",
         "name": "サバイバリストのお急ぎランチ 和風朝セット[MMF]",
         "copy-from": "sp_food_base",
@@ -410,7 +453,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_23",
         "name": "サバイバリストのお急ぎランチ モーニングセット[MMF]",
         "copy-from": "sp_food_base",
@@ -427,7 +472,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_24",
         "name": "ブレーク＜モーニング＞ファスト[MMF]",
         "copy-from": "sp_food_base",
@@ -444,7 +491,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_25",
         "name": "アイ・シー・ユー[MMF]",
         "copy-from": "sp_food_base",
@@ -461,7 +510,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_26",
         "name": "破戒的サパー[MMF]",
         "copy-from": "sp_food_base",
@@ -478,7 +529,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_27",
         "name": "ウマぴょいシチュー[MMF]",
         "copy-from": "sp_food_base",
@@ -495,7 +548,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_28",
         "name": "ドブ肉のベッコフ（仕込み中）[MMF]",
         "copy-from": "sp_food_base",
@@ -503,7 +558,6 @@
         "calories": 329,
         "weight": "150 g" ,
         "volume": "250 ml",
-        "comestible_type": "FOOD",
         "spoils_in": "7 days",
         "quench": -1,
         "healthy": 1,
@@ -522,7 +576,9 @@
         }
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_29",
         "name": "ドブ肉のベッコフ（仕込み済）[MMF]",
         "copy-from": "sp_food_base",
@@ -539,7 +595,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_30",
         "name": "ドブ肉のベッコフ[MMF]",
         "copy-from": "sp_food_base",
@@ -556,7 +614,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_31",
         "name": "頭を良くしてあげよう[MMF]",
         "copy-from": "sp_food_base",
@@ -573,7 +633,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_32",
         "name": "スペシャルフルーツレザー[MMF]",
         "copy-from": "sp_food_base",
@@ -590,7 +652,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_33",
         "name": "サクサクきのこクリスピー[MMF]",
         "copy-from": "sp_food_base",
@@ -607,7 +671,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_34",
         "name": "三種のキノコピザ[MMF]",
         "copy-from": "sp_food_base",
@@ -624,7 +690,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_35",
         "name": "勝者ソテー[MMF]",
         "copy-from": "sp_food_base",
@@ -641,7 +709,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_36",
         "name": "モンサンミッシェル[MMF]",
         "copy-from": "sp_food_base",
@@ -658,7 +728,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_37",
         "name": "推定無罪[MMF]",
         "copy-from": "sp_food_base",
@@ -675,7 +747,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_38",
         "name": "トリコロール変異肉[MMF]",
         "copy-from": "sp_food_base",
@@ -692,7 +766,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_39",
         "name": "炙り謎肉[MMF]",
         "copy-from": "sp_food_base",
@@ -709,7 +785,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_44",
         "name": "人肉ラーメン[MMF]",
         "copy-from": "sp_food_base",
@@ -726,7 +804,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_45",
         "name": "知恵の果実[MMF]",
         "copy-from": "sp_food_base",
@@ -743,7 +823,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_46",
         "name": "本当に恐ろしいもの[MMF]",
         "copy-from": "sp_food_base",
@@ -760,7 +842,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_47",
         "name": "エルヴィス・エルヴィス・サンドイッチ[MMF]",
         "copy-from": "sp_food_base",
@@ -777,7 +861,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_48",
         "name": "アイスクリーム・アルミスタンフレーバー[MMF]",
         "copy-from": "sp_food_base",
@@ -794,7 +880,8 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
         "id" : "sp_food_49",
         "name": "自作ポーション[MMF]",
         "copy-from": "sp_food_base",
@@ -813,7 +900,8 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
         "id" : "sp_food_50",
         "name": "自作ハイポーション[MMF]",
         "copy-from": "sp_food_base2",
@@ -832,7 +920,8 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
         "id" : "sp_food_51",
         "name": "自作ラストエリクサー[MMF]",
         "copy-from": "sp_food_base2",
@@ -850,7 +939,8 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
         "id" : "sp_food_52",
         "name": "海亀のスープ[MMF]",
         "copy-from": "sp_food_base2",
@@ -868,7 +958,8 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
         "id" : "sp_food_53",
         "name": "ウミガメのスープ[MMF]",
         "copy-from": "sp_food_base2",
@@ -886,7 +977,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_54",
         "name": "亜人肉のニャマチョマ[MMF]",
         "copy-from": "sp_food_base",
@@ -903,7 +996,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_55",
         "name": "ゴブリン風リゾット[MMF]",
         "copy-from": "sp_food_base",
@@ -920,7 +1015,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_56",
         "name": "耳[MMF]",
         "copy-from": "sp_food_base",
@@ -937,7 +1034,9 @@
         "fun": 2
     },
     {
-        "type": "COMESTIBLE",
+        "type": "ITEM",
+        "subtypes": [ "COMESTIBLE" ],
+        "comestible_type": "FOOD",
         "id" : "sp_food_57",
         "name": "バーバリアントンカツ[MMF]",
         "copy-from": "sp_food_base",

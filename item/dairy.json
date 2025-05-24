@@ -1,6 +1,7 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "cheese_hard",
     "name": { "str": "hard cheese", "str_pl": "hard cheese" },
     "copy-from": "cheese_hard",
@@ -8,7 +9,8 @@
     "smoking_result": "cheese_smoked"
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "cheese",
     "name": { "str": "cheese", "str_pl": "cheese" },
     "copy-from": "cheese",
