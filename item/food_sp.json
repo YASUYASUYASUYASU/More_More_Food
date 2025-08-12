@@ -14,7 +14,7 @@
         "quench" : -1,
         "healthy" : -1,
         "description" : "テスト用なのだ",
-        "price": "2 USD",
+        "price" : 200,
         "material": [ "veggy", "wheat" ],
         
         "flags" : ["EATEN_HOT","FREEZERBURN"],
@@ -36,7 +36,7 @@
         "quench" : -1,
         "healthy" : -1,
         "description" : "テスト用なのだ",
-        "price": "2 USD",
+        "price" : 200,
         "material": [ "veggy", "wheat" ],
         "charges": 2,
         "flags" : ["EATEN_HOT","FREEZERBURN"],
@@ -455,6 +455,7 @@
         "quench": -1,
         "healthy": 1,
         "description": "二種の目玉焼きです。いつもお前を見ているぞ。いつもお前を見ているぞ。いつもお前を見ているぞ。いつもお前を見ているぞ。いつもお前を見ているぞ。",
+        "price": 200,
         "material": [ "flesh" ],
         
         "flags" : ["EATEN_HOT","FREEZERBURN"],
@@ -508,6 +509,7 @@
         "quench": -1,
         "healthy": 1,
         "description": "二～三種類の肉を使うフランスの冬の郷土料理ベッコフを、大災害の中どうしても食べたくなった者がいました。仕込みとして具材すべてをワインに漬けて一晩寝かせます",
+        "price": 200,
         "material": [ "flesh" ],
         
         "flags" : ["EATEN_HOT","FREEZERBURN"],
